@@ -1,0 +1,43 @@
+.vision-div{
+    margin-top: 84px;
+    margin-bottom: 96px;
+}
+
+.vision-div h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #787878;
+    
+}
+
+.vision-statement{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #787878;
+    max-width: 599px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.info{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #787878;
+
+    
+}
+
+.info hr{
+    max-width: 299px;
+    margin-top: 13px;
+
+}
+
+.info-img{
+    margin-right: 11px ;
+    padding-bottom: 5px;
+
+}

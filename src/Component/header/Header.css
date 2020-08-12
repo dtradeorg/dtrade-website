@@ -1,0 +1,48 @@
+.header{
+    background: #FAFAFA;
+    padding-top: 100px;
+    padding-bottom: 68px;
+}
+
+.header h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 92px;
+    color: #565656;
+}
+
+.sub-heading{
+    margin-top:8px;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #787878;
+}
+
+.header a{
+    color: #69ABE4;;
+}
+
+.header a:hover{
+    text-decoration: none;
+    color: #69ABE4;;
+}
+
+
+.arrow-ml{
+    margin-left: 17px;
+}
+
+.map-mt{
+    margin-top: 40px ;
+}
+
+
+#progress-div{
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

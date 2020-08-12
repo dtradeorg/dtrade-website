@@ -1,0 +1,52 @@
+.feature-div{
+    margin-top:12px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+
+    background: #26262B;
+}
+
+
+.feature-div h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    color: white;
+}
+
+
+.feature-div h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.75;
+
+
+    margin-top:16px
+}
+
+.feature-row{
+    margin-top: 48px;
+    max-width: 90vw;
+
+}
+
+
+.feature-heading{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+
+.feature-body{
+    margin-top: 16px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
