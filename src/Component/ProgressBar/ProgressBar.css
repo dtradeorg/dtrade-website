@@ -1,14 +1,21 @@
 .progress-title{
-    margin-top: 33px;
+    margin-top: 11px;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     color: #565656;
 }
 
+@media only screen and (min-width: 1920px){
+    .progress-title{
+        margin-top: 53px;
+    }
+
+}
+
 .progress-subtitle{
     margin-top: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;

@@ -22,7 +22,7 @@ class Header extends Component {
                             <img className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img>
                         </a>
                     </div>
-                    <img className="map-mt img-fluid" src="./assets/images/Header/map.svg" alt="map"></img>
+                    <img className="map img-fluid" src="./assets/images/Header/map.svg" alt="map"></img>
 
                     
 

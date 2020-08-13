@@ -1,29 +1,33 @@
 .header{
     background: #FAFAFA;
-    padding-top: 100px;
-    padding-bottom: 68px;
+    padding-top: 20px; 
+    padding-bottom: 24px;
+    height: 90vh;
 }
 
 .header h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 76px;
-    line-height: 92px;
+    font-size: 64px;
+    line-height: 74px;
     color: #565656;
 }
 
 .sub-heading{
     margin-top:8px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 28px;
     color: #787878;
 }
 
 .header a{
-    color: #69ABE4;;
+    color: #69ABE4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .header a:hover{
@@ -36,8 +40,51 @@
     margin-left: 17px;
 }
 
-.map-mt{
-    margin-top: 40px ;
+.map{
+    margin-top: 18px ;
+
+    max-width: 451px !important;
+}
+
+@media only screen and (min-height: 850px){
+    .map{
+        max-width: 50vh !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 991px){
+    .map{
+        max-width: 330px !important;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .map{
+        max-width: 720 !important;
+    }
+
+    .header{
+        padding-top: 113px;
+    }
+
+    .header h1{
+        font-size: 76px;
+        line-height: 92px;
+    }
+
+    .sub-heading{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header a{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 
