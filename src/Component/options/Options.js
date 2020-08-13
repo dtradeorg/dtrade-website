@@ -5,7 +5,7 @@ export default function Options() {
         <div className="options-div text-center">
             <h1>View Asset Classes</h1>
 
-            <div className="row d-flex options-values justify-content-center">
+            <div className="row d-flex options-values justify-content-center mx-auto">
                 <div className="col-6 col-lg-2 flex-column  mb-5 mb-lg-0 ">
                     <img src="/assets/images/Options/equities.svg" alt="Equities"></img>
                     <div>Equities</div>

@@ -3,7 +3,7 @@ import './Disclosure.css'
 export default function Disclosure() {
     return (
         <div className="disclosure-div">
-            <div className ="container disclosure-section">
+            <div className ="container-md disclosure-section">
                 <div>Important Disclosures:</div>
 
                 <div className="disclosure-points disclosure-mt">

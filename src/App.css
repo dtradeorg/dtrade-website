@@ -33,6 +33,13 @@ body{
   margin-bottom: 0px !important;
 }
 
+@media only screen and (max-width: 767px){
+  body{
+    margin: 8px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

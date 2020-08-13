@@ -6,8 +6,8 @@ export default function Features() {
             <h1>Trading, reimaniged</h1>
             <h2>Trade hundreds of assets with just $5.</h2>
 
-            <div className="row feature-row">
-                <div className="col-12 col-md-3 mr-md-5">
+            <div className="row feature-row ">
+                <div className="col-12 col-md-4 col-lg-3 col-lg-3 mr-lg-5">
                     <div className="feature-heading">
                         Any Asset Class
                     </div>
@@ -16,7 +16,7 @@ export default function Features() {
                     </div>
                 </div>
 
-                <div className="col-12 col-md-3 mr-md-5">
+                <div className="col-12 col-md-4 col-lg-3 mr-lg-5">
                     <div className="feature-heading">
                         Fractional Shares
                     </div>
@@ -26,7 +26,7 @@ export default function Features() {
                 </div>
 
 
-                <div className="col-12 col-md-3">
+                <div className="col-12 col-md-4 col-lg-3">
                     <div className="feature-heading">
                         Unlimited Liquidity
                     </div>

@@ -52,15 +52,24 @@ export default function Product() {
             <h2>provide exposure to assets such as Apple, Tencent, Yen, Euro, Ethereum, Base Metals, Crude Oil, and REITs in Asia</h2>
             <img src="./assets/images/Product/product.svg" alt="Product" className="img-fluid mt-5"></img>
 
-            <div className="row container mx-auto product-row">
+            <div className="row d-none d-md-flex container mx-auto product-row">
                 <Card data={data.slice(0,4)}/>
                 
 
                 
             </div>
-            <div className="row container mx-auto product-row">
+            <div className="row d-none d-md-flex container mx-auto product-row">
                 <Card data={data.slice(4,8)}/>
 
+                
+            </div>
+
+            <div className="mobile-scroll d-md-none">
+                <div className="row container mx-auto">
+                    <Card data={data}/>
+
+                    
+                </div>
                 
             </div>
 
@@ -78,7 +87,7 @@ function Card({data}){
 
     return data.map((row,index)=>{
         return(
-            <div className={(index+1)%4 !== 0 ? "col product-card mb-3 mr-3 ":"col product-card mb-3"} key={index}>
+            <div className={(index+1)%4 !== 0 ? "col product-card mb-3 mr-md-3 ":"col product-card mb-3"} key={index}>
                     <div className="r1">{row.r1}</div>
 
                     <div className="r2">{row.r2}</div>

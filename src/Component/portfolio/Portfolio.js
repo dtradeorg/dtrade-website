@@ -4,13 +4,13 @@ export default function Portfolio() {
     return (
         <div className="portfolio-div">
             <div className="container-fluid row mx-auto px-0 ">
-                <div className="col  portfolio-card prediction">
+                <div className="col-12 col-md  portfolio-card prediction">
                     <div className="porject-title ">Prediction Platform</div>
                     <div className="porject-des ">Make predictions on markets, economics, sports and more</div>
                     <div className="project-date ">Launching 2021</div>
 
                 </div>
-                <div className="col portfolio-card staking card-ml">
+                <div className="col-12 col-md portfolio-card staking card-ml">
 
                     <div className="porject-title">Staking</div>
                     <div className="porject-des">Stake DET and collect fees</div>
@@ -27,7 +27,7 @@ export default function Portfolio() {
 
 
             <div className="container-fluid row mx-auto px-0 ">
-                <div className="col  portfolio-card dtrade ">
+                <div className="col-12 col-md  portfolio-card dtrade ">
                     <div className="porject-title ">dTrade</div>
                     <div className="porject-des ">Learn more about the dTrade Protocol</div>
                     <div className="project-date ">
@@ -46,7 +46,7 @@ export default function Portfolio() {
                     </div>
 
                 </div>
-                <div className="col portfolio-card loan card-ml">
+                <div className="col-12 col-md portfolio-card loan card-ml">
 
                     <div className="porject-title">Loans</div>
                     <div className="porject-des">Instant credit lines using multiple supported collaterals</div>

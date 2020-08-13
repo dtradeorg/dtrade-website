@@ -5,9 +5,9 @@ import Fade from 'react-reveal/Fade';
 
 
 const progressData =[
-    {title:"Announcing HealthTech Venture", date: "November 29, 2020"},
+    {title:"Launching Beta Exchange", date: "November 29, 2020"},
     {title:"Launching Praedio", date: "December 15, 2020"},
-    {title:"Deploying Clinical Lab Venture", date: "January 1, 2021"},
+    {title:"Launching Beta Exchange", date: "January 1, 2021"},
 ]
 export default function Progress() {
     const [now,setNow]  = useState(1); 
@@ -44,7 +44,10 @@ export default function Progress() {
     return (
         <div>
             <Fade when={animate}>
-                <div className="progress-title">{progressData[index].title}</div>
+                <div className="progress-title">
+                    {progressData[index].title}
+                    <img src="/assets/images/arrow.svg" alt="arrow" className="arrow-ml"></img>
+                </div>
                 <div className="progress-subtitle">{progressData[index].date}</div>
             </Fade>
             <div id="myProgress">

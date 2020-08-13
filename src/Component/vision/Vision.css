@@ -33,11 +33,37 @@
 .info hr{
     max-width: 299px;
     margin-top: 13px;
+    background: rgba(120, 120, 120, 0.2);
+    
 
 }
 
 .info-img{
     margin-right: 11px ;
     padding-bottom: 5px;
+    
+
+}
+
+@media only screen and (max-width:767px){
+
+    .vision-div h1{
+        font-size: 30px;
+        line-height: 38px;
+
+    }
+
+    .vision-statement{
+
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .info{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
 
 }

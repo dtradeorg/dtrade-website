@@ -50,3 +50,60 @@
     color: white;
 }
 
+@media only screen and (max-width:991px){
+    .feature-div{
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .feature-div{
+        padding-top: 48px;
+        padding-bottom: 64px;
+        
+        text-align: center;
+    }
+
+    .feature-row{
+        
+        
+        max-width: 305px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0px;
+        
+    }
+
+    .feature-div h1{
+        font-size: 30px;
+        line-height: 38px;
+
+    }
+
+    .feature-div h2{
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .feature-heading{
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .feature-body{
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+
+    .feature-row{
+        margin-top: 4px;
+
+    }
+
+
+}
+

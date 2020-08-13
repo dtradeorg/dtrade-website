@@ -48,6 +48,8 @@
 
 
 
+
+
 .prediction{
     background: #26262B;
     color: white;
@@ -106,6 +108,51 @@ a:hover{
     
     
 
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .card-ml{
+        margin-left: 0px;
+
+    }
+
+    .portfolio-card{
+        padding-top: 48px;
+    }
+    .portfolio-card .porject-title {
+        font-size: 14px;
+        line-height: 18px;
+    
+    }
+
+    .loan{
+
+        background: url("/assets/images/Portfolio/loans-mobile.svg") center   no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .portfolio-card .porject-des{
+        margin-top: 16px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        line-height: 28px;
+
+    
+    }
+    
+    .portfolio-card .project-date {
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        
+    
+    }
 }
 
 
