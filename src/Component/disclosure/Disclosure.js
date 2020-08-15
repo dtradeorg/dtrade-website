@@ -1,6 +1,13 @@
 import React from 'react'
 import './Disclosure.css'
+
 export default function Disclosure() {
+    const scrollTop = () =>{
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+    
+    
+    
     return (
         <div className="disclosure-div">
             <div className ="container-md disclosure-section">
@@ -32,7 +39,7 @@ export default function Disclosure() {
 
             </div>
             <div className="col-12 d-flex justify-content-end">
-                    <button className="btn" id="disclosure-totop">
+                    <button className="btn" id="disclosure-totop" onClick={scrollTop}>
                         To the top
                     </button>
             </div>
