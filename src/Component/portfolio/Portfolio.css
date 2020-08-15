@@ -110,6 +110,29 @@ a:hover{
 
 }
 
+.loans-features{
+    margin-top: 2.7rem;
+}
+
+.feature-bold{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.feature-mute{
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+}
+
+.loans-features img{
+    margin-bottom: 24px;
+    height: 45px;
+}
+
+
+
 
 
 @media only screen and (max-width: 991px){
@@ -129,7 +152,7 @@ a:hover{
 
     .loan{
 
-        background: url("/assets/images/Portfolio/loans-mobile.svg") center   no-repeat;
+        background: url("/assets/images/Portfolio/loans.svg") center   no-repeat;
         background-size: cover;
     }
     

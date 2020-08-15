@@ -15,7 +15,8 @@ export default function Progress() {
     const [animate, setAnimate] = useState(true);
     const progressBar = useRef(null);
     useInterval(() => {
-        if(now >= 100){
+        if(now >= 100)
+        {
             setNow(0);
             setAnimate(false);
             
@@ -27,17 +28,18 @@ export default function Progress() {
                 setIndex( index +1);
 
             }
-            progressBar.current.style.width = 0+"%";
-            
-
-           
-           
+            progressBar.current.style.width = 0+"%";     
        }
        else{
            
             setNow(now+0.1 );
-                progressBar.current.style.width = now+"%";
+            progressBar.current.style.width = now+"%";
             setAnimate(true);
+            
+            if ( window.innerWidth  < 545 ) {
+                setNow(now+0.4 );
+                progressBar.current.style.width = now + "%";
+            }
        }
       }, 10);
 
