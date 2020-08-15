@@ -73,13 +73,13 @@ export default function Portfolio() {
                         </div>
 
 
-                        <div className="col-6 col-xl d-flex flex-column mt-4 mt-xl-0">
+                        <div className="col-6 pl-5 pl-lg-1  col-xl d-flex flex-column mt-4 mt-xl-0">
                             <img src="/assets/images/Portfolio/loans/dai.svg" alt="edgeware"></img>
                             <div className="feature-bold">Dai </div>
                             <div className="feature-mute">Credit Line </div>
                         </div>
 
-                        <div className="col-6 col-xl d-flex flex-column mt-4 mt-xl-0">
+                        <div className="col-6 pr-5 pr-lg-1 col-xl d-flex flex-column mt-4 mt-xl-0">
                             <img src="/assets/images/Portfolio/loans/polka.svg" alt="edgeware"></img>
                             <div className="feature-bold">Polkadot </div>
                             <div className="feature-mute">Credit Line </div>
