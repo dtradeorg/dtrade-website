@@ -1,0 +1,52 @@
+.progress-title{
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #565656;
+}
+
+@media only screen and (min-width: 1920px){
+    .progress-title{
+        margin-top: 53px;
+    }
+
+}
+
+.progress-subtitle{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #787878;
+
+}
+
+
+#myProgress {
+    margin-top: 24px;
+    width: 100%;
+    background: rgba(120, 120, 120, 0.2);
+
+}
+  
+#myBar {
+    width: 30px;
+    height: 2px;
+    background: #565656;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width:767px){
+    .progress-title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .progress-subtitle{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
