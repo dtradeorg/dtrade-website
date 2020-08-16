@@ -49,7 +49,7 @@ export default function Product() {
     return (
         <div className="contianer product-div text-center ">
             <h1 className="mx-auto">Decentralized Exposure, dTrade Exhange.</h1>
-            <h2>provide exposure to assets such as Apple, Tencent, Yen, Euro, Ethereum, Base Metals, Crude Oil, and REITs in Asia</h2>
+            <h2>The first DeFi platform on Substrate</h2>
             <img src="./assets/images/Product/product.svg" alt="Product" className="img-fluid mt-5"></img>
 
             <div className="row d-none d-md-flex container mx-auto product-row">

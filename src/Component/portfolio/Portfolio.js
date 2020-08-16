@@ -6,14 +6,14 @@ export default function Portfolio() {
             <div className="container-fluid row mx-auto px-0 ">
                 <div className="col-12 col-md  portfolio-card prediction">
                     <div className="porject-title ">Prediction Platform</div>
-                    <div className="porject-des ">Make predictions on markets, economics, sports and more</div>
+                    <div className="porject-des ">Gain trading insights and make informed predictions</div>
                     <div className="project-date ">Launching 2021</div>
 
                 </div>
                 <div className="col-12 col-md portfolio-card staking card-ml">
 
                     <div className="porject-title">Staking</div>
-                    <div className="porject-des">Stake DET and collect fees</div>
+                    <div className="porject-des">Stake DET and collect <br/> fees</div>
                     <div className="project-date">
                         <a href="/#" >
                             Start Staking 
@@ -29,7 +29,7 @@ export default function Portfolio() {
             <div className="container-fluid row mx-auto px-0 ">
                 <div className="col-12 col-md  portfolio-card dtrade ">
                     <div className="porject-title ">dTrade</div>
-                    <div className="porject-des ">Learn more about the dTrade Protocol</div>
+                    <div className="porject-des ">Learn more about the <br/> dTrade Protocol</div>
                     <div className="project-date ">
                         <a href="/#">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3" alt="git"></img>

@@ -3,11 +3,10 @@ import "./ProgressBar.css";
 import Fade from 'react-reveal/Fade';
 
 
-
 const progressData =[
-    {title:"Launching Beta Exchange", date: "November 29, 2020"},
-    {title:"Launching Praedio", date: "December 15, 2020"},
-    {title:"Launching Beta Exchange", date: "January 1, 2021"},
+    {title:"Beta Exchange Launch", date: "November 20, 2020"},
+    {title:"Introducing EDG Collateral ", date: "December 15, 2020"},
+    {title:"Prediction Platform Launch", date: "January 30, 2021"},
 ]
 export default function Progress() {
     const [now,setNow]  = useState(1); 

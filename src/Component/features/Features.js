@@ -3,7 +3,7 @@ import './Feature.css';
 export default function Features() {
     return (
         <div className="feature-div">
-            <h1>Trading, reimaniged</h1>
+            <h1>Trading, reimagined</h1>
             <h2>Trade hundreds of assets with just $5.</h2>
 
             <div className="row feature-row ">

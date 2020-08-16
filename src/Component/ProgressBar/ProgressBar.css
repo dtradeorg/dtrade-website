@@ -3,7 +3,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
-    color: #565656;
+    color: #787878;
 }
 
 
@@ -15,6 +15,7 @@
     font-size: 18px;
     line-height: 24px;
     color: #787878;
+    opacity: 0.5;
 
 }
 
@@ -22,14 +23,14 @@
 #myProgress {
     margin-top: 24px;
     width: 100%;
-    background: rgba(120, 120, 120, 0.2);
+    background: rgba(120, 120, 120, 0.05);
 
 }
   
 #myBar {
     width: 30px;
     height: 2px;
-    background: #565656;
+    background: #787878;
     opacity: 0.5;
 }
 
