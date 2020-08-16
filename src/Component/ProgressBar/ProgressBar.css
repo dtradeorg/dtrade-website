@@ -1,7 +1,7 @@
 .progress-title{
     margin-top: 12px;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 24px;
     line-height: 32px;
     color: #787878;
 }
@@ -12,8 +12,8 @@
     margin-top: 8px;
     margin-bottom: 16px;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     color: #787878;
     opacity: 0.5;
 

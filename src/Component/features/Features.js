@@ -40,7 +40,7 @@ export default function Features() {
             <div className="info mt-5">
                 <img src="./assets/images/info.svg" alt="i" className="info-img "></img>
                     View Important Disclosures
-                <hr></hr>
+                <hr ></hr>
             </div>
             
         </div>

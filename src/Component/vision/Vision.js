@@ -9,7 +9,7 @@ export default function Vision() {
             <div className="info mx-auto">
                 <img src="./assets/images/info.svg" alt="i" className="info-img"></img>
                 View Important Disclosures
-                <hr></hr>
+                <hr ></hr>
             </div>
             
         </div>

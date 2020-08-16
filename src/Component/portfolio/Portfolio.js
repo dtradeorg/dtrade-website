@@ -7,7 +7,9 @@ export default function Portfolio() {
                 <div className="col-12 col-md  portfolio-card prediction">
                     <div className="porject-title ">Prediction Platform</div>
                     <div className="porject-des ">Gain trading insights and make informed predictions</div>
-                    <div className="project-date ">Launching 2021</div>
+                    <div className="project-date ">
+                        <button className="btn date-btn"> Launching 2021</button>
+                    </div>
 
                 </div>
                 <div className="col-12 col-md portfolio-card staking card-ml">

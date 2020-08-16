@@ -35,7 +35,7 @@ class Header extends Component {
                     <Progress></Progress>
                     <ToastContainer
                         position="bottom-right"
-                        autoClose={5000}
+                        autoClose={false}
                         hideProgressBar
                         newestOnTop={false}
                         closeOnClick
@@ -54,15 +54,11 @@ class Header extends Component {
 
     componentWillMount(){
         let toastContent  = <div className="toast-content">
-            <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a> 
+            {/* <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a>  */}
+            The content of this site will be updated with the launch
         </div>;
         toast.dark(toastContent, {
-            position: "bottom-right",
-            autoClose: 3000,
-            hideProgressBar: true,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
+           
             progress: 0,
         });
     }

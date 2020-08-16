@@ -45,6 +45,10 @@
 
 }
 
+.info hr{
+    background: rgba(120, 120, 120, 0.2) !important;
+}
+
 @media only screen and (max-width:767px){
 
     .vision-div h1{

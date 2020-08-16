@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container-fluid footer-switch mb-12">
                 <div className="container footer-box">
                     <div className="d-flex justify-content-center container px-0 ">
-                        <div className=" d-inline-flex copy-right pl-0 pr-0 position-absoltute " style={{left:"19%"}}>
+                        <div className=" d-inline-flex copy-right pl-0 pr-0 position-absolute " style={{left:"9%"}}>
                             <h6 className="mb-0">20 Bay Street, 11th Floor, Toronto, ON</h6>
                         </div>
                         <div className="mx-auto d-inline-flex copy-right pl-0 pr-0">
