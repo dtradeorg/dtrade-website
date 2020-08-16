@@ -51,8 +51,20 @@
 
 
 .prediction{
-    background: #26262B;
-    color: white;
+    background: url("/assets/images/Portfolio/prediction.svg") center no-repeat ;
+    
+    background-size: cover ;
+    color: #565656;
+}
+
+.date-btn{
+    color: white !important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    background: rgba(69, 69, 78, 0.75) !important;
+    border-radius: 4px !important;
+
 }
 
 .staking{
@@ -103,7 +115,7 @@ a:hover{
 
     color: white;
 
-    background: url("/assets/images/Portfolio/loans.svg") center  no-repeat;
+    background: #4B6A82;
     background-size: cover ;
     
     
@@ -153,7 +165,7 @@ a:hover{
 
     .loan{
 
-        background: url("/assets/images/Portfolio/loans.svg") center   no-repeat;
+        background: #4B6A82;
         background-size: cover;
     }
     
