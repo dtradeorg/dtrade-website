@@ -59,7 +59,7 @@ class Header extends Component {
             <span role="img" aria-label="info">
                 <img src="./assets/images/info.png" alt="info" className="img-fluid mr-3 mb-1"/>
             </span>
-            The content of this site will be updated with the <u>launch</u> . 
+            The content of this site will be updated with the <u>launch</u>. 
             <span role="img" aria-label="info">
                 <img src="./assets/images/close.png" alt="x" className="img-fluid ml-3"/>
             </span>
