@@ -1,4 +1,5 @@
 .progress-title{
+    font-family: 'DM Sans', sans-serif;
     margin-top: 12px;
     font-size: 18px;
     line-height: 24px;
@@ -9,6 +10,7 @@
 
 
 .progress-subtitle{
+    font-family: 'DM Sans', sans-serif;
     margin-top: 8px;
     margin-bottom: 16px;
     font-weight: 500;
@@ -32,6 +34,10 @@
     height: 2px;
     background: #787878;
     opacity: 0.5;
+}
+
+.margin-loader{
+    margin-top: 15vh;
 }
 
 @media only screen and (max-width:767px){

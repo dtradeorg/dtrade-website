@@ -37,10 +37,12 @@ export default function Features() {
 
             </div>
 
+            <div className="row text-left ml-md-2">
             <div className="info mt-5">
                 <img src="./assets/images/info.svg" alt="i" className="info-img "></img>
                     View Important Disclosures
-                <hr ></hr>
+                <hr></hr>
+            </div>
             </div>
             
         </div>

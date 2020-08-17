@@ -13,9 +13,14 @@ const data = [
         r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
     },
     {
-        r1:"tEDG Uniswap Rate",
-        r2:"1.008 ",
-        r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
+        r1:"Total Assets Supply",
+        r2:"$69.934.069 ",
+        r3:"The total value of all circulating assets.",
+    },
+    {
+        r1:"Network Collateralization",
+        r2:"365.91%",
+        r3:"The aggregate collateralisation ratio of all TDT wallets.",
     },
     {
         r1:"tEDG Uniswap Rate",
@@ -23,24 +28,19 @@ const data = [
         r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
     },
     {
-        r1:"tEDG Uniswap Rate",
-        r2:"1.008 ",
-        r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
+        r1:"Total Assets Supply",
+        r2:"$69.934.069 ",
+        r3:"The total value of all circulating assets.",
     },
     {
-        r1:"tEDG Uniswap Rate",
-        r2:"1.008 ",
-        r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
+        r1:"Network Collateralization",
+        r2:"365.91%",
+        r3:"The aggregate collateralisation ratio of all TDT wallets.",
     },
     {
-        r1:"tEDG Uniswap Rate",
-        r2:"1.008 ",
-        r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
-    },
-    {
-        r1:"tEDG Uniswap Rate",
-        r2:"1.008 ",
-        r3:"Pool size: 1513.76 tEDG / 1526.15 EDG",
+        r1:"Active Collateralization",
+        r2:"214.11%",
+        r3:"Theaggregate collaterlistion ratio of TDT wallets that are currently staking.",
     },
 ]
 

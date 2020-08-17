@@ -43,7 +43,7 @@ export default function Progress() {
       }, 10);
 
     return (
-        <div>
+        <div className="margin-loader">
             <Fade when={animate}>
                 <div className="progress-title">
                     {progressData[index].title}
