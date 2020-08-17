@@ -30,16 +30,16 @@
 }
 
 .disclosure-message{
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 36px;
+    line-height: 48px;
     color: #000000;
     margin-top: 64px;
-    max-width: 483px;
+    max-width: 620px;
 }
 
 
-.disclosure-additional{
-    color: #69ABE4;
+.disclosure-additional a{
+    color: #69ABE4 !important;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;

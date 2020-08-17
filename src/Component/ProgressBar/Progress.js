@@ -47,7 +47,6 @@ export default function Progress() {
             <Fade when={animate}>
                 <div className="progress-title">
                     {progressData[index].title}
-                    <img src="/assets/images/arrow.svg" alt="arrow" className="arrow-ml"></img>
                 </div>
                 <div className="progress-subtitle">{progressData[index].date}</div>
             </Fade>

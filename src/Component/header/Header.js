@@ -15,14 +15,14 @@ class Header extends Component {
                     <div className="sub-heading">A protocol for trading synthetic assets on Edgeware</div>
 
                     <div className="d-none d-md-block">
-                        <a href="/#">
+                        <a href="#!">
                             Start Trading
-                            <img  className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img>
+                            {/* <img  className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img> */}
                         
                         </a>
-                        <a href="/#" className="ml-4">
+                        <a href="#!" className="ml-4">
                             Start Staking
-                            <img className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img>
+                            {/* <img className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img> */}
                         </a>
                     </div>
                     <img className="map img-fluid" src="./assets/images/Header/map.svg" alt="map"></img>

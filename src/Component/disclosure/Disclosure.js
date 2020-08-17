@@ -30,7 +30,7 @@ export default function Disclosure() {
                 <h1 className="disclosure-message">We’re building the world’s<br/> most accessible financial company.</h1>
 
                 <div className="disclosure-additional">
-                    <a href="/#">Have additional questions?
+                    <a href="#!">Have additional questions?
                         <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid arrow-ml"/>
                     </a>
                 </div>
