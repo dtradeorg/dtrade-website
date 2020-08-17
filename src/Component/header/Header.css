@@ -46,6 +46,8 @@
 
 .map{
     margin-top: 18px ;
+    max-width: 451px !important;
+
     /* width: 719px !important; */
 }
 
@@ -70,9 +72,7 @@
         max-width: 55vh !important;
     }
 
-
 }
-
 
 @media only screen and (max-width: 991px){
     .map{
