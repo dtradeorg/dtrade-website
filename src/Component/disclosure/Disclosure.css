@@ -30,6 +30,7 @@
 }
 
 .disclosure-message{
+    font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #000000;
@@ -37,6 +38,12 @@
     max-width: 620px;
 }
 
+.imp-disc{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
 
 .disclosure-additional a{
     color: #69ABE4 !important;

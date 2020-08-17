@@ -11,7 +11,8 @@ export default function Disclosure() {
     return (
         <div className="disclosure-div">
             <div className ="container-md disclosure-section">
-                <div>Important Disclosures:</div>
+                <div> 
+                    <h3 className="imp-disc">Important Disclosures:</h3></div>
 
                 <div className="disclosure-points disclosure-mt">
                     <div>i) All assets on our platform involve a degree of risk and may result in the partial or total loss of your investment.</div>
@@ -31,7 +32,7 @@ export default function Disclosure() {
 
                 <div className="disclosure-additional">
                     <a href="#!">Have additional questions?
-                        <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid arrow-ml"/>
+                        <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid arrow-ml mb-1"/>
                     </a>
                 </div>
 

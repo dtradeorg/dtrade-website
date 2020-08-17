@@ -11,10 +11,10 @@
 
 .progress-subtitle{
     font-family: 'DM Sans', sans-serif;
-    margin-top: 8px;
+    margin-top: 2px;
     margin-bottom: 16px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #787878;
     opacity: 0.5 !important;
@@ -37,7 +37,7 @@
 }
 
 .margin-loader{
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 @media only screen and (max-width:767px){

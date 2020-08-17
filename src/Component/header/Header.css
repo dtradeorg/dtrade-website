@@ -10,7 +10,7 @@
     font-weight: bold;
     font-size: 64px;
     line-height: 74px;
-    color: #565656;
+    color: #787878;
 }
 
 .sub-heading{
@@ -20,12 +20,12 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
-    color: #929292f1 !important;
+    color: #787878 !important;
     opacity: 0.75 !important;
 }
 
 .header a{
-    color: #929292f1;
+    color: #787878;
     opacity: 0.75;
     font-weight: 500;
     font-size: 18px;
@@ -34,7 +34,7 @@
 
 .header a:hover{
     text-decoration: none;
-    color: #929292f1 !important;
+    color: #787878 !important;
     opacity: 0.75 !important;
 }
 
@@ -46,7 +46,7 @@
 .map{
     margin-top: 18px ;
 
-    max-width: 451px !important;
+    /* max-width: 719px !important; */
 }
 
 @media only screen and (max-width: 767px){
@@ -67,7 +67,7 @@
 
 @media only screen and (min-height: 850px){
     .map{
-        max-width: 50vh !important;
+        max-width: 55vh !important;
     }
 
 
@@ -134,9 +134,24 @@
 }
 
 .Toastify__toast-container--bottom-right{
-    min-width: 30vw;
+    min-width: 512px;
+    
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+@media only screen and (max-width: 400px){
+    .Toastify__toast-container--bottom-right{
+        min-width: 30vw;
+        
+    /* Note: backdrop-filter has minimal browser support */
+    
+    }
 }
 
 .Toastify__toast--dark{
     background: rgba(86, 86, 86, 0.85) !important;
+backdrop-filter: blur(8px) !important; 
+border-radius: 4px !important;
+
 }

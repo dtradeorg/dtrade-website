@@ -17,12 +17,12 @@ class Header extends Component {
                     <div className="d-none d-md-block">
                         <a href="#!">
                             Start Trading
-                            {/* <img  className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img> */}
+                            <img  className="arrow-ml" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
                         
                         </a>
                         <a href="#!" className="ml-4">
                             Start Staking
-                            {/* <img className="arrow-ml" src="./assets/images/arrow-blue.svg" alt="arrow"></img> */}
+                            <img className="arrow-ml" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
                         </a>
                     </div>
                     <img className="map img-fluid" src="./assets/images/Header/map.svg" alt="map"></img>
@@ -55,6 +55,9 @@ class Header extends Component {
     componentWillMount(){
         let toastContent  = <div className="toast-content">
             {/* <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a>  */}
+            <span role="img" aria-label="info">
+                {/* <img src="./public/assets/images/info.png" alt="info"/> */}
+            </span>
             The content of this site will be updated with the launch
         </div>;
         toast.dark(toastContent, {
