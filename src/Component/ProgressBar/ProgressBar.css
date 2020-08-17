@@ -1,6 +1,6 @@
 .progress-title{
     font-family: 'DM Sans', sans-serif;
-    margin-top: 12px;
+    margin-top: 5px;
     font-size: 20px;
     line-height: 32px;
     color: #787878;
@@ -36,11 +36,12 @@
     opacity: 0.5;
 }
 
-.margin-loader{
-    margin-top: 10vh;
-}
 
+.margin-loader{
+    margin-top: 0vh;
+}
 @media only screen and (max-width:767px){
+   
     .progress-title{
         font-size: 18px;
         line-height: 24px;
@@ -51,11 +52,15 @@
         line-height: 17px;
     }
     .progress-title{
-        margin-top: 56px;
+        margin-top: 20px;
     }
 
 }
-
+@media only screen and (max-width: 992px){
+    .margin-loader{
+        margin-top: 20v;
+    }
+}
 
 @media only screen and (min-width: 1400px){
     .progress-title{

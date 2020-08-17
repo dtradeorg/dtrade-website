@@ -2,7 +2,8 @@
     background: #FAFAFA;
     padding-top: 20px; 
     padding-bottom: 24px;
-    height: 90vh;
+    height: auto;
+    min-height: 90vh;
 }
 
 .header h1{
@@ -45,8 +46,7 @@
 
 .map{
     margin-top: 18px ;
-
-    /* max-width: 719px !important; */
+    /* width: 719px !important; */
 }
 
 @media only screen and (max-width: 767px){
@@ -67,7 +67,7 @@
 
 @media only screen and (min-height: 850px){
     .map{
-        max-width: 55vh !important;
+        max-width: 70vh !important;
     }
 
 
@@ -86,7 +86,7 @@
     }
 
     .header{
-        padding-top: 113px;
+        padding-top: 80px;
     }
 
     .header h1{
