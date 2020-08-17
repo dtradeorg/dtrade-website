@@ -134,7 +134,7 @@
 }
 
 .Toastify__toast-container--bottom-right{
-    min-width: 512px;
+    min-width: 500px;
     
 /* Note: backdrop-filter has minimal browser support */
 

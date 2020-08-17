@@ -56,7 +56,7 @@ class Header extends Component {
         let toastContent  = <div className="toast-content">
             {/* <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a>  */}
             <span role="img" aria-label="info">
-                {/* <img src="./public/assets/images/info.png" alt="info"/> */}
+                <img src="./assets/images/info.png" alt="info" className="img-fluid mr-3"/>
             </span>
             The content of this site will be updated with the launch
         </div>;
