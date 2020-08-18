@@ -31,7 +31,7 @@ class Header extends Component {
 
                 </div>
 
-                <div className="text-center" id="progress-div">
+                <div className="text-center align-bottom" id="progress-div">
                     <Progress></Progress>
                     <ToastContainer
                         position="bottom-right"
