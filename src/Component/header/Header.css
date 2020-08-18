@@ -81,52 +81,15 @@ font-weight: bold;
     }
 }
 
-/* @media only screen and (min-height: 850px){
-    .map{
-        max-width: 55vh !important;
-    }
-
-}
-
-@media only screen and (max-width: 991px){
-    .map{
-        max-width: 330px !important;
-    }
-} */
 @media only screen and (max-width: 1410px){
     .map{
         margin-top: 18px ;
         max-width: 451px !important;
         width: 100%;
         height: auto;
-    
-        /* width: 719px !important; */
     }
     
 }
-/* @media only screen and (max-width: 1920px){
-   
-
-    .header{
-        padding-top: 80px;
-    }
-
-    .header h1{
-        font-size: 76px;
-        line-height: 92px;
-    }
-
-    .sub-heading{
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .header a{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 28px;
-    }
-} */
 
 
 #progress-div{
