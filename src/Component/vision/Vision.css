@@ -50,6 +50,18 @@
     background: rgba(120, 120, 120, 0.2) !important;
 }
 
+.to-disc-link:hover{
+    text-decoration: none;
+}
+.to-disc-link{
+    color: #787878;
+    text-decoration: none;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
 @media only screen and (max-width:767px){
 
     .vision-div h1{

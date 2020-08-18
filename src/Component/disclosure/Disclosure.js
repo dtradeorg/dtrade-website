@@ -9,7 +9,7 @@ export default function Disclosure() {
     
     
     return (
-        <div className="disclosure-div">
+        <div className="disclosure-div" id="disclosure-div">
             <div className ="container-md disclosure-section">
                 <div> 
                     <h3 className="imp-disc">Important Disclosures:</h3></div>

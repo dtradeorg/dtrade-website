@@ -51,7 +51,7 @@ font-weight: bold;
 
 
 .arrow-ml{
-    margin-left: 17px;
+    margin-left: 14px;
 }
 
 .map{
@@ -93,11 +93,19 @@ font-weight: bold;
         max-width: 330px !important;
     }
 } */
-
-@media only screen and (min-width: 1920px){
-    /* .map{
-        max-width: 720 !important;
-    } */
+@media only screen and (max-width: 1410px){
+    .map{
+        margin-top: 18px ;
+        max-width: 451px !important;
+        width: 100%;
+        height: auto;
+    
+        /* width: 719px !important; */
+    }
+    
+}
+/* @media only screen and (max-width: 1920px){
+   
 
     .header{
         padding-top: 80px;
@@ -118,7 +126,7 @@ font-weight: bold;
         font-size: 20px;
         line-height: 28px;
     }
-}
+} */
 
 
 #progress-div{

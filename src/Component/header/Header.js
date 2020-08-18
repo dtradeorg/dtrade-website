@@ -17,12 +17,12 @@ class Header extends Component {
                     <div className="d-none d-md-block">
                         <a href="#!">
                             Start Trading
-                            <img  className="arrow-ml" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
+                            <img  className="arrow-ml mb-1" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
                         
                         </a>
                         <a href="#!" className="ml-4">
                             Start Staking
-                            <img className="arrow-ml" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
+                            <img className="arrow-ml mb-1" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
                         </a>
                     </div>
                     <img className="map img-fluid" src="./assets/images/Header/map.svg" alt="map"></img>
@@ -59,7 +59,7 @@ class Header extends Component {
             <span role="img" aria-label="info">
                 <img src="./assets/images/info.png" alt="info" className="img-fluid mr-3 mb-1"/>
             </span>
-            The content of this site will be updated with the <u>launch</u>. 
+            The content of this site will be updated with the launch. 
             <span role="img" aria-label="info">
                 <img src="./assets/images/close.png" alt="x" className="img-fluid ml-3"/>
             </span>
