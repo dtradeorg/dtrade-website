@@ -39,7 +39,7 @@
 
 
 .margin-loader{
-    margin-top: 6vh;
+    margin-top: 10vh;
 }
 @media only screen and (max-width:767px){
    
@@ -57,15 +57,15 @@
     }
 
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-height: 900px){
     .margin-loader{
         margin-top: 6vh;
     }
 }
 
-@media only screen and (min-width: 1400px){
+/* @media only screen and (min-width: 1400px){
     .progress-title{
         margin-top: 40px;
     }
 
-}
+} */
