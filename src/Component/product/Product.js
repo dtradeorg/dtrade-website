@@ -92,7 +92,7 @@ function Card({data}){
 
                     <div className="r2">{row.r2}</div>
 
-                    <div className="r3">{row.r3} </div>
+                    <div className="r3">{row.r3}</div>
 
             </div>
         )

@@ -45,12 +45,13 @@
 
     text-align: left;
     color: #787878;
+   
 }
 
 .r1{
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 .r2{
@@ -61,12 +62,15 @@
     margin-top: 20px;
 }
 
-.r3{
+.r3 {
+    display: inline-block !important;
+    word-break: break-word !important;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-
     margin-top: 28px;
+    /* overflow: hidden; */
+  
 }
 
 
@@ -99,7 +103,7 @@
 
     .mobile-scroll > .row{
         overflow-x: scroll;
-        white-space: nowrap;
+        /* white-space: nowrap; */
         flex-wrap: nowrap;
 
         
@@ -108,6 +112,7 @@
     .mobile-scroll > .row > .col {
         display: inline-block;
         float: none;
+        min-width: 300px;
     }
     .product-card{
         margin-right: 12px;
