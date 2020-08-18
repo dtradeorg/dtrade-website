@@ -65,7 +65,7 @@ font-weight: bold;
 
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1367px){
     .header{
         padding-top: 24px;
     }
@@ -78,6 +78,10 @@ font-weight: bold;
     .sub-heading{
         font-size: 18px;
         line-height: 24px;
+    }
+    .map{
+        width: 351px !important;
+        height: auto;
     }
 }
 

@@ -9,7 +9,11 @@
     font-size: 18px;
     line-height: 24px;
 }
-
+@media only screen and (max-width: 767px){
+.navbar{
+    padding-top: 10px !important;
+}
+}
 .navbar a{
     color: #787878;
     margin-left: 1.6vw;
