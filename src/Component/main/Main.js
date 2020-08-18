@@ -8,7 +8,7 @@ import Product from '../product/Product'
 import Portfolio from '../portfolio/Portfolio'
 import Disclosure from '../disclosure/Disclosure'
 import Footer from '../footer/Footer'
-
+import './main.css'
 
 
 class Main extends Component {

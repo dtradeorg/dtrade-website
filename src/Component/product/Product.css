@@ -1,3 +1,4 @@
+
 .product-div{
     margin-top: 12px;
     padding-top: 96px;
@@ -45,6 +46,7 @@
 
     text-align: left;
     color: #787878;
+
    
 }
 
@@ -68,9 +70,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin-top: 28px;
-    /* overflow: hidden; */
-  
+    margin-top: 28px;  
 }
 
 
@@ -112,7 +112,7 @@
     .mobile-scroll > .row > .col {
         display: inline-block;
         float: none;
-        min-width: 300px;
+        min-width: 300px !important;
     }
     .product-card{
         margin-right: 12px;
