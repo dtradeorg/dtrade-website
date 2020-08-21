@@ -16,6 +16,11 @@
     padding-top: 10px !important;
 }
 }
+@media only screen and (max-width: 500px){
+    .navbar{
+        padding-top: 26px !important;
+    }
+    }
 .navbar a{
     color: #787878;
     margin-left: 1.6vw;

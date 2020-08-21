@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Header.css'
-import Progress from '../ProgressBar/Progress'
+// import Progress from '../ProgressBar/Progress'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,7 +14,7 @@ class Header extends Component {
                     <h1>Trade Any Market</h1>
                     <div className="sub-heading">A protocol for trading synthetic assets on Edgeware<sup className="sup-1">1</sup></div>
 
-                    <div className="d-none d-md-block">
+                    <div className="">
                         <a href="#!">
                             Start Trading
                             <img  className="arrow-ml mb-1" src="./assets/images/chevron-right-small-grey.svg" alt="arrow"></img>
@@ -32,7 +32,7 @@ class Header extends Component {
                 </div>
 
                 <div className="text-center align-bottom" id="progress-div">
-                    <Progress></Progress>
+                    {/* <Progress></Progress> */}
                     <ToastContainer
                         position="bottom-right"
                         autoClose={false}

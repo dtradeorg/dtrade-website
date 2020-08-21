@@ -1,4 +1,6 @@
-
+.react-reveal {
+    opacity: 0.7 !important;
+}
 .progress-title{
     font-family: 'DM Sans', sans-serif;
     margin-top: 5px;

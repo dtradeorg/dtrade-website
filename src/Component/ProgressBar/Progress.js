@@ -50,7 +50,7 @@ export default function Progress() {
                 </div>
                 <div className="progress-subtitle">{progressData[index].date}</div>
             </Fade>
-            <div id="myProgress">
+            <div id="myProgress" >
                     <div ref={progressBar} id="myBar"></div>
             </div>
             
