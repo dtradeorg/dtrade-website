@@ -7,11 +7,10 @@ export default function Vision() {
             <h1>Trading for everyone, anywhere.</h1>
             <div className="mx-auto vision-statement">dTrade provides you exposure to Juventus, Tencent, Apple, Yen, Euro, Ethereum, Base Metals, and many more asset classes</div>
             <div className="info mx-auto">
-               <a href="#disclosure-div" className="to-disc-link">
+               <a href="#disclosure-div" className="to-disc-link left-vision">
                 <img src="./assets/images/info.svg" alt="i" className="info-img"></img>
                
                 View Important Disclosures
-                <hr ></hr>
               </a>
             </div>
             

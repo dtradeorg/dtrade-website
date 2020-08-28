@@ -29,6 +29,35 @@
     color: #262626;
 
 }
+.to-disc-link:hover{
+    color: #262626 !important;
+
+}
+
+/* hover underline */
+
+a.left-options
+{
+    position: relative;
+}
+
+a.left-options:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 0;
+  background-color: #565656;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left-options:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
 
 .options-values .flex-column{
     margin-right: 50px;

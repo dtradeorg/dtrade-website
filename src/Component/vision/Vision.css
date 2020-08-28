@@ -58,6 +58,29 @@
     text-decoration: none;
 }
 
+a.left-vision
+{
+    position: relative;
+}
+
+a.left-vision:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 0;
+  background-color: rgba(120, 120, 120, 0.2);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left-vision:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+
 *{
     scroll-behavior: smooth;
 }
