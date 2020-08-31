@@ -1,6 +1,11 @@
 <svg width="942" height="580" viewBox="0 0 942 580" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="942" height="580">
+<rect width="942" height="580" rx="4" fill="#262626"/>
+</mask>
+<g mask="url(#mask0)">
 <g style="mix-blend-mode:multiply" opacity="0.75">
 <rect y="-60" width="968" height="640" fill="url(#pattern0)"/>
+</g>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

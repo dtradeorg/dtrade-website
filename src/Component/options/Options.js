@@ -35,6 +35,7 @@ export default function Options() {
 
                 <img src="./assets/images/info.svg" alt="i" className="info-img"></img>
                 Options Risk Disclosure
+                <hr/>
                 </a>
                 
             </div>

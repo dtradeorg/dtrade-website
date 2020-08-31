@@ -43,6 +43,7 @@ export default function Features() {
 
                     <img src="./assets/images/info1.svg" alt="i" className="info-img "></img>
                         View Important Disclosures
+                        <hr/>
                 </a>
             </div>
             </div>

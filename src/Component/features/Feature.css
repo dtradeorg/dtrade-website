@@ -4,7 +4,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 120px;
-
+    padding-right: 120px;
     background: #262626;
 }
 
@@ -73,7 +73,7 @@ a.left:before {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -10px;
+  bottom: -17px;
   left: 0;
   background-color: #FFF;
   visibility: hidden;
@@ -86,9 +86,7 @@ a.left:hover:before {
   }
 
 @media only screen and (max-width:991px){
-    .feature-div{
-        padding-left: 0px;
-    }
+ 
     .imp-disc{
         justify-content: center !important;
         margin: 0 !important;
@@ -99,7 +97,8 @@ a.left:hover:before {
     .feature-div{
         padding-top: 48px;
         padding-bottom: 64px;
-        
+        padding-left: 0px;
+        padding-right: 0px;
         text-align: center;
     }
 

@@ -13,7 +13,7 @@
     font-weight: bold;
     font-size: 64px;
     line-height: 74px;
-    color: #565656;
+    color: #262626;
 }
 
 .sub-heading{
@@ -30,14 +30,12 @@
 
 .sup-1{
     font-size: 12px;
-    color: #262626 !important;
-    opacity: 0.75 !important;
+    color: #757575 !important;
 font-weight: bold;
 
 }
 .header a{
     color: #69ABE4;
-    opacity: 0.55;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -46,7 +44,6 @@ font-weight: bold;
 .header a:hover{
     text-decoration: none;
     color: #69ABE4 !important;
-    opacity: 0.55 !important;
 }
 
 
@@ -160,11 +157,18 @@ font-weight: bold;
 
 .Toastify__toast-container--bottom-right{
     min-width: 500px;
+    position: absolute !important;
+    bottom: 30vh !important;
     
-/* Note: backdrop-filter has minimal browser support */
-
 }
-
+@media only screen and (max-height: 900px){
+    .Toastify__toast-container--bottom-right{
+        min-width: 500px;
+        position: absolute !important;
+        bottom: 20vh !important;
+        
+    }
+}
 @media only screen and (max-width: 500px){
     .toast-content,.Toastify__toast-container{
         display: none;

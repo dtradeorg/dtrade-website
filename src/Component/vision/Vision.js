@@ -11,6 +11,7 @@ export default function Vision() {
                 <img src="./assets/images/info.svg" alt="i" className="info-img"></img>
                
                 View Important Disclosures
+                <hr/>
               </a>
             </div>
             

@@ -38,6 +38,27 @@
     
 
 }
+a.left-vision
+{
+    position: relative;
+}
+
+a.left-vision:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -20px !important;
+  left: -20px !important;
+  background-color: #474747 !important;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left-vision:hover:before {
+    visibility: visible;
+    width: 299px !important;
+  }
 
 .info-img{
     margin-right: 11px ;

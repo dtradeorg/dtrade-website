@@ -15,7 +15,7 @@ export default function Portfolio() {
                 <div className="col-12 col-md portfolio-card staking card-ml">
 
                     <div className="porject-title">Staking</div>
-                    <div className="porject-des">Stake DET and collect <br/> fees</div>
+                    <div className="porject-des">Stake DET and collect your <br/> share of exchange fees</div>
                     <div className="project-date">
                         <a href="/#" className="staking-link" >
                             Start Staking 
