@@ -48,8 +48,8 @@ a.left-vision:before {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -20px !important;
-  left: -20px !important;
+  bottom: -17px !important;
+  left: -17px !important;
   background-color: #474747 !important;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
