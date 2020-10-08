@@ -1,0 +1,99 @@
+
+.flag-box{
+    max-width: 415px;
+}
+
+.flag-box h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #515154;
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 6px;
+}
+
+.copy-right h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #515154;
+}
+
+.copy-right h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #515154;
+}
+
+.copy-right{
+    padding-top: 24px;
+    padding-bottom: 0;
+    max-width: auto;
+}
+
+.social-icon{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.pr-12{
+    
+    padding-right: 25px;
+}
+
+.pl-12{
+    padding-left: 25px;
+}
+
+.mr-12{
+    margin-right: 12px ;
+}
+
+
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.footer-box-mobile{
+    display: none;
+}
+
+.footer-box{
+    margin-bottom: 24px;
+    max-width: 1500px;
+}
+
+@media only screen and ( max-width: 1205px ) {
+    .footer-switch{
+        display: none;
+    }
+    .footer-box-mobile{
+        display: block;
+    }
+    .copy-right-phone{
+        padding-top: 24px;
+        padding-bottom: 8px;
+        max-width: auto;
+    }
+    .copy-right-phone h6{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #515154;
+    }
+    .rights-reserved-phone h6{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #515154;
+    }
+}

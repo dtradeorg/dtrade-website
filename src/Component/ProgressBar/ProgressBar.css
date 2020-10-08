@@ -1,0 +1,73 @@
+.react-reveal {
+    opacity: 0.7 !important;
+}
+.progress-title{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #787878;
+    opacity: 0.7 !important;
+}
+
+
+
+.progress-subtitle{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    opacity: 0.5 !important;
+
+}
+
+
+#myProgress {
+    margin-top: 24px;
+    width: 100%;
+    background: rgba(120, 120, 120, 0.05);
+
+}
+  
+#myBar {
+    width: 30px;
+    height: 2px;
+    background: #787878;
+    opacity: 0.5;
+}
+
+
+.margin-loader{
+    margin-top: 15vh;
+}
+@media only screen and (max-width:767px){
+   
+    .progress-title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .progress-subtitle{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .progress-title{
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-height: 900px){
+    .margin-loader{
+        margin-top: 6vh;
+    }
+}
+
+/* @media only screen and (min-width: 1400px){
+    .progress-title{
+        margin-top: 40px;
+    }
+
+} */

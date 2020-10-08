@@ -1,0 +1,197 @@
+
+
+
+.portfolio-card{
+    margin-top: 12px;
+    padding-top: 80px;
+    height: 580px;
+
+    
+    
+    
+    text-align: center;
+}
+
+.portfolio-card .porject-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+
+.portfolio-card .porject-des{
+    margin-top: 14px;
+    max-width: 586px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+
+}
+
+.portfolio-card .project-date {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    
+
+}
+
+.card-ml{
+    margin-left: 12px;
+}
+
+
+
+
+
+.prediction{
+    background: url("/assets/images/Portfolio/prediction.svg") center no-repeat ;
+    
+    background-size: cover ;
+    color: #565656;
+}
+
+.date-btn{
+    color: white !important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    background: rgba(69, 69, 78, 0.75) !important;
+    border-radius: 4px !important;
+
+}
+
+.staking{
+
+    color: #565656;
+    background: url("/assets/images/Portfolio/staking.png") center no-repeat ;
+    background-size: cover ;
+    
+    
+
+}
+
+
+
+.portfolio-card a{
+
+    color: #565656;
+
+    margin-top: 32px !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.arrow-ml{
+    margin-left: 17px;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: #565656 !important;
+}
+
+
+.dtrade{
+
+    color: #565656;
+
+    background: url("/assets/images/Portfolio/dtrade.svg") center;
+    background-size: cover ;
+    
+
+}
+
+
+.loan{
+
+    color: white;
+
+    background: #4B6A82;
+    background-size: cover ;
+    
+    
+
+}
+
+.loans-features{
+    margin-top: 2.7rem;
+}
+
+.feature-bold{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.feature-mute{
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+}
+
+.loans-features img{
+    margin-bottom: 24px;
+    height: 45px;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px){
+  
+    .card-ml{
+        margin-left: 0px;
+
+    }
+
+    .portfolio-card{
+        padding-top: 48px;
+    }
+    .portfolio-card .porject-title {
+        font-size: 14px;
+        line-height: 18px;
+    
+    }
+
+    .loan{
+
+        background: #4B6A82;
+        background-size: cover;
+    }
+    
+    
+    .portfolio-card .porject-des{
+        margin-top: 16px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        line-height: 28px;
+
+    
+    }
+    
+    .portfolio-card .project-date {
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        
+    
+    }
+}
+
+
+
+
+

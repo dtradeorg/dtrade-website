@@ -1,0 +1,39 @@
+#stake{
+    background-image: url('/assets/images/Stake/bg-stake.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 142px;
+    padding-bottom: 142px;
+}
+h1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: left;
+/* identical to box height, or 133% */
+
+
+/* Fill / White */
+
+
+}
+
+.ptag{
+    color: white;
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+/* or 140% */
+
+
+/* Fill / White */
+
+    
+    opacity: 0.75;
+}

@@ -1,0 +1,54 @@
+
+.options-div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #FAFAFA;
+}
+
+
+.options-div h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #787878;
+
+}
+
+.options-values{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #787878;
+
+    
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+
+
+.options-values .flex-column{
+    margin-right: 50px;
+    
+}
+
+@media only screen and (max-width:991px){
+    .options-values .flex-column{
+        margin-right: 0px;
+        
+    }
+}
+
+@media only screen and (max-width:767px){
+    .options-div h1{
+
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .options-values{
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+}
