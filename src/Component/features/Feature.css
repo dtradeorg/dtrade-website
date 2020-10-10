@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 
 .feature-div{
     margin-top:12px;
@@ -5,7 +8,7 @@
     padding-bottom: 80px;
     padding-left: 120px;
     padding-right: 120px;
-    background: #262626;
+    background: url('/assets/images/Features/bg-features.svg')
 }
 
 
@@ -62,28 +65,6 @@
 }
 
 /* hover underline */
-
-a.left
-{
-    position: relative;
-}
-
-a.left:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -17px;
-  left: 0;
-  background-color: #FFF;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-a.left:hover:before {
-    visibility: visible;
-    width: 100%;
-  }
 
 @media only screen and (max-width:991px){
  

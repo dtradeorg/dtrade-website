@@ -1,0 +1,25 @@
+#stake{
+    background-image: url('/assets/images/Specs/bg-stake.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 142px;
+    padding-bottom: 142px;
+}
+h1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.ptag{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.75;
+}

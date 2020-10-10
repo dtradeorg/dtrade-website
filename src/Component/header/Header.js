@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
 import './Header.css'
 // import Progress from '../ProgressBar/Progress'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
 class Header extends Component {
     render() {
         return (
             <div  className="conatiner-fluid header">
+
+                <p className='join-banner'>Join us in reimagining finance. 
+                    <a href="#!" className="blue-anchor"> View open positions
+                    <img src="./assets/images/Header/chevron right.svg" alt="" className='chevright'/>    
+                    </a>
+                    
+                </p>
 
                 <div className="container text-center"> 
 
@@ -25,14 +32,14 @@ class Header extends Component {
                             <img className="arrow-ml mb-1" src="./assets/images/chevron-right-small-blue.svg" alt="arrow"></img>
                         </a>
                     </div>
-                    <img className="map img-fluid" src="./assets/images/Header/map.png" alt="map"></img>
+                    <img className="map img-fluid" src="./assets/images/Header/map2.svg" alt="map"></img>
 
                     
 
                 </div>
 
-                <div className="text-center align-bottom" id="progress-div">
-                    {/* <Progress></Progress> */}
+                {/* <div className="text-center align-bottom" id="progress-div">
+                    <Progress></Progress>
                     <ToastContainer
                         position="bottom-right"
                         autoClose={false}
@@ -45,7 +52,7 @@ class Header extends Component {
                         pauseOnHover
                         closeButton={false}
                     />
-                </div>
+                </div> */}
                 
                 
                 
@@ -53,22 +60,22 @@ class Header extends Component {
         )
     }
 
-    componentWillMount(){
-        let toastContent  = <div className="toast-content">
-            {/* <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a>  */}
-            <span role="img" aria-label="info">
-                <img src="./assets/images/info.png" alt="info" className="img-fluid mr-3 mb-1"/>
-            </span>
-            The content of this site will be updated with the launch. 
-            <span role="img" aria-label="info">
-                <img src="./assets/images/close.png" alt="x" className="img-fluid ml-3"/>
-            </span>
-        </div>;
-        toast.dark(toastContent, {
+    // componentWillMount(){
+    //     let toastContent  = <div className="toast-content">
+    //         {/* <span role="img" aria-label="cookie">🍪</span> We are using cookies on this site. <a href="/#">Learn how. </a>  */}
+    //         <span role="img" aria-label="info">
+    //             <img src="./assets/images/info.png" alt="info" className="img-fluid mr-3 mb-1"/>
+    //         </span>
+    //         The content of this site will be updated with the launch. 
+    //         <span role="img" aria-label="info">
+    //             <img src="./assets/images/close.png" alt="x" className="img-fluid ml-3"/>
+    //         </span>
+    //     </div>;
+    //     toast.dark(toastContent, {
            
-            progress: 0,
-        });
-    }
+    //         progress: 0,
+    //     });
+    // }
 }
 
 export default Header

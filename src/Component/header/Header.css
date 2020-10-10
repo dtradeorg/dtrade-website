@@ -1,3 +1,42 @@
+/* Join Banner */
+
+.join-banner{
+    
+    background-color: #F8F1D0;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #565656;
+}
+
+.blue-anchor{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #62A9FD !important;
+}
+.join-banner .blue-anchor:hover{
+    color: #62A9FD !important;
+}
+.trading-sec .blue-anchor:hover{
+    color: #62A9FD !important;
+}
+
+.chevright{
+    padding-left: 5px;
+    padding-bottom: 2px;
+    
+}
 
 .header{
     background: #FAFAFA;

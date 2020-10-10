@@ -41,9 +41,9 @@ export default function Features() {
             <div className="info mt-5">
                 <a href="#disclosure-div" className="to-disc-link text-gray left">
 
-                    <img src="./assets/images/info1.svg" alt="i" className="info-img "></img>
+                    <img src="./assets/images/info1.svg" alt="i" className="info-img mr-2 mb-1"></img>
                         View Important Disclosures
-                        <hr/>
+                        {/* <hr/> */}
                 </a>
             </div>
             </div>
