@@ -9,19 +9,19 @@ export default function Features() {
             <div className="row feature-row ">
                 <div className="col-12 col-md-4 col-lg-3 col-lg-3 mr-lg-5">
                     <div className="feature-heading">
-                        Any Asset Class
+                        Accessible
                     </div>
                     <div className="feature-body">
-                        Gain exposure to assets in any part of the globe, from football clubs in Italy to stocks in China
-                    </div>
+                    Gain on-chain exposure to hundreds of assets from anywhere in the world.
+                                        </div>
                 </div>
 
                 <div className="col-12 col-md-4 col-lg-3 mr-lg-5">
                     <div className="feature-heading">
-                        Fractional Shares
+                    Low Feels                    
                     </div>
                     <div className="feature-body">
-                        Trade only parts of a whole share, and build a balanced portfolio with as little as $5
+                    Pay less than 20 cents in GAS fees on every transaction.                    
                     </div>
                 </div>
 
@@ -31,8 +31,7 @@ export default function Features() {
                         Unlimited Liquidity
                     </div>
                     <div className="feature-body">
-                        No slippage and infinite liquidity by trading assets backed by a distributed collateral pool
-                    </div>
+                    No slippage and infinite liquidity by trading assets backed by a distributed collateral pool                    </div>
                 </div>
 
             </div>

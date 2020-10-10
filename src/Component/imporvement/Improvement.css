@@ -1,6 +1,7 @@
 #improvement-div{
     padding-top: 142px;
     padding-bottom: 142px;
+    
 }
 #improvement-div h1{
     text-align: center;
@@ -8,7 +9,8 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    
+    color: #000000;
+
 }
 #improvement-div p{
     text-align: center;

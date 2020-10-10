@@ -12,7 +12,7 @@ function Improvement() {
                     <div className="col">
                     <a href="#disclosure-div" className="disc-link">
 
-                        <img src="./assets/images/infoimp.svg" alt="i" className="info-img mr-2"></img>
+                        <img src="./assets/images/infoimp.svg" alt="i" className="info-img mr-3"></img>
                         View Important Disclosures
                     {/* <hr></hr> */}
                     </a>

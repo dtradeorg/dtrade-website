@@ -67,35 +67,31 @@
 }
 
 
-.navbar .btn{
+.navbar h3{
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    background: #69ABE4;
     padding: 8px 24px;
     outline: none;
     border: none ;
     border-radius: 3px;
+    color: #103959;
 
 }
 
-.navbar .btn:hover{
-    background: #69ABE4;
 
-}
 
 @media only screen and (max-width: 1367px){
-    .navbar .btn{
+    .navbar h3{
         font-style: normal !important;
         font-weight: 500 !important;
         font-size: 16px !important;
         line-height: 24px !important;
-        background: #69ABE4 !important;
         padding: 8px 24px !important;
         outline: none !important;
         border: none  !important;
         border-radius: 3px !important;
-    
+        color: #103959;
     }
 }
 

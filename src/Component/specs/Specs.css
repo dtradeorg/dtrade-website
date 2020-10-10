@@ -5,7 +5,7 @@
     padding-top: 142px;
     padding-bottom: 142px;
 }
-h1{
+.reward-heading{
     color: white;
     font-family: "DM Sans", sans-serif;
     font-style: normal;
@@ -14,7 +14,7 @@ h1{
     line-height: 64px;
 }
 
-.ptag{
+.reward-text{
     color: white;
     font-family: "DM Sans", sans-serif;
     font-style: normal;
@@ -22,4 +22,60 @@ h1{
     font-size: 20px;
     line-height: 28px;
     opacity: 0.75;
+}
+
+.desktopview{
+    display: block;
+}
+
+.mobileview{
+    display: none;
+}
+
+.apy-info{
+    font-family: "DM Sans",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 991px){
+
+    #stake{
+        background-image: url('/assets/images/Specs/bg-stake.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+
+    .desktopview{
+        display: none;
+    }
+
+    .mobileview{
+        display: block;
+    }
+
+    .reward-heading{
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 38px;
+        color: #FFFFFF !important;
+    }
+    
+    .reward-text{
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        color: #FFFFFF !important;
+        opacity: 0.75;
+    }
+
 }

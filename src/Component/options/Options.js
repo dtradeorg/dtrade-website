@@ -33,9 +33,8 @@ export default function Options() {
             <div className="info mx-auto">
             <a href="#disclosure-div" className="to-disc-link">
 
-                <img src="./assets/images/info.svg" alt="i" className="info-img"></img>
+                <img src="./assets/images/info.svg" alt="i" className="info-img mr-2"></img>
                 Options Risk Disclosure
-                <hr/>
                 </a>
                 
             </div>

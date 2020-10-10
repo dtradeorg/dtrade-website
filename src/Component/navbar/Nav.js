@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar,Button} from 'react-bootstrap'
+import {Navbar} from 'react-bootstrap'
 import './Navbar.css'
 class NavBar extends Component {
     render() {
@@ -18,9 +18,9 @@ class NavBar extends Component {
 
 
                         <div>
-                            <Button variant="primary" className="d-none d-md-block">
+                            <h3 className="d-none d-md-block">
                                 Launching Q4 2020
-                            </Button>
+                            </h3>
                         </div>
 
 
