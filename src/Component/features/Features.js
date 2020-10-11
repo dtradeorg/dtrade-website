@@ -31,7 +31,8 @@ export default function Features() {
                         Unlimited Liquidity
                     </div>
                     <div className="feature-body">
-                    No slippage and infinite liquidity by trading assets backed by a distributed collateral pool                    </div>
+                        No slippage and infinite liquidity by trading assets backed by a distributed collateral pool
+                    </div>
                 </div>
 
             </div>

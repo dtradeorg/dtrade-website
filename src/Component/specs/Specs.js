@@ -8,37 +8,37 @@ function Specs() {
             <div className="container pt-5 desktopview">
                 <div className="row align-items-center">
 
-                    <div className="col-2 text-center">
+                    <div className="col-1 text-center">
                         
-                        <div className="row pb-4">
+                        <div className="row">
                             <div className="col">
                                 <img id="arrow-up" className="img-fluid" src="./assets/images/Specs/arrow-up.svg" alt=""></img>
                             </div>
                             
                         </div>
 
-                        <div className="row pt-2">
+                        <div className="row pt-5">
                             <div className="col">
                                 <img src="./assets/images/Specs/Frame 145.svg" alt=""></img>
                             </div>
                             
                         </div>
 
-                        <div className="row pt-2">
+                        <div className="row pt-5">
                             <div className="col">
                                 <img src="./assets/images/Specs/Frame 146.svg" alt=""></img>
                             </div>
                             
                         </div>
 
-                        <div className="row pt-2">
+                        <div className="row pt-5">
                             <div className="col">
                                 <img src="./assets/images/Specs/Frame 147.svg" alt=""></img>
                             </div>
                             
                         </div>
 
-                        <div className="row pt-4">
+                        <div className="row pt-5">
                             <div className="col">
                                 <img id="arrow-down" className="img-fluid" src="./assets/images/Specs/arrow-down.svg" alt=""></img>
                             </div>
@@ -48,12 +48,12 @@ function Specs() {
                         
                         
                     </div>
-                    <div className="col-10">
+                    <div className="col-11">
                         <div className="row align-items-center">
-                            <div className="col-6 text-center">
+                            <div className="col-7 text-center">
                                 <img className='img-fluid' src="./assets/images/Specs/banner-img.svg" alt=""></img>
                             </div>
-                            <div className="col-6">
+                            <div className="col-5">
                                 <h1 className="reward-heading">Earn rewards.</h1>
                                 <p className="reward-text">
                                 Earn rewards and collect your share of

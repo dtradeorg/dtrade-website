@@ -4,8 +4,8 @@ function Improvement() {
     return (
         <div id="improvement-div">
             <h1>Community run and self-improving.</h1>
-            <p>DET holders can use their tokens to vote on protocol upgrades,</p>
-            <p>new price feed & asset integrations, and public goods in the dtrade ecosystem.</p>    
+            <p>DET holders can use their tokens to vote on protocol upgrades
+                new price feed & asset integrations, and public goods in the dtrade ecosystem.</p>    
 
             <div className="container pt-3">
                 <div className="row text-center">
