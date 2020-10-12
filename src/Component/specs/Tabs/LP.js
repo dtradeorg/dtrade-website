@@ -9,10 +9,10 @@ function LP() {
                         <Animated animationIn="fadeIn" animationOut="fadeOut" >
 
                         <div className="row align-items-center">
-                            <div className="col-7 text-center">
+                            <div className="col-8 text-center">
                                 <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
                             </div>
-                            <div className="col-5">
+                            <div className="col-4">
                                 <h1 className="reward-heading">Earn LP.</h1>
                                 <p className="reward-text">
                                 Earn rewards and collect your share of

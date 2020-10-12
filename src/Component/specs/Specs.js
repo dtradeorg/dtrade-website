@@ -77,7 +77,7 @@ function Specs() {
     return (
         <div id="stake" className="container-fluid">
 
-            <div className="container pt-5 desktopview">
+            <div className="container desktopview">
                 <div className="row align-items-center">
 
                     <div className="col-1 text-center">
