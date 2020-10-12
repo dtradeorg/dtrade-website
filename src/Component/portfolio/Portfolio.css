@@ -88,7 +88,7 @@
 
 .staking{
 
-    color: #565656;
+    color: #000;
     background: url("/assets/images/Portfolio/staking.png") center no-repeat ;
     background-size: cover ;
     
@@ -98,17 +98,17 @@
 
 
 .staking-link{
-    color: #69ABE4 !important;
+    color: #62A9FD !important;
 
 }
 
 .staking-link:hover{
-    color: #69ABE4 !important;
+    color: #62A9FD !important;
 
 }
 .portfolio-card a{
 
-    color: #565656;
+    color: #000;
 
     margin-top: 32px !important;
     font-weight: 500;
@@ -123,13 +123,13 @@
 
 a:hover{
     text-decoration: none !important;
-    color: #565656 !important;
+    color: #000 !important;
 }
 
 
 .dtrade{
 
-    color: #565656;
+    color: #000;
 
     background: url("/assets/images/Portfolio/dtrade.svg") center;
     background-size: cover ;
@@ -142,7 +142,7 @@ a:hover{
 
     color: white;
 
-    background: #262626;
+    background: url("/assets/images/Portfolio/loan-bg.png") center;
     background-size: cover ;
     
     

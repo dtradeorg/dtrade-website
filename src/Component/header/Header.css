@@ -123,7 +123,7 @@ font-weight: bold;
         letter-spacing: 0.032em;
     }
     .map{
-        max-width: 451px !important;
+        width: 378px  !important;
         height: auto;
     }
     .toast-content,.Toastify__toast-container{
@@ -151,7 +151,7 @@ font-weight: bold;
 @media only screen and (max-height: 900px){
 
     .header{
-        height: 600px;
+        height: auto;
         /* min-height: 90vh; */
         /* overflow: hidden; */
     }

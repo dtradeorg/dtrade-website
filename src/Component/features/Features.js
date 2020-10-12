@@ -3,35 +3,35 @@ import './Feature.css';
 export default function Features() {
     return (
         <div className="feature-div">
-            <h1>Trading, reimagined</h1>
-            <h2>Trade hundreds of assets with just $5.</h2>
+            <h1>Trading, reimagined.</h1>
+            <h2>Trade from anywhere. No sign up needed.</h2>
 
             <div className="row feature-row ">
-                <div className="col-12 col-md-4 col-lg-3 col-lg-3 mr-lg-5">
+                <div className="col-12 col-md-3 col-lg-3 col-lg-3 mr-lg-3 pr-0">
                     <div className="feature-heading">
                         Accessible
                     </div>
                     <div className="feature-body">
-                    Gain on-chain exposure to hundreds of assets from anywhere in the world.
+                    Gain on-chain exposure to hundreds <br className="mobile-switch"/> of assets from anywhere in the <br className="mobile-switch"/> world.
                                         </div>
                 </div>
 
-                <div className="col-12 col-md-4 col-lg-3 mr-lg-5">
+                <div className="col-12 col-md-3 col-lg-3 mr-lg-3 pr-0">
                     <div className="feature-heading">
                     Low Feels                    
                     </div>
                     <div className="feature-body">
-                    Pay less than 20 cents in GAS fees on every transaction.                    
+                    Pay less than 20 cents in GAS fees <br className="mobile-switch"/>  on every transaction.                    
                     </div>
                 </div>
 
 
-                <div className="col-12 col-md-4 col-lg-3">
+                <div className="col-12 col-md-3 col-lg-3 ">
                     <div className="feature-heading">
                         Unlimited Liquidity
                     </div>
                     <div className="feature-body">
-                        No slippage and infinite liquidity by trading assets backed by a distributed collateral pool
+                        No slippage and infinite liquidity by <br className="mobile-switch"/> trading assets backed by a <br className="mobile-switch"/>  distributed collateral pool
                     </div>
                 </div>
 

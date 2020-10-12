@@ -19,7 +19,7 @@ export default function Portfolio() {
                     <div className="project-date">
                         <a href="/#" className="staking-link" >
                             Start Staking 
-                            <img src="/assets/images/arrow-blue.svg" alt="arrow" className="arrow-ml"></img>
+                            <img src="/assets/images/right-blue.svg" alt="arrow" className="ml-2 mb-1"></img>
                         </a>
                     </div>
 
@@ -36,14 +36,14 @@ export default function Portfolio() {
                         <a href="/#">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3" alt="git"></img>
                             GitHub
-                            <img src="/assets/images/arrow.svg" alt="arrow" className="arrow-ml"></img>
+                            <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="ml-2 mb-1"></img>
                         </a>
                     </div>
 
                     <div className="project-date ">
                         <a href="/#">
                             Read White Paper 
-                            <img src="/assets/images/arrow.svg" alt="arrow" className="arrow-ml"></img>
+                            <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="ml-2 mb-1"></img>
                         </a>
                     </div>
 

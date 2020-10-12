@@ -1,3 +1,6 @@
+.mobile-switch{
+    display: block;
+}
 #improvement-div{
     padding-top: 142px;
     padding-bottom: 142px;
@@ -61,5 +64,8 @@
         line-height: 24px;
         margin-top: 24px;
     }
-
+    .mobile-switch{
+        display: none;
+    }
+    
 }

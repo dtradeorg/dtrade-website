@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
 }
 
+.mobile-switch{
+    display: block;
+}
+
 .feature-div{
     margin-top:12px;
     padding-top: 80px;
@@ -67,7 +71,9 @@
 /* hover underline */
 
 @media only screen and (max-width:991px){
- 
+    .mobile-switch{
+        display: none;
+    }
     .imp-disc{
         justify-content: center !important;
         margin: 0 !important;

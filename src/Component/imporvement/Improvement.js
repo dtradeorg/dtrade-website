@@ -1,10 +1,12 @@
 import React from 'react'
 import './Improvement.css'
+
+
 function Improvement() {
     return (
         <div id="improvement-div">
             <h1>Community run and self-improving.</h1>
-            <p>DET holders can use their tokens to vote on protocol upgrades
+            <p>DET holders can use their tokens to vote on protocol upgrades <br className="mobile-switch"/>
                 new price feed & asset integrations, and public goods in the dtrade ecosystem.</p>    
 
             <div className="container pt-3">
