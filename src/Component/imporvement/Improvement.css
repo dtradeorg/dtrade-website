@@ -38,6 +38,23 @@
 
     color: #565656;
 }
+.disc-link:hover{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+    opacity: 0.5 !important;
+
+/* Fill / Scorpion */
+
+    color: #565656;
+}
+.i-align{
+    margin-bottom: 3px;
+}
 
 @media only screen and (max-width: 991px){
 

@@ -11,14 +11,13 @@ function TradeMobile() {
 
 
                             <div className="col-6 text-center">
-                                <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
+                                <img className='img-fluid tablet' src="./assets/images/Specs/trade.png" alt=""></img>
                             </div>
                             <div className="col-12 justify-content-center mt-3">
-                                <h1 className="text-center reward-heading">Earn rewards.</h1>
+                            <h1 className="reward-heading text-center">Trade</h1>
                                 <p className="reward-text text-center">
-                                Earn rewards and collect your share of
-                                trading fees by staking DET and providing
-                                collateral to the dtrade protocol.
+                                Gain access to all financial markets, short-selling, and margin trading with zero slippage.
+                                From anywhere in the world.
                                 </p>
 
                                 <h3 className="apy-info text-center"> <img alt="i" src="./assets/images/Specs/info.svg" className="img-fluid mr-2 mb-1"/> Currently APY: 67.87%</h3>

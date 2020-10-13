@@ -10,14 +10,12 @@ function LP() {
 
                         <div className="row align-items-center">
                             <div className="col-8 text-center">
-                                <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
+                                <img className='img-fluid tablet' src="./assets/images/Specs/liquid.png" alt=""></img>
                             </div>
                             <div className="col-4">
-                                <h1 className="reward-heading">Earn LP.</h1>
+                                <h1 className="reward-heading">Provide Liquidity</h1>
                                 <p className="reward-text">
-                                Earn rewards and collect your share of
-                                trading fees by staking DET and providing
-                                collateral to the dtrade protocol.
+                                    Earn liquidity pool rewards by providing liquidity to DET and synthetic asset pools.
                                 </p>
 
                                 <h3 className="apy-info"> <img alt="i" src="./assets/images/Specs/info.svg" className="img-fluid mr-2 mb-1"/> Currently APY: 67.87%</h3>

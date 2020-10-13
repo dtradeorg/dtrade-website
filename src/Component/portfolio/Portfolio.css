@@ -108,7 +108,7 @@
 }
 .portfolio-card a{
 
-    color: #000;
+    color: #484848;
 
     margin-top: 32px !important;
     font-weight: 500;
@@ -123,13 +123,13 @@
 
 a:hover{
     text-decoration: none !important;
-    color: #000 !important;
+    color: #484848 !important;
 }
 
 
 .dtrade{
 
-    color: #000;
+    color: #484848;
 
     background: url("/assets/images/Portfolio/dtrade.svg") center;
     background-size: cover ;

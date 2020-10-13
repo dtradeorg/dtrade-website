@@ -32,7 +32,7 @@ export default function Disclosure() {
 
                 <div className="disclosure-additional">
                     <a href="#!">Have additional questions?
-                        <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid arrow-ml mb-1"/>
+                        <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid ml-2 "/>
                     </a>
                 </div>
 

@@ -11,14 +11,13 @@ function Trade() {
                     <Animated animationIn="fadeIn" animationOut="fadeOut" >
                         <div className="row align-items-center">
                             <div className="col-8 text-center">
-                                <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
+                                <img className='img-fluid tablet' src="./assets/images/Specs/trade.png" alt=""></img>
                             </div>
                             <div className="col-4">
-                                <h1 className="reward-heading">Earn Trade.</h1>
+                                <h1 className="reward-heading">Trade</h1>
                                 <p className="reward-text">
-                                Earn rewards and collect your share of
-                                trading fees by staking DET and providing
-                                collateral to the dtrade protocol.
+                                Gain access to all financial markets, short-selling, and margin trading with zero slippage.
+                                From anywhere in the world.
                                 </p>
 
                                 <h3 className="apy-info"> <img alt="i" src="./assets/images/Specs/info.svg" className="img-fluid mr-2 mb-1"/> Currently APY: 67.87%</h3>

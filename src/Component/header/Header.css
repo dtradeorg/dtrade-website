@@ -92,10 +92,10 @@ font-weight: bold;
 
 .map{
     margin-top: 18px ;
-    max-width: 600px !important;
+    /* max-width: 600px !important; */
     width: 100%;
     height: auto;
-
+    width: 378px;
     /* width: 719px !important; */
 }
 
@@ -123,7 +123,7 @@ font-weight: bold;
         letter-spacing: 0.032em;
     }
     .map{
-        width: 378px  !important;
+        /* width: 378px  !important; */
         height: auto;
     }
     .toast-content,.Toastify__toast-container{

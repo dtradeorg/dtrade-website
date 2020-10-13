@@ -7,7 +7,7 @@ export default function Features() {
             <h2>Trade from anywhere. No sign up needed.</h2>
 
             <div className="row feature-row ">
-                <div className="col-12 col-md-3 col-lg-3 col-lg-3 mr-lg-3 pr-0">
+                <div className="col-12 col-md-3 col-lg-3 col-lg-3 mr-0 pr-0">
                     <div className="feature-heading">
                         Accessible
                     </div>
@@ -16,7 +16,7 @@ export default function Features() {
                                         </div>
                 </div>
 
-                <div className="col-12 col-md-3 col-lg-3 mr-lg-3 pr-0">
+                <div className="col-12 col-md-3 col-lg-3 mr-0 pr-0 pl-0">
                     <div className="feature-heading">
                     Low Feels                    
                     </div>
@@ -26,7 +26,7 @@ export default function Features() {
                 </div>
 
 
-                <div className="col-12 col-md-3 col-lg-3 ">
+                <div className="col-12 col-md-3 col-lg-3 pl-0">
                     <div className="feature-heading">
                         Unlimited Liquidity
                     </div>
@@ -37,7 +37,7 @@ export default function Features() {
 
             </div>
 
-            <div className="row text-left ml-md-2 imp-disc">
+            <div className="row text-left ml-md-1 imp-disc">
             <div className="info mt-5">
                 <a href="#disclosure-div" className="to-disc-link text-gray left">
 
