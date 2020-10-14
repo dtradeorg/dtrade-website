@@ -7,13 +7,13 @@ function Reward() {
     return (
         <div className="col-11">
 
-            <Animated animationIn="fadeIn" animationOut="fadeOut" >
+            <Animated animationIn="fadeIn" animationOut="fadeIn" >
 
                         <div className="row align-items-center">
-                            <div className="col-8 text-center">
-                                <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
+                            <div className="col text-center tablet-container">
+                                <img className='img-fluid tablet' src="./assets/images/Specs/stake.png" alt=""/>
                             </div>
-                            <div className="col-4">
+                            <div className="col-5">
                                 <h1 className="reward-heading">Earn rewards.</h1>
                                 <p className="reward-text">
                                 Earn rewards and collect your share of

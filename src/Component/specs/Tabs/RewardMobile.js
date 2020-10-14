@@ -18,7 +18,7 @@ function RewardMobile() {
 
                                 <h3 className="apy-info text-center"> <img alt="i" src="./assets/images/Specs/info.svg" className="img-fluid mr-2 mb-1"/> Currently APY: 67.87%</h3>
                                 
-                                <img className='img-fluid tablet' src="./assets/images/Specs/banner-img.svg" alt=""></img>
+                                <img className='img-fluid tablet' src="./assets/images/Specs/stake.png" alt=""></img>
 
                             </div>
                         </div>

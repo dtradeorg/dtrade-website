@@ -33,7 +33,7 @@ export default function Portfolio() {
                     <div className="porject-title ">dTrade</div>
                     <div className="porject-des ">Learn more about the <br/> dTrade Protocol</div>
                     <div className="project-date ">
-                        <a href="/#">
+                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
                             GitHub
                             <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>
@@ -41,7 +41,7 @@ export default function Portfolio() {
                     </div>
 
                     <div className="project-date ">
-                        <a href="/#">
+                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
                             Read White Paper 
                             <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>
                         </a>
@@ -54,40 +54,18 @@ export default function Portfolio() {
                     <div className="porject-des-w">Instant credit lines using multiple supported collaterals</div>
                     <div className="project-date" style={{opacity: 0.35}}>Launching 2021</div>
 
-                    <div className="loans-features row mx-auto">
-                        <div className="col-4 col-lg d-flex flex-column">
-                            <img src="/assets/images/Portfolio/loans/edgeware.svg" alt="edgeware" className="img-fluid"></img>
-                            <div className="feature-bold">Edgeware </div>
-                            <div className="feature-mute">Credit Line </div>
+                        <div className="loans-features row m-0">
+                            <div className="col">
+                                <img src="/assets/images/Portfolio/loans/Frame 141.svg" alt="edgeware" className="img-fluid" ></img>
+                               
+                            </div>
                         </div>
-
-                        <div className="col-4 col-lg d-flex flex-column">
-                            <img src="/assets/images/Portfolio/loans/ethereum.svg" alt="edgeware"  className="img-fluid"></img>
-                            <div className="feature-bold">Ethereum </div>
-                            <div className="feature-mute">Credit Line </div>
+                        <div className="loans-features-mobile row m-0">
+                            <div className="col">
+                                <img src="/assets/images/Portfolio/loans/GroupPort.svg" alt="edgeware" className="img-fluid" ></img>
+                               
+                            </div>
                         </div>
-
-
-                        <div className="col-4 col-lg d-flex flex-column">
-                            <img src="/assets/images/Portfolio/loans/chainlink.svg" alt="edgeware"  className="img-fluid"></img>
-                            <div className="feature-bold">Chainlink </div>
-                            <div className="feature-mute">Credit Line </div>
-                        </div>
-
-
-                        <div className="col-6 pl-5 pl-lg-1  col-xl d-flex flex-column mt-4 mt-xl-0">
-                            <img src="/assets/images/Portfolio/loans/dai.svg" alt="edgeware"  className="img-fluid"></img>
-                            <div className="feature-bold">Dai </div>
-                            <div className="feature-mute">Credit Line </div>
-                        </div>
-
-                        <div className="col-6 pr-5 pr-lg-1 col-xl d-flex flex-column mt-4 mt-xl-0">
-                            <img src="/assets/images/Portfolio/loans/polka.svg" alt="edgeware"  className="img-fluid"></img>
-                            <div className="feature-bold">Polkadot </div>
-                            <div className="feature-mute">Credit Line </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>

@@ -150,7 +150,9 @@ a:hover{
 }
 
 .loans-features{
-    margin-top: 2.7rem;
+    padding-left: 5.208vw;
+    padding-right: 5.208vw;
+    padding-top: 71px;
 }
 
 .feature-bold{
@@ -165,17 +167,22 @@ a:hover{
     opacity: 0.5;
 }
 
-.loans-features img{
-    margin-bottom: 24px;
-    height: 45px;
+
+
+
+.loans-features-mobile{
+    display: none !important;
 }
 
 
-
-
-
 @media only screen and (max-width: 991px){
-  
+    .loans-features{
+        display: none !important;
+    }
+    .loans-features-mobile{
+        display: block !important;
+        padding-top: 32px !important;
+    }
     .card-ml{
         margin-left: 0px;
 

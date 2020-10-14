@@ -7,7 +7,7 @@ export default function Features() {
             <h2>Trade from anywhere. No sign up needed.</h2>
 
             <div className="row feature-row ">
-                <div className="col-12 col-md-3 col-lg-3 col-lg-3 mr-0 pr-0">
+                <div className="col-12 col feature-col ">
                     <div className="feature-heading">
                         Accessible
                     </div>
@@ -16,9 +16,9 @@ export default function Features() {
                                         </div>
                 </div>
 
-                <div className="col-12 col-md-3 col-lg-3 mr-0 pr-0 pl-0">
+                <div className="col-12 col feature-col ">
                     <div className="feature-heading">
-                    Low Feels                    
+                    Low Fees                    
                     </div>
                     <div className="feature-body">
                     Pay less than 20 cents in GAS fees <br className="mobile-switch"/>  on every transaction.                    
@@ -26,7 +26,7 @@ export default function Features() {
                 </div>
 
 
-                <div className="col-12 col-md-3 col-lg-3 pl-0">
+                <div className="col-12 col feature-col ">
                     <div className="feature-heading">
                         Unlimited Liquidity
                     </div>

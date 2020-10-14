@@ -89,52 +89,55 @@ function Specs() {
                                      src="./assets/images/Specs/arrow-up.svg" 
                                      alt=""
                                      onClick={()=>UpArrowFunc()}
-                                ></img>
+                                />
                             </div>
                             
                         </div>
 
                         <div className="row pt-5">
-                            <div className="col">
+                            <div className="col" style={{height: "65px"}}>
                                 <img type="button" 
-                                src={ tab === 0 ? "./assets/images/Specs/stake-active.svg" : "./assets/images/Specs/stake.svg" } 
+                                src="./assets/images/Specs/stake-active.svg" 
                                 alt=""
+                                className = { tab === 0 ? "active" : "inactive" }
                                 onClick={()=>RewardClick()}
-                                ></img>
+                                />
                             </div>
                             
                         </div>
 
                         <div className="row pt-5">
-                            <div className="col">
-                                <img type="button" 
-                                src={ tab === 1 ? "./assets/images/Specs/trade-active.svg" : "./assets/images/Specs/trade.svg" } 
+                            <div className="col" style={{height: "65px"}}>
+                            <img type="button" 
+                                src="./assets/images/Specs/trade-active.svg" 
                                 alt=""
+                                className = { tab === 1 ? "active" : "inactive" }
                                 onClick={()=>TradeClick()}
-                                ></img>
+                               />
                             </div>
                             
                         </div>
 
-                        <div className="row pt-5">
-                            <div className="col">
-                                <img type="button" 
-                                src={ tab === 2 ? "./assets/images/Specs/lp-active.svg" : "./assets/images/Specs/lp.svg" } 
+                        <div className="row pt-5" >
+                            <div className="col" style={{height: "65px"}}>
+                            <img type="button" 
+                                src="./assets/images/Specs/lp-active.svg" 
                                 alt=""
+                                className = { tab === 2 ? "active" : "inactive" }
                                 onClick={()=>LPClick()}
-                                ></img>
+                                />
                             </div>
                             
                         </div>
 
                         <div className="row pt-5">
-                            <div className="col">
+                            <div className="col" >
                                 <img type="button" 
                                 className="img-fluid arrow-spec" 
                                 src="./assets/images/Specs/arrow-down.svg" 
                                 alt=""
                                 onClick={()=>DownArrowFunc()}
-                                ></img>
+                                />
                             </div>
                             
                         </div>
@@ -162,15 +165,26 @@ function Specs() {
                                     <img  type="button" className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
                                 </div>
                                 <div className="col justify-content-center text-center">
-                                    
-                                    <img type="button" src = { tab === 0 ? "./assets/images/Specs/stake-active.svg" : "./assets/images/Specs/stake.svg" }  alt="" onClick={()=>RewardClick()} ></img>
-                                </div>
+                                <img type="button" 
+                                src="./assets/images/Specs/stake-active.svg" 
+                                alt=""
+                                className = { tab === 0 ? "active" : "inactive" }
+                                onClick={()=>RewardClick()}
+                                />                              </div>
                                 <div className="col justify-content-center text-center">
-                                    <img type="button" src = { tab === 1 ? "./assets/images/Specs/trade-active.svg" : "./assets/images/Specs/trade.svg" }  alt="" onClick={()=>TradeClick()} ></img>
-                                </div>
+                                <img type="button" 
+                                src="./assets/images/Specs/trade-active.svg" 
+                                alt=""
+                                className = { tab === 1 ? "active" : "inactive" }
+                                onClick={()=>TradeClick()}
+                                />                             </div>
                                 <div className="col my-auto justify-content-center text-center">
-                                <img type="button" src = { tab === 2 ? "./assets/images/Specs/lp-active.svg" : "./assets/images/Specs/lp.svg" }  alt="" onClick={()=>LPClick()} ></img>
-                                </div>
+                                <img type="button" 
+                                src="./assets/images/Specs/lp-active.svg" 
+                                alt=""
+                                className = { tab === 2 ? "active" : "inactive" }
+                                onClick={()=>LPClick()}
+                                />                              </div>
                                 <div className="col my-auto text-right">
                                 <img type="button"  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
                                 </div>
