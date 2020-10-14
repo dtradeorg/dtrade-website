@@ -46,14 +46,31 @@
     opacity: 0.5;
 }
 
+.arrow-spec{
+    opacity: 0.25;
+}
+
+.arrow-spec:hover{
+    opacity: 1;
+}
+
 @media only screen and (max-width: 991px){
 
+    .tab-sec-mobile{
+        height: 451px;
+    }
+    .tablet{
+        width: 298px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
     #stake{
         background-image: url('/assets/images/Specs/bg-stake.png');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 48px;
         padding-bottom: 32px;
+        height: 586px;
     }
 
     .desktopview{

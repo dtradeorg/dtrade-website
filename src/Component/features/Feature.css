@@ -13,6 +13,7 @@
     padding-left: 120px;
     padding-right: 120px;
     background: url('/assets/images/Features/bg-features.svg') no-repeat center;
+    background-size: cover;
 }
 
 

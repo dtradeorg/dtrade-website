@@ -85,8 +85,7 @@ function Specs() {
                         <div className="row">
                             <div className="col">
                                 <img type="button" 
-                                     id="arrow-up" 
-                                     className="img-fluid" 
+                                     className="img-fluid arrow-spec" 
                                      src="./assets/images/Specs/arrow-up.svg" 
                                      alt=""
                                      onClick={()=>UpArrowFunc()}
@@ -98,7 +97,7 @@ function Specs() {
                         <div className="row pt-5">
                             <div className="col">
                                 <img type="button" 
-                                src="./assets/images/Specs/Frame 145.svg" 
+                                src={ tab === 0 ? "./assets/images/Specs/stake-active.svg" : "./assets/images/Specs/stake.svg" } 
                                 alt=""
                                 onClick={()=>RewardClick()}
                                 ></img>
@@ -109,7 +108,7 @@ function Specs() {
                         <div className="row pt-5">
                             <div className="col">
                                 <img type="button" 
-                                src="./assets/images/Specs/Frame 146.svg" 
+                                src={ tab === 1 ? "./assets/images/Specs/trade-active.svg" : "./assets/images/Specs/trade.svg" } 
                                 alt=""
                                 onClick={()=>TradeClick()}
                                 ></img>
@@ -120,7 +119,7 @@ function Specs() {
                         <div className="row pt-5">
                             <div className="col">
                                 <img type="button" 
-                                src="./assets/images/Specs/Frame 147.svg" 
+                                src={ tab === 2 ? "./assets/images/Specs/lp-active.svg" : "./assets/images/Specs/lp.svg" } 
                                 alt=""
                                 onClick={()=>LPClick()}
                                 ></img>
@@ -131,8 +130,7 @@ function Specs() {
                         <div className="row pt-5">
                             <div className="col">
                                 <img type="button" 
-                                id="arrow-down" 
-                                className="img-fluid" 
+                                className="img-fluid arrow-spec" 
                                 src="./assets/images/Specs/arrow-down.svg" 
                                 alt=""
                                 onClick={()=>DownArrowFunc()}
@@ -159,21 +157,22 @@ function Specs() {
                             {setTabFuncMobile()}
 
                         
-                        <div className="row mt-2">
+                        <div className="row mt-2 mb-2">
                                 <div className="col my-auto">
-                                    <img id="arrow-up" type="button" className="img-fluid" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
+                                    <img  type="button" className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
                                 </div>
-                                <div className="col">
-                                    <img type="button" src="./assets/images/Specs/Frame 145.svg" alt="" onClick={()=>RewardClick()} ></img>
+                                <div className="col justify-content-center text-center">
+                                    
+                                    <img type="button" src = { tab === 0 ? "./assets/images/Specs/stake-active.svg" : "./assets/images/Specs/stake.svg" }  alt="" onClick={()=>RewardClick()} ></img>
                                 </div>
-                                <div className="col">
-                                    <img type="button" src="./assets/images/Specs/Frame 146.svg" alt="" onClick={()=>TradeClick()} ></img>
+                                <div className="col justify-content-center text-center">
+                                    <img type="button" src = { tab === 1 ? "./assets/images/Specs/trade-active.svg" : "./assets/images/Specs/trade.svg" }  alt="" onClick={()=>TradeClick()} ></img>
                                 </div>
-                                <div className="col my-auto">
-                                <img type="button" src="./assets/images/Specs/Frame 147.svg" alt="" onClick={()=>LPClick()} ></img>
+                                <div className="col my-auto justify-content-center text-center">
+                                <img type="button" src = { tab === 2 ? "./assets/images/Specs/lp-active.svg" : "./assets/images/Specs/lp.svg" }  alt="" onClick={()=>LPClick()} ></img>
                                 </div>
-                                <div className="col my-auto">
-                                <img type="button" id="arrow-down" className="img-fluid" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
+                                <div className="col my-auto text-right">
+                                <img type="button"  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
                                 </div>
                             </div>
 
