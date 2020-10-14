@@ -80,9 +80,9 @@ function Specs() {
             <div className="container desktopview">
                 <div className="row align-items-center">
 
-                    <div className="col-1 text-center">
+                    <div className="col text-center switch-bar-col pl-0">
                         
-                        <div className="row">
+                        <div className="row switch-bar-padding-bottom">
                             <div className="col">
                                 <img type="button" 
                                      className="img-fluid arrow-spec" 
@@ -94,8 +94,8 @@ function Specs() {
                             
                         </div>
 
-                        <div className="row pt-5">
-                            <div className="col" style={{height: "65px"}}>
+                        <div className="row ">
+                            <div className="col" >
                                 <img type="button" 
                                 src="./assets/images/Specs/stake-active.svg" 
                                 alt=""
@@ -106,8 +106,8 @@ function Specs() {
                             
                         </div>
 
-                        <div className="row pt-5">
-                            <div className="col" style={{height: "65px"}}>
+                        <div className="row switch-bar-padding-between">
+                            <div className="col" >
                             <img type="button" 
                                 src="./assets/images/Specs/trade-active.svg" 
                                 alt=""
@@ -118,8 +118,8 @@ function Specs() {
                             
                         </div>
 
-                        <div className="row pt-5" >
-                            <div className="col" style={{height: "65px"}}>
+                        <div className="row switch-bar-padding-between" >
+                            <div className="col " >
                             <img type="button" 
                                 src="./assets/images/Specs/lp-active.svg" 
                                 alt=""
@@ -130,7 +130,7 @@ function Specs() {
                             
                         </div>
 
-                        <div className="row pt-5">
+                        <div className="row switch-bar-padding-top">
                             <div className="col" >
                                 <img type="button" 
                                 className="img-fluid arrow-spec" 
@@ -161,7 +161,7 @@ function Specs() {
 
                         
                         <div className="row mt-2 mb-2">
-                                <div className="col my-auto">
+                                <div className="col my-auto text-right">
                                     <img  type="button" className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
                                 </div>
                                 <div className="col justify-content-center text-center">
@@ -185,7 +185,7 @@ function Specs() {
                                 className = { tab === 2 ? "active" : "inactive" }
                                 onClick={()=>LPClick()}
                                 />                              </div>
-                                <div className="col my-auto text-right">
+                                <div className="col my-auto text-left">
                                 <img type="button"  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
                                 </div>
                             </div>

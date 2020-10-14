@@ -1,5 +1,7 @@
 
-
+*{
+    font-family: "DM Sans",sans-serif;
+}
 
 .portfolio-card{
     margin-top: 12px;
@@ -21,11 +23,11 @@
     max-width: 586px;
     margin-left: auto;
     margin-right: auto;
-    color: #262626;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
+    color: #000;
+  font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
 
 }
 
@@ -37,8 +39,8 @@
     color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 48px;
 
 }
 
@@ -51,14 +53,15 @@
 
 }
 
-@media only screen and (max-width: 1401px){
-    .portfolio-card .porject-des, .portfolio-card .porject-des-w{
-        font-size: 32px;
-        line-height: 42px;
-    }
- 
+.portfolio-card .project-date-dtrade {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
 
 }
+
 
 
 .card-ml{
@@ -73,7 +76,7 @@
     background: url("/assets/images/Portfolio/prediction.svg") center no-repeat ;
     
     background-size: cover ;
-    color: #565656;
+    color: #484848;
 }
 
 .date-btn{
@@ -88,7 +91,7 @@
 
 .staking{
 
-    color: #000;
+    color: #484848;
     background: url("/assets/images/Portfolio/staking.png") center no-repeat ;
     background-size: cover ;
     
@@ -98,12 +101,12 @@
 
 
 .staking-link{
-    color: #62A9FD !important;
+    color: #69ABE4  !important;
 
 }
 
 .staking-link:hover{
-    color: #62A9FD !important;
+    color: #69ABE4  !important;
 
 }
 .portfolio-card a{
@@ -173,9 +176,14 @@ a:hover{
 .loans-features-mobile{
     display: none !important;
 }
-
-
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 1900px){
+    .loans-features{
+        padding-left: 3.12vw;
+        padding-right: 3.12vw;
+    }
+   
+}
+@media only screen and (max-width: 1700px){
     .loans-features{
         display: none !important;
     }
@@ -184,7 +192,7 @@ a:hover{
         padding-top: 32px !important;
     }
     .card-ml{
-        margin-left: 0px;
+        margin-left: 12px;
 
     }
 
@@ -206,7 +214,7 @@ a:hover{
     
     .portfolio-card .porject-des{
         margin-top: 16px;
-        max-width: 300px;
+        max-width: 400px;
         margin-left: auto;
         margin-right: auto;
         font-size: 24px;
@@ -225,7 +233,137 @@ a:hover{
     }
 }
 
+.mobile-switch{
+    display: block !important;
+}
 
+@media only screen and (max-width: 1441px){
+    .loans-features{
+        display: none !important;
+    }
+    .loans-features-mobile{
+        display: block !important;
+        padding-top: 32px !important;
+    }
+    .card-ml{
+        margin-left: 12px;
 
+    }
 
+    .portfolio-card{
+        padding-top: 48px;
+    }
+    .portfolio-card .porject-title {
+        font-size: 14px;
+        line-height: 18px;
+    
+    }
 
+    /* .loan{
+
+        background: #4B6A82;
+        background-size: cover;
+    }
+     */
+    
+     .portfolio-card .porject-des{
+        margin-top: 14px;
+        max-width: 586px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 42px;
+        /* or 131% */
+        
+        text-align: center;
+    
+    }
+    
+    .portfolio-card .porject-des-w{
+        margin-top: 14px;
+        max-width: 586px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 42px;
+        /* or 131% */
+        
+        text-align: center;
+    
+    }
+    
+    .portfolio-card .project-date {
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        
+    
+    }
+}
+
+@media only screen and (max-width: 766px){
+    .card-ml{
+        margin-left: 0px;
+
+    }
+  
+}
+@media only screen and (max-width: 1367px){
+
+    portfolio-card .porject-des{
+        margin-top: 14px;
+        max-width: 586px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        /* or 131% */
+        
+        text-align: center;
+    
+    }
+    
+    .portfolio-card .porject-des-w{
+        margin-top: 14px;
+        max-width: 586px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        /* or 131% */
+        
+        text-align: center;
+    
+    }
+}
+
+.mobile-switch{
+    display: block !important;
+}
+.br-mobile{
+    display: none !important;
+}
+
+@media only screen and (max-width: 991){
+    .mobile-switch{
+        display: none !important;
+    }
+
+    .br-mobile{
+        display: block !important;
+    }
+    
+}

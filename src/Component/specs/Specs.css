@@ -1,14 +1,29 @@
 .tablet{
-    width: 614px;
+    width: 603px;
 }
 
+.tablet-container{
+    width: 603px !important;
+
+}
+
+.switch-bar-padding-bottom{
+    padding-bottom:41px;
+}
+.switch-bar-padding-top{
+    padding-top:41px;
+}
+
+.switch-bar-padding-between{
+    padding-top:50px;
+}
 #stake{
     background-image: url('/assets/images/Specs/bg-stake.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
-    height: 669px;
+    /* height: 669px; */
 }
 .reward-heading{
     color: white;
@@ -27,6 +42,7 @@
     font-size: 20px;
     line-height: 28px;
     opacity: 0.75;
+    margin-top: 16px;
 }
 
 .desktopview{
@@ -45,6 +61,7 @@
     line-height: 24px;
     color: #FFFFFF;
     opacity: 0.5;
+    margin-top: 32px;
 }
 
 .arrow-spec{
@@ -74,13 +91,22 @@
     transition: .15s;
 }
 
+.switch-bar-col{
+    padding-right: 35px !important;
+}
+
+@media only screen and (max-width: 1205px){
+    .switch-bar-col{
+        padding-right: 15px !important;
+    }
+}
 @media only screen and (max-width: 991px){
 
     .tab-sec-mobile{
-        height: 451px;
+        /* height: 451px; */
     }
     .tablet{
-        width: 298px;
+        
         margin-top: 24px;
         margin-bottom: 24px;
     }
@@ -90,7 +116,7 @@
         background-repeat: no-repeat;
         padding-top: 48px;
         padding-bottom: 32px;
-        height: 586px;
+        height: auto;
     }
 
     .desktopview{
@@ -119,5 +145,14 @@
         color: #FFFFFF !important;
         opacity: 0.75;
     }
-
+    .apy-info{
+        font-family: "DM Sans",sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-top: 0px;
+    }
 }

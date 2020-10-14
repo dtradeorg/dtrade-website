@@ -14,6 +14,7 @@
     margin-left: 32px;
     margin-right: 32px;
     color: #565656;
+    margin-bottom: 33px;
 }
 
 .blue-anchor{
@@ -23,13 +24,13 @@
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-    color: #62A9FD !important;
+    color:#69ABE4  !important;
 }
 .join-banner .blue-anchor:hover{
-    color: #62A9FD !important;
+    color:#69ABE4  !important;
 }
 .trading-sec .blue-anchor:hover{
-    color: #62A9FD !important;
+    color:#69ABE4  !important;
 }
 
 .chevright{
@@ -48,33 +49,41 @@
 }
 
 .header h1{
+    font-family: "DM Sans", sans-serif;
+
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
-    line-height: 74px;
-    color: #262626;
+    font-size: 76px;
+    line-height: 92px;
+    color: #000;
 }
 
 .sub-heading{
+    font-family: "DM Sans", sans-serif;
+
     margin-top:8px;
     margin-bottom: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 28px;
-    color: #262626 !important;
-    opacity: 0.75 !important;
-    letter-spacing: 0.032em;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.025em;
+
+color: #757575;
 }
 
 .sup-1{
+    font-family: "DM Sans", sans-serif;
+
     font-size: 12px;
     color: #757575 !important;
 font-weight: bold;
 
 }
 .header a{
-    color: #69ABE4;
+    font-family: "DM Sans", sans-serif;
+
+    color: #69ABE4 ;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -82,142 +91,100 @@ font-weight: bold;
 
 .header a:hover{
     text-decoration: none;
-    color: #69ABE4 !important;
+    color: #69ABE4  !important;
 }
 
+.hero a{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.hero a:hover{
+    text-decoration: none;
+    color: #69ABE4  !important;
+}
 
 .arrow-ml{
     margin-left: 14px;
 }
 
 .map{
-    margin-top: 18px ;
-    /* max-width: 600px !important; */
-    width: 100%;
+    margin-top: 59px ;
     height: auto;
-    width: 378px;
-    /* width: 719px !important; */
+    width: 332px;
+    margin-bottom: 45px;
 }
 
 
-@media only screen and (max-width: 1367px){
+@media only screen and (max-width: 1441px){
+
+    .join-banner{
+        font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+    }
+    .header a{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     .header{
         padding-top: 4px;
     }
     .header h1{
         font-style: normal;
         font-weight: bold;
-        font-size: 64px;
-        line-height: 74px;
+        font-size: 70px;
+        line-height: 80px;
 
     }
 
     .sub-heading{
         font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 28px;
-        /* identical to box height, or 140% */
-
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
         text-align: center;
         letter-spacing: 0.032em;
     }
+    
+    .hero a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
     .map{
-        /* width: 378px  !important; */
+        margin-top: 41px ;
         height: auto;
+        width: 332px;
+        margin-bottom: 45px;
     }
-    .toast-content,.Toastify__toast-container{
-        min-height: 20px;
-    }
- 
 }
-
-/* @media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
     .header h1{
         font-style: normal;
         font-weight: bold;
-        font-size: 48px;
-        line-height: 56px;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 24px;
     }
+
     .sub-heading{
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 18px;
         line-height: 24px;
+   
         text-align: center;
-        padding-top: 10px;
+        letter-spacing: 0.01em;
+        margin-bottom: 24px;
+
+        color: #757575;
     }
-} */
-@media only screen and (max-height: 900px){
 
-    .header{
-        height: auto;
-        /* min-height: 90vh; */
-        /* overflow: hidden; */
-    }
-    
-}
-/* @media only screen and (max-width: 1410px){
-    .map{
-        margin-top: 18px ;
-        max-width: 451px !important;
-        width: 100%;
-        height: auto;
-    }
-    
-} */
-
-
-#progress-div{
-
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-
-.toast-content{
-    
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-}
-
-.toast-content a{
-    color: white;
-    text-decoration: underline !important;
-    font-style: normal !important;
-}
-
-.toast-content a:hover{
-    color: white !important;
-    text-decoration: underline !important;
-    
-}
-
-.Toastify__toast-container--bottom-right{
-    min-width: 500px;
-    position: absolute !important;
-    bottom: 30vh !important;
-    
-}
-@media only screen and (max-height: 900px){
-    .Toastify__toast-container--bottom-right{
-        min-width: 500px;
-        position: absolute !important;
-        bottom: 20vh !important;
-        
-    }
-}
-@media only screen and (max-width: 500px){
-    .toast-content,.Toastify__toast-container{
-        display: none;
-    }
-    
-}
-
-.Toastify__toast--dark{
-    background: rgba(86, 86, 86, 0.85) !important;
-backdrop-filter: blur(8px) !important; 
-border-radius: 4px !important;
 
 }

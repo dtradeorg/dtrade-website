@@ -74,20 +74,50 @@
     /* padding-right:3.33vw; */
 }
 
+.to-disc-link{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+transition: .15s ease-out !important;
+
+margin-left: 17px;
+/* Fill / Scorpion */
+
+    color: #fff;
+}
+.to-disc-link:hover{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+    opacity: 0.75 !important;
+transition: .15s ease-in !important;
+/* Fill / Scorpion */
+
+    color: #fff;
+}
 
 
 @media only screen and (max-width:1266px){
+
+    .to-disc-link{
+
+    
+    margin-right: 30px;
+    /* Fill / Scorpion */
+    
+        color: #fff;
+    }
     .mobile-switch{
         display: none;
     }
-    .imp-disc{
-        justify-content: left !important;
-        margin: 0 !important;
-    }
-}
-
-@media only screen and (max-width:1266px){
-
     .imp-disc{
         justify-content: center !important;
         margin: 0 !important;

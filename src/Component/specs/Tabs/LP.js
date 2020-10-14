@@ -8,12 +8,12 @@ function LP() {
                         <Animated animationIn="fadeIn" animationOut="fadeOut" >
 
                         <div className="row align-items-center">
-                            <div className="col text-center tablet-container">
+                            <div className="col text-center tablet-container p-0">
                                 <img className='img-fluid tablet' src="./assets/images/Specs/liquid.png" alt=""/>
                                  
                             </div>
-                            <div className="col-5">
-                                <h1 className="reward-heading">Provide Liquidity</h1>
+                            <div className="col-5 pl-5">
+                                <h1 className="reward-heading" style={{fontSize:"45px"}}>Provide Liquidity</h1>
                                 <p className="reward-text">
                                     Earn liquidity pool rewards by providing liquidity to DET and synthetic asset pools.
                                 </p>

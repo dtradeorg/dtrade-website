@@ -37,7 +37,7 @@ export default function Features() {
 
             </div>
 
-            <div className="row text-left ml-md-1 imp-disc">
+            <div className="row text-left  imp-disc">
             <div className="info mt-5">
                 <a href="#disclosure-div" className="to-disc-link text-gray left">
 

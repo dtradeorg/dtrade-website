@@ -17,7 +17,7 @@ class Header extends Component {
                     
                 </p>
 
-                <div className="container text-center"> 
+                <div className="container text-center hero"> 
 
                     <h1>Trade Any Market</h1>
                     <div className="sub-heading">A protocol for trading synthetic assets on Edgeware<sup className="sup-1">1</sup></div>
@@ -34,7 +34,7 @@ class Header extends Component {
                         </a>
                     </div>
                
-                        <img className="map img-fluid" src="./assets/images/Header/map2.png" alt="map"></img>
+                        <img className="map img-fluid" src="./assets/images/Header/map2.svg" alt="map"></img>
                     
 
                 </div>
