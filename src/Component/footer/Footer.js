@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="mx-auto d-inline-flex copy-right pl-0 pr-0">
 
                             <h6 className="mb-0">Copyright &copy; 2020 &nbsp;
-                                <a href="#!"><img src="./assets/images/footer/Fogo.png" alt="sc" className="img-fluid mb-1"/></a>&nbsp;</h6>
+                                <a href="#!"><img src="./assets/images/Footer/logo.png" alt="sc" className="img-fluid mb-1"/></a>&nbsp;</h6>
                             <h6 className="mb-0"> - All Rights Reserved.</h6>
                         </div>
                     </div>
