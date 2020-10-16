@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import logo from './logo.png'
 export default function Footer() {
     return (
         <footer>
@@ -12,7 +13,7 @@ export default function Footer() {
                         <div className="mx-auto d-inline-flex copy-right pl-0 pr-0">
 
                             <h6 className="mb-0">Copyright &copy; 2020 &nbsp;
-                                <a href="#!"><img src="./assets/images/footer/logo.png" alt="sc" className="img-fluid mb-1"/></a>&nbsp;</h6>
+                                <a href="#!"><img src={logo} alt="sc" className="img-fluid mb-1"/></a>&nbsp;</h6>
                             <h6 className="mb-0"> - All Rights Reserved.</h6>
                         </div>
                     </div>
@@ -23,7 +24,7 @@ export default function Footer() {
                     <div className="row text-center">
                         <div className="col-12 d-inline-flex copy-right-phone pl-0 pr-0  justify-content-center">
                             <h6 className="mb-0">Copyright &copy; 2020 &nbsp; 
-                            <a href="#!"><img src="./assets/images/footer/logo.png" alt="sc"  className="img-fluid"/></a> &nbsp;
+                            <a href="#!"><img src={logo} alt="sc"  className="img-fluid"/></a> &nbsp;
                             </h6>
 
                             
