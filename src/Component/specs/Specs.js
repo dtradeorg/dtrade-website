@@ -84,7 +84,7 @@ function Specs() {
                         
                         <div className="row switch-bar-padding-bottom">
                             <div className="col">
-                                <img type="button" 
+                                <img 
                                      className="img-fluid arrow-spec" 
                                      src="./assets/images/Specs/arrow-up.svg" 
                                      alt=""
@@ -96,7 +96,7 @@ function Specs() {
 
                         <div className="row ">
                             <div className="col" >
-                                <img type="button" 
+                                <img 
                                 src="./assets/images/Specs/stake-active.svg" 
                                 alt=""
                                 className = { tab === 0 ? "active" : "inactive" }
@@ -108,7 +108,7 @@ function Specs() {
 
                         <div className="row switch-bar-padding-between">
                             <div className="col" >
-                            <img type="button" 
+                            <img 
                                 src="./assets/images/Specs/trade-active.svg" 
                                 alt=""
                                 className = { tab === 1 ? "active" : "inactive" }
@@ -120,7 +120,7 @@ function Specs() {
 
                         <div className="row switch-bar-padding-between" >
                             <div className="col " >
-                            <img type="button" 
+                            <img 
                                 src="./assets/images/Specs/lp-active.svg" 
                                 alt=""
                                 className = { tab === 2 ? "active" : "inactive" }
@@ -132,7 +132,7 @@ function Specs() {
 
                         <div className="row switch-bar-padding-top">
                             <div className="col" >
-                                <img type="button" 
+                                <img 
                                 className="img-fluid arrow-spec" 
                                 src="./assets/images/Specs/arrow-down.svg" 
                                 alt=""
@@ -162,31 +162,31 @@ function Specs() {
                         
                         <div className="row mt-2 mb-2">
                                 <div className="col my-auto text-right">
-                                    <img  type="button" className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
+                                    <img  className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
                                 </div>
                                 <div className="col justify-content-center text-center">
-                                <img type="button" 
+                                <img 
                                 src="./assets/images/Specs/stake-active.svg" 
                                 alt=""
                                 className = { tab === 0 ? "active" : "inactive" }
                                 onClick={()=>RewardClick()}
                                 />                              </div>
                                 <div className="col justify-content-center text-center">
-                                <img type="button" 
+                                <img 
                                 src="./assets/images/Specs/trade-active.svg" 
                                 alt=""
                                 className = { tab === 1 ? "active" : "inactive" }
                                 onClick={()=>TradeClick()}
                                 />                             </div>
                                 <div className="col my-auto justify-content-center text-center">
-                                <img type="button" 
+                                <img 
                                 src="./assets/images/Specs/lp-active.svg" 
                                 alt=""
                                 className = { tab === 2 ? "active" : "inactive" }
                                 onClick={()=>LPClick()}
                                 />                              </div>
                                 <div className="col my-auto text-left">
-                                <img type="button"  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
+                                <img  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
                                 </div>
                             </div>
 
