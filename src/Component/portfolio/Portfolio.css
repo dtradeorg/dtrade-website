@@ -101,12 +101,12 @@ line-height: 48px;
 
 
 .staking-link{
-    color: #69ABE4  !important;
+    color: #69ABE8  !important;
 
 }
 
 .staking-link:hover{
-    color: #69ABE4  !important;
+    color: #69ABE8  !important;
 
 }
 .portfolio-card a{
@@ -142,14 +142,9 @@ a:hover{
 
 
 .loan{
-
     color: white;
-
     background: url("/assets/images/Portfolio/loan-bg.jpg") center;
     background-size: cover ;
-    
-    
-
 }
 
 .loans-features{
@@ -170,12 +165,18 @@ a:hover{
     opacity: 0.5;
 }
 
-
-
-
 .loans-features-mobile{
     display: none !important;
 }
+.mobile-switch{
+    display: block !important;
+}
+.br-mobile{
+    display: none !important;
+}
+
+
+
 @media only screen and (max-width: 1900px){
     .loans-features{
         padding-left: 3.12vw;
@@ -183,68 +184,17 @@ a:hover{
     }
    
 }
-@media only screen and (max-width: 1700px){
-    .loans-features{
-        display: none !important;
-    }
-    .loans-features-mobile{
-        display: block !important;
-        padding-top: 32px !important;
-    }
-    .card-ml{
-        margin-left: 12px;
-
-    }
-
-    .portfolio-card{
-        padding-top: 48px;
-    }
-    .portfolio-card .porject-title {
-        font-size: 14px;
-        line-height: 18px;
-    
-    }
-
-    /* .loan{
-
-        background: #4B6A82;
-        background-size: cover;
-    }
-     */
-    
-    .portfolio-card .porject-des{
-        margin-top: 16px;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 24px;
-        line-height: 28px;
-
-    
-    }
-    
-    .portfolio-card .project-date {
-        margin-top: 32px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        
-    
-    }
-}
-
-.mobile-switch{
-    display: block !important;
-}
 
 @media only screen and (max-width: 1441px){
     .loans-features{
         display: none !important;
     }
+
     .loans-features-mobile{
         display: block !important;
         padding-top: 32px !important;
     }
+
     .card-ml{
         margin-left: 12px;
 
@@ -256,15 +206,7 @@ a:hover{
     .portfolio-card .porject-title {
         font-size: 14px;
         line-height: 18px;
-    
     }
-
-    /* .loan{
-
-        background: #4B6A82;
-        background-size: cover;
-    }
-     */
     
      .portfolio-card .porject-des{
         margin-top: 14px;
@@ -275,9 +217,7 @@ a:hover{
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
-        line-height: 42px;
-        /* or 131% */
-        
+        line-height: 42px;        
         text-align: center;
     
     }
@@ -291,9 +231,7 @@ a:hover{
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
-        line-height: 42px;
-        /* or 131% */
-        
+        line-height: 42px;        
         text-align: center;
     
     }
@@ -304,60 +242,27 @@ a:hover{
         font-size: 18px;
         line-height: 24px;
         
-    
     }
 }
 
-@media only screen and (max-width: 766px){
-    .card-ml{
-        margin-left: 0px;
-
+@media only screen and (max-width: 1735px){
+    .loans-features img{
+        max-width: 550px;
     }
-  
-}
-@media only screen and (max-width: 1367px){
-
-    portfolio-card .porject-des{
-        margin-top: 14px;
-        max-width: 586px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #000;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 36px;
-        /* or 131% */
-        
-        text-align: center;
-    
+    .loans-features{
+        padding-left: 1.12vw;
+        padding-right: 1.12vw;
     }
-    
-    .portfolio-card .porject-des-w{
-        margin-top: 14px;
-        max-width: 586px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #fff;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 36px;
-        /* or 131% */
-        
-        text-align: center;
-    
+
+}
+@media only screen and (max-width: 1590px){
+    .loans-features{
+        padding-left: 0.12vw;
+        padding-right: 0.12vw;
     }
-}
 
-.mobile-switch{
-    display: block !important;
 }
-.br-mobile{
-    display: none !important;
-}
-
-@media only screen and (max-width: 991){
+@media only screen and (max-width: 1200){
     .mobile-switch{
         display: none !important;
     }
@@ -366,4 +271,11 @@ a:hover{
         display: block !important;
     }
     
+}
+@media only screen and (max-width: 766px){
+    .card-ml{
+        margin-left: 0px;
+
+    }
+  
 }

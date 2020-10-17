@@ -14,7 +14,7 @@ function LPMobile() {
                                     Earn liquidity pool rewards by providing liquidity to DET and synthetic asset pools.
                                 </p>
 
-                                <img className='img-fluid tablet' src="./assets/images/Specs/liquid.png" alt=""></img>
+                                <img className='img-fluid tablet-lp' src="./assets/images/Specs/liquid.png" alt=""></img>
 
                                 
 

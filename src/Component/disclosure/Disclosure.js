@@ -32,7 +32,7 @@ export default function Disclosure() {
 
                 <div className="disclosure-additional">
                     <a href="mailto:hi@dtrade.org">Have additional questions?
-                        <img src="assets/images/arrow-blue.svg" alt="arrow" className="img-fluid ml-2 "/>
+                        <img src="./assets/images/arrow-blue.svg" alt="arrow" className="img-fluid mb-arrow"/>
                     </a>
                 </div>
 

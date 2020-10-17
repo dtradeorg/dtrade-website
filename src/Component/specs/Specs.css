@@ -55,7 +55,9 @@ img{
 
 .mobileview{
     display: none;
+
 }
+
 
 .apy-info{
     font-family: "DM Sans",sans-serif;
@@ -112,6 +114,16 @@ img{
     .tablet{
         
         margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .tablet-trade{
+        
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    .tablet-lp{
+        
+        margin-top:80px;
         margin-bottom: 24px;
     }
     #stake{

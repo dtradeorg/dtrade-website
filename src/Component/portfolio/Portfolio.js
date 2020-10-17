@@ -56,7 +56,7 @@ export default function Portfolio() {
 
                         <div className="loans-features row m-0">
                             <div className="col">
-                                <img src="/assets/images/Portfolio/loans/Frame 141.svg" alt="edgeware"  ></img>
+                                <img src="/assets/images/Portfolio/loans/Frame 141.svg" alt="edgeware"   ></img>
                                
                             </div>
                         </div>

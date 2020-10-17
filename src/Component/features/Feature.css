@@ -138,7 +138,8 @@ transition: .15s ease-in !important;
         margin-left: auto !important;
         margin-right: auto !important;
         padding: 0px;
-        
+        justify-content: center;
+
     }
 
     .feature-div h1{

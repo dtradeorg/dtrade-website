@@ -24,13 +24,13 @@
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-    color:#69ABE4  !important;
+    color:#69ABE8  !important;
 }
 .join-banner .blue-anchor:hover{
-    color:#69ABE4  !important;
+    color:#69ABE8  !important;
 }
 .trading-sec .blue-anchor:hover{
-    color:#69ABE4  !important;
+    color:#69ABE8  !important;
 }
 
 .chevright{
@@ -83,7 +83,7 @@ font-weight: bold;
 .header a{
     font-family: "DM Sans", sans-serif;
 
-    color: #69ABE4 ;
+    color: #69ABE8 ;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -91,7 +91,7 @@ font-weight: bold;
 
 .header a:hover{
     text-decoration: none;
-    color: #69ABE4  !important;
+    color: #69ABE8  !important;
 }
 
 .hero a{
@@ -103,7 +103,7 @@ font-weight: bold;
 }
 .hero a:hover{
     text-decoration: none;
-    color: #69ABE4  !important;
+    color: #69ABE8  !important;
 }
 
 .arrow-ml{

@@ -159,8 +159,9 @@ function Specs() {
 
                             {setTabFuncMobile()}
 
-                        
-                        <div className="row mt-2 mb-2">
+                        </div>
+                    </div>
+                    <div className="row mt-2 mb-2">
                                 <div className="col my-auto text-right">
                                     <img  className="img-fluid arrow-spec text-left" src="./assets/images/Specs/arrow-left.svg" onClick={()=>UpArrowFunc()} alt=""></img>
                                 </div>
@@ -189,9 +190,6 @@ function Specs() {
                                 <img  className="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="" onClick={()=>DownArrowFunc()} ></img>
                                 </div>
                             </div>
-
-                        </div>
-                    </div>
             </div>
 
         </div>
