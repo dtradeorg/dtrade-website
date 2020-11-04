@@ -12,7 +12,7 @@ class NavBar extends Component {
 
 
                         <div className="nav-logo mx-auto  ">
-                            <img src="./assets/images/Navbar/logo.svg" alt="logo"></img>
+                            <img src="./assets/images/Navbar/Union.svg" alt="logo"></img>
 
                         </div>
 

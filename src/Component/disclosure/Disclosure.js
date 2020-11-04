@@ -28,7 +28,7 @@ export default function Disclosure() {
 
                 <hr className="disclosure-hr"/>
 
-                <h1 className="disclosure-message">We’re building the world’s<br/> most accessible financial company.</h1>
+                <h1 className="disclosure-message">We're bulding the Defi infrastructure <br/>for the Polkadot ecosystem</h1>
 
                 <div className="disclosure-additional">
                     <a href="mailto:hi@dtrade.org">Have additional questions?
