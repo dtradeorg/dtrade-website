@@ -20,7 +20,7 @@ class Header extends Component {
                 <div className="container text-center hero"> 
 
                     <h1>Trade Any Market</h1>
-                    <div className="sub-heading">A protocol for trading synthetic assets on Edgeware<sup className="sup-1">1</sup></div>
+                    <div className="sub-heading">Polkadot Derivatives & Margin Trading<sup className="sup-1">1</sup></div>
 
                     <div className="row justify-content-center">
                         <a href="https://github.com/dtradeorg" target="_blank" rel="noopener noreferrer" >
