@@ -29,7 +29,7 @@ export default function Disclosure() {
           <div>iv) The collateralization ratio may change over time.</div>
 
           <div className='disclosure-mt'>
-            The supported collaterals for loans may change upon launch in 2021, and initially it maybe only be a subset
+            The supported collaterals for loans may change upon launch in 2021, and initially it may only be a subset
             of the ones' mentioned above.
           </div>
           <div className='disclosure-mt'>
