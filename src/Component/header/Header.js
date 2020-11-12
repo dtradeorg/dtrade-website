@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { InputGroup, FormControl } from 'react-bootstrap'
 import './Header.css'
 
 
@@ -23,15 +24,21 @@ class Header extends Component {
                     <div className="sub-heading">Polkadot Derivatives & Margin Trading<sup className="sup-1">1</sup></div>
 
                     <div className="row justify-content-center">
-                        <a href="https://github.com/dtradeorg" target="_blank" rel="noopener noreferrer" >
-                            Learn More
-                            <img  className="mb-1" src="./assets/images/chevron-right-small-blue.svg" alt="arrow"></img>
                         
-                        </a>
-                        <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="ml-4">
-                            Launch App
-                            <img className=" mb-1" src="./assets/images/arrow-top-right.svg" alt="arrow"></img>
-                        </a>
+                    <InputGroup className="mb-3">
+                            <FormControl
+                            placeholder="name@email.com"
+                            aria-label="Recipient's username"
+                            aria-describedby="basic-addon2"
+                            className="inputemail"
+                            />
+                            <InputGroup.Append>
+                                <InputGroup.Text id="basic-addon2">Get Updates  
+                                    <img src="./assets/images/Header/chevron right.svg" alt="" className=' arrow-ml-small'/>    
+                                </InputGroup.Text>
+                            </InputGroup.Append>
+                        </InputGroup>
+                    
                     </div>
                
                         <img className="map img-fluid" src="./assets/images/Header/map2.svg" alt="map"></img>

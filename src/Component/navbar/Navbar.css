@@ -3,11 +3,11 @@
 .navbar{
     background: #FAFAFA;
     padding-top: 32px !important;
-    padding-left: 36px !important;
-    padding-right: 36px !important;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
 }
 
 
@@ -18,11 +18,34 @@
     }
 
 }
+Nav a{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #69ABE8  !important;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 5px 16px;
+    margin-right: 16.62px; 
+}
+Nav a:hover{
+    text-decoration: none;
+    color: #69ABE8  !important;
+}
 
+.arrow-ml{
+    margin-left: 14px;
+}
+
+.social-link-margin{
+    margin-left: 9.23px;
+}
 
 .navbar a{
     color: #787878;
-    margin-left: 1.6vw;
 }
 
 .nav-select{
@@ -46,21 +69,8 @@
 }
 
 
-.nav-logo{
-
-    padding-left: 12em;
-   
-}
 
 
-@media only screen and (max-width: 767px){
-    .nav-logo{
-
-        padding-left: 0px;
-       
-    }
-    
-}
 
 
 .navbar h3{
@@ -72,7 +82,8 @@
     border: none ;
     border-radius: 3px;
     color: #103959;
-
+    margin: 0;
+    padding-left: 20vw;
 }
 
 
