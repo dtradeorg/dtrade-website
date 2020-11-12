@@ -13,10 +13,10 @@ function RewardMobile() {
             protocol.
           </p>
 
-          <h3 className='apy-info text-center'>
+          {/* <h3 className='apy-info text-center'>
             {' '}
             <img alt='i' src='./assets/images/Specs/info.svg' className='img-fluid mr-2 mb-1' /> Current APY: 67.87%
-          </h3>
+          </h3> */}
 
           <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt=''></img>
         </div>

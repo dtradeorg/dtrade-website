@@ -16,12 +16,12 @@ function Reward() {
               Earn rewards and collect your share of trading fees by staking DET and providing collateral to the dtrade
               protocol.
             </p>
-
+{/* 
             <h3 className='apy-info'>
               {' '}
               <img alt='i' src='./assets/images/Specs/info.svg' className='img-fluid mr-2 mb-md-1' /> Current APY:
               67.87%
-            </h3>
+            </h3> */}
           </div>
         </div>
       </Animated>

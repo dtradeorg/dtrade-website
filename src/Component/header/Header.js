@@ -15,8 +15,7 @@ function Header() {
           rel='noopener noreferrer'
           className='blue-anchor'
         >
-          {' '}
-          View open positions
+s          View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
         </a>
       </p>
