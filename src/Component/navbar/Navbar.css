@@ -18,7 +18,7 @@
     }
 
 }
-Nav a{
+Nav .link{
     font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -29,9 +29,9 @@ Nav a{
     box-sizing: border-box;
     border-radius: 16px;
     padding: 5px 16px;
-    margin-right: 16.62px; 
+    margin-right: 7.62px; 
 }
-Nav a:hover{
+Nav .link:hover{
     text-decoration: none;
     color: #69ABE8  !important;
 }
@@ -99,8 +99,15 @@ Nav a:hover{
         border: none  !important;
         border-radius: 3px !important;
         color: #103959;
+        padding-left: 22vw !important;
     }
 }
 
+@media only screen and (max-width: 991px){
+.social-link-margin{
+    display: none;
+}
+
+}
 
 

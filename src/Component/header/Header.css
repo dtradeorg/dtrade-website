@@ -215,6 +215,12 @@ input{
     border-right: none !important; 
     padding: 15px 24px !important;
     height: 56px !important;
+
+    
+}
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .arrow-ml-small{
