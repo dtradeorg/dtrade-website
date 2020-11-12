@@ -10,12 +10,12 @@ function NavBar()  {
                 <Nav className="logo">
                     <img src="./assets/images/Navbar/Union.svg" alt="logo" className="img-fluid logo"/>
                 </Nav>
-                <Nav className="ml-auto mr-auto">
+                <Nav className="ml-md-auto mr-md-auto">
                             <h3 className="d-none d-md-block">
                                 Launching Q1 2021
                             </h3>                
                 </Nav>      
-                <Nav>
+                <Nav style={{display: "block"}}>
                     <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="ml-4 link">
                             Launch App
                             <img className="ml-arrow mb-1" src="./assets/images/arrow-top-right.svg" alt="arrow"></img>
