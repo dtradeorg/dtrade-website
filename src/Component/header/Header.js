@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { InputGroup, FormControl } from 'react-bootstrap'
 import './Header.css'
 
 
-class Header extends Component {
-    render() {
+function Header() {
+
+    const [focus, setFocus] = useState(false);
+
         return (
             <div  className="conatiner-fluid header">
 
@@ -31,9 +33,22 @@ class Header extends Component {
                             aria-label="Recipient's username"
                             aria-describedby="basic-addon2"
                             className="inputemail"
+                            onFocus={()=>setFocus(true)}
+                            onBlur={()=>setFocus(false)}
+                            style={{
+                                border:  focus ? "1px solid #69ABE8" : "1px solid rgba(120, 120, 120, 0.2)",
+                                borderRight: focus ? "none" : "none", 
+                                transition: "0.5s"
+                            }}
                             />
                             <InputGroup.Append>
-                                <InputGroup.Text id="basic-addon2">Get Updates  
+                                <InputGroup.Text id="basic-addon2"
+                                    style={{
+                                        border:  focus ? "1px solid #69ABE8" : "1px solid rgba(120, 120, 120, 0.2)",
+                                        borderRight: focus ? "none" : "none", 
+                                        transition: "0.5s"
+                                    }}
+                                >Get Updates  
                                     <img src="./assets/images/Header/chevron right.svg" alt="" className=' arrow-ml-small'/>    
                                 </InputGroup.Text>
                             </InputGroup.Append>
@@ -50,6 +65,6 @@ class Header extends Component {
         )
     }
 
-}
+
 
 export default Header

@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap'
 import './Navbar.css'
-class NavBar extends Component {
-    render() {
+function NavBar()  {
+
+    
         return (
             <Navbar  className=" " expand="md">
                                                      
@@ -40,7 +41,7 @@ class NavBar extends Component {
             
         )
     }
-}
+
 
 
 export default NavBar
