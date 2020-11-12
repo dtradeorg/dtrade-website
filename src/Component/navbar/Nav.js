@@ -6,8 +6,8 @@ class NavBar extends Component {
         return (
             <Navbar  className=" " expand="md">
                                                      
-                <Nav className="">
-                    <img src="./assets/images/Navbar/Union.svg" alt="logo" className="img-fluid"/>
+                <Nav className="logo">
+                    <img src="./assets/images/Navbar/Union.svg" alt="logo" className="img-fluid logo"/>
                 </Nav>
                 <Nav className="ml-auto mr-auto">
                             <h3 className="d-none d-md-block">
