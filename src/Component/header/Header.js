@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, {  useState } from 'react';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import './Header.css';
 
@@ -15,7 +15,8 @@ function Header() {
           rel='noopener noreferrer'
           className='blue-anchor'
         >
-s          View open positions
+          {' '}
+          View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
         </a>
       </p>

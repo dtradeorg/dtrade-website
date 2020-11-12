@@ -41,10 +41,12 @@ export default function Portfolio() {
                     </div>
 
                     <div className="project-date-dtrade ">
-                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
+                        <h3 className="white-paper">
                             Read White Paper 
-                            <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>
-                        </a>
+                        </h3>
+                        <h3 className="white-paper-2">
+                            Available 25 / 11
+                        </h3>
                     </div>
 
                 </div>

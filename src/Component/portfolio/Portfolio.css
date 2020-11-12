@@ -280,3 +280,23 @@ a:hover{
     }
   
 }
+
+
+.white-paper{
+    color: #A1A1A1;
+    font-family: "DM Sans",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+}
+
+.white-paper-2{
+    font-family: "DM Sans",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+    opacity: 0.5;
+}

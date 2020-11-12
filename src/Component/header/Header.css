@@ -208,6 +208,10 @@ div.input-group{
     cursor: pointer !important;
 
 }
+.input-group-text:visited, .input-group-text:focus, .input-group-text:active{
+    box-shadow: none !important;
+    outline: none !important;
+}
 input{
     box-sizing: border-box !important;
     border-top-left-radius: 26px !important;
