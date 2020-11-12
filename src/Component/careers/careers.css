@@ -1,7 +1,10 @@
 .social-link-margin-1{
     margin-left: 9.23px;
 }
-
+.social-link-margin-1:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
 
 .bg{
     background: #FAFAFA;
@@ -57,7 +60,11 @@
     text-decoration: none;
     color: #69ABE8;
 }
-
+.desc a:hover{
+    text-decoration: none;
+    color: #69a6df;
+    transition: 0.4s;
+}
 
 .list{
     max-width: 805px;
