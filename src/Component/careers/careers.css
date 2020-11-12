@@ -1,3 +1,8 @@
+.social-link-margin-1{
+    margin-left: 9.23px;
+}
+
+
 .bg{
     background: #FAFAFA;
 }
@@ -5,4 +10,90 @@
 .logo-career{
     width: 19.2px;
     height: auto;
+}
+
+.padding{
+    padding: 16px 32px;
+}
+
+.title h3{
+    margin-top: 91px;
+    font-family:"DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 112px;
+    color: #000000;
+    margin-bottom: 0;
+
+}
+
+.title h4{
+    font-family:"DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #565656;
+    margin: 0;
+}
+
+.desc{
+    max-width: 990px;
+}
+
+.desc h3{
+    margin-top: 64px;
+    font-family:"DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #565656;
+    margin-bottom: 64px;
+}
+
+.desc a{
+    text-decoration: none;
+    color: #69ABE8;
+}
+
+
+.list{
+    max-width: 805px;
+    padding-bottom: 64px
+}
+
+.list h3{
+    font-family:"DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.list ul{
+    list-style: none;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.list ul li{
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 991px){
+    .title h3{
+        margin-top: 30px;
+        font-family:"DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 64px;
+        color: #000000;
+        margin-bottom: 0;
+    
+    }
+    
 }

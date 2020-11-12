@@ -13,7 +13,7 @@ import Specs from '../specs/Specs'
 class Main extends Component {
     render() {
         return (
-            <>
+            <div className="margin">
                 <NavBar/>
                 <Header/>
                 <Specs/>
@@ -24,7 +24,7 @@ class Main extends Component {
                 <Disclosure/>
                 <Footer/>
 
-            </>
+            </div>
         )
     }
 }

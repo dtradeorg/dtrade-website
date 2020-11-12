@@ -13,7 +13,7 @@ function Reward() {
           <div className='col-5 pl-5'>
             <h1 className='reward-heading'>Earn rewards.</h1>
             <p className='reward-text'>
-              Earn rewards and collect your share of trading fees by staking DET and providing collateral to the dtrade
+              Earn rewards and collect your share of trading fees by staking and providing collateral to the dtrade
               protocol.
             </p>
 {/* 

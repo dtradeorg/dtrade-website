@@ -10,7 +10,7 @@ function Header() {
       <p className='join-banner'>
         Join us in reimagining finance.
         <a
-          href='https://dtrade.breezy.hr/p/beb3fbc6d13d-software-engineer'
+          href='/careers'
           target='_blank'
           rel='noopener noreferrer'
           className='blue-anchor'

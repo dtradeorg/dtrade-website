@@ -9,7 +9,7 @@ function RewardMobile() {
         <div className='col-12 justify-content-center text-center tab-sec-mobile'>
           <h1 className='text-center reward-heading'>Earn rewards.</h1>
           <p className='reward-text text-center'>
-            Earn rewards and collect your share of trading fees by staking DET and providing collateral to the dtrade
+            Earn rewards and collect your share of trading fees by staking and providing collateral to the dtrade
             protocol.
           </p>
 
