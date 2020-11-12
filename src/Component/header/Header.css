@@ -193,7 +193,7 @@ div.input-group{
     width: 400px;
 }
  .input-group-text {
-    background-color: #fff !important;
+    background-color: #fafafa !important;
     border-left: none !important;
     border-top-right-radius: 26px !important;
     border-bottom-right-radius: 26px !important;
@@ -215,6 +215,7 @@ input{
     border-right: none !important; 
     padding: 15px 24px !important;
     height: 56px !important;
+    background-color: #fafafa !important;
 
     
 }

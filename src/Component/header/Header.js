@@ -38,7 +38,8 @@ function Header() {
                             style={{
                                 border:  focus ? "1px solid #69ABE8" : "1px solid rgba(120, 120, 120, 0.2)",
                                 borderRight: focus ? "none" : "none", 
-                                transition: "0.5s"
+                                transition: "0.5s",
+                                backgroundColor: focus ? "#fafafa" : "#fafafa",
                             }}
                             />
                             <InputGroup.Append>
@@ -46,7 +47,9 @@ function Header() {
                                     style={{
                                         border:  focus ? "1px solid #69ABE8" : "1px solid rgba(120, 120, 120, 0.2)",
                                         borderRight: focus ? "none" : "none", 
-                                        transition: "0.5s"
+                                        transition: "0.5s",
+                                        backgroundColor: focus ? "#fafafa" : "#fafafa",
+
                                     }}
                                 >Get Updates  
                                     <img src="./assets/images/Header/chevron right.svg" alt="" className=' arrow-ml-small'/>    
