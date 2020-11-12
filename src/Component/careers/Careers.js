@@ -1,34 +1,23 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./careers.css";
 
 function Careers() {
   return (
     <>
-      <Navbar className=" " expand="md">
-        <Nav className="logo mr-auto">
-          <img
-            src="./assets/images/Navbar/Union.svg"
-            alt="logo"
-            className="img-fluid logo"
-          />
-        </Nav>
-       
-        <Nav className="ml-auto">
-          <a
-            href="http://stakr.dtrade.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-4 link"
-          >
-            Launch App
-            <img
-              className="ml-arrow mb-1"
-              src="./assets/images/arrow-top-right.svg"
-              alt="arrow"
-            ></img>
-          </a>
-          <a
+
+        <Container fluid className="bg"> 
+
+            <Row>
+                <Col className="text-left">
+                    <img
+                        src="./assets/images/Navbar/Union.svg"
+                        alt="logo"
+                        className="img-fluid logo-career"
+                    />
+                </Col>
+                <Col className="text-right">
+                <a
             href="https://medium.com/dtrade"
             target="_blank"
             rel="noopener noreferrer"
@@ -83,8 +72,11 @@ function Careers() {
               className="img-fluid social-link-margin"
             />
           </a>
-        </Nav>
-      </Navbar>
+                </Col>
+            </Row>
+
+        </Container>
+
     </>
   );
 }

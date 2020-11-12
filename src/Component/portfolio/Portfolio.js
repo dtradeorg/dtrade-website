@@ -15,11 +15,11 @@ export default function Portfolio() {
                 <div className="col-12 col-md portfolio-card staking card-ml">
 
                     <div className="porject-title">Staking</div>
-                    <div className="porject-des">Stake DET and collect your <br className="mobile-switch"/> share of exchange fees</div>
+                    <div className="porject-des">Stake and collect your share <br className="mobile-switch"/> of exchange fees</div>
                     <div className="project-date">
                         <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="staking-link" >
-                            Start Staking 
-                            <img src="/assets/images/right-blue.svg" alt="arrow" className="mb-1"></img>
+                            Launch Test App
+                            <img src="/assets/images/arrow-top-right.svg" alt="arrow" className="mb-1 ml-arrow"></img>
                         </a>
                     </div>
 
