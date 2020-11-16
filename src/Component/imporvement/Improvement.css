@@ -87,3 +87,17 @@ transition: .15s ease-in !important;
     }
     
 }
+
+.link-community{
+    font-family: "DM sans",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #69ABE8;
+}
+
+.link-community:hover{
+    
+    color: #69ABE8 !important;
+}

@@ -92,7 +92,7 @@ line-height: 48px;
 .staking{
 
     color: #484848;
-    background: url("/assets/images/Portfolio/staking.png") center no-repeat ;
+    background: url("/assets/images/Portfolio/Staking.jpg") center no-repeat ;
     background-size: cover ;
     
     
@@ -170,7 +170,7 @@ a:hover{
     display: none !important;
 }
 .mobile-switch{
-    display: block !important;
+    display: block;
 }
 .br-mobile{
     display: none !important;
@@ -299,4 +299,9 @@ line-height: 28px;
     line-height: 18px;
     color: #737373;
     opacity: 0.5;
+}
+
+
+.collateral{
+    margin-top: 3vw;
 }

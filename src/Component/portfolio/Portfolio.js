@@ -13,9 +13,9 @@ export default function Portfolio() {
 
                 </div> */}
                 <div className="col-12 col-md  portfolio-card dtrade ">
-                    <div className="porject-title ">dtrade</div>
-                    <div className="porject-des ">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
-                    <div className="project-date ">
+                    <div className="porject-title">dtrade</div>
+                    <div className="porject-des">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
+                    <div className="project-date">
                         <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
                             GitHub
@@ -35,14 +35,22 @@ export default function Portfolio() {
                 </div>
                 <div className="col-12 col-md portfolio-card staking card-ml">
 
-                    <div className="porject-title">Staking</div>
-                    <div className="porject-des">Stake and collect your share <br className="mobile-switch"/> of exchange fees</div>
-                    <div className="project-date">
+                    <div className="porject-title">Multi-collateral Staking</div>
+                    <div className="porject-des">Supported Collaterals</div>
+                    
+                    <div className="row">
+                        <div className="col-12">
+                            <img alt="collateral" src="/assets/images/Portfolio/collateral.png" className="img-fluid collateral"/>
+                        </div>
+        
+                    </div>
+
+                    {/* <div className="project-date">
                         <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="staking-link" >
                             Launch Test App
                             <img src="/assets/images/arrow-top-right.svg" alt="arrow" className="mb-1 ml-arrow"></img>
                         </a>
-                    </div>
+                    </div> */}
 
 
                 </div>
