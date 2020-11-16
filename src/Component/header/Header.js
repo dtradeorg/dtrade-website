@@ -22,10 +22,10 @@ function Header() {
       </p>
 
       <div className='container text-center hero'>
-        <h1>Trade Any Market</h1>
-        <div className='sub-heading'>
+        <h1>Synthetic Asset Trading <br/> on Polkadot<sup className='sup-1'>1</sup></h1>
+        {/* <div className='sub-heading'>
           Polkadot Derivatives & Margin Trading<sup className='sup-1'>1</sup>
-        </div>
+        </div> */}
 
         <div className='row justify-content-center'>
           <form

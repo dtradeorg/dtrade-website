@@ -4,11 +4,32 @@ export default function Portfolio() {
     return (
         <div className="portfolio-div">
             <div className="container-fluid row mx-auto px-0 ">
-                <div className="col-12 col-md  portfolio-card prediction">
+                {/* <div className="col-12 col-md  portfolio-card prediction">
                     <div className="porject-title ">Prediction Platform</div>
                     <div className="porject-des ">Gain trading insights and <br className="mobile-switch"/> make informed predictions</div>
                     <div className="project-date ">
                         <button className="btn date-btn"> Launching 2021</button>
+                    </div>
+
+                </div> */}
+                <div className="col-12 col-md  portfolio-card dtrade ">
+                    <div className="porject-title ">dtrade</div>
+                    <div className="porject-des ">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
+                    <div className="project-date ">
+                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
+                            <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
+                            GitHub
+                            <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>
+                        </a>
+                    </div>
+
+                    <div className="project-date-dtrade ">
+                        <h3 className="white-paper">
+                            Read White Paper 
+                        </h3>
+                        <h3 className="white-paper-2">
+                            Available 25 / 11
+                        </h3>
                     </div>
 
                 </div>
@@ -27,7 +48,7 @@ export default function Portfolio() {
                 </div>
             </div>
 
-
+{/* 
             <div className="container-fluid row mx-auto px-0 ">
                 <div className="col-12 col-md  portfolio-card dtrade ">
                     <div className="porject-title ">dtrade</div>
@@ -71,7 +92,7 @@ export default function Portfolio() {
 
                 </div>
             </div>
-            
+             */}
         </div>
     )
 }

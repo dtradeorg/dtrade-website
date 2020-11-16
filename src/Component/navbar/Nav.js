@@ -7,8 +7,9 @@ function NavBar()  {
         return (
             <Navbar  className=" " expand="md">
                                                      
-                <Nav className="logo">
+                <Nav>
                     <img src="./assets/images/Navbar/Union.svg" alt="logo" className="img-fluid logo"/>
+                    <img src="./assets/images/Navbar/dtrade.svg" alt="logo" className="ml-2 tag-line"/>
                 </Nav>
                 <Nav className="ml-md-auto mr-md-auto">
                             <h3 className="d-none d-md-block">
