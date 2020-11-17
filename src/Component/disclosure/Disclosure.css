@@ -1,8 +1,12 @@
 .disclosure-div {
-  background: #fafafa;
+  
   margin-top: 12px;
   padding-top: 96px;
   padding-bottom: 24px;
+  
+  background: linear-gradient(180deg, #F8F8F6 0%, #FFFFFF 100%);
+  border-radius: 2px;
+  
 }
 
 .disclosure-section {

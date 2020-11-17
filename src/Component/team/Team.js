@@ -9,7 +9,7 @@ function Team() {
                 <Row className="text-center justify-content-center">
                     <Col>
                         <h3 className="title">
-                            <img src="../assets/images/Team/dtrade.png" alt="dtrade" />
+                            <img src="../assets/images/Team/dtrade.png" alt="dtrade"  className='dtrade-logo'/>
                             Founding Friends
                         </h3> 
                     </Col>

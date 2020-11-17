@@ -67,7 +67,12 @@ line-height: 48px;
 .card-ml{
     margin-left: 12px;
 }
-
+@media only screen and (max-width:767px){
+    .card-ml{
+        margin-left: 0 !important;
+    }
+   
+}
 
 
 
@@ -95,7 +100,7 @@ line-height: 48px;
     background: url("/assets/images/Portfolio/Staking.jpg") center no-repeat ;
     background-size: cover ;
     
-    
+    color: #484848;
 
 }
 
@@ -304,4 +309,9 @@ line-height: 28px;
 
 .collateral{
     margin-top: 3vw;
+}
+@media only screen and (max-width:767px){
+    .card-md-height{
+        height:684px;
+    }
 }

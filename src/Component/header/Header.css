@@ -40,10 +40,14 @@
 }
 
 .header{
-    background: #FAFAFA;
+    
     padding-top: 20px; 
     padding-bottom: 24px;
     height: auto;
+    
+    background: linear-gradient(180deg, #F8F8F6 0%, #FFFFFF 100%);
+    border-radius: 2px;
+    
     /* min-height: 90vh; */
     /* overflow: hidden; */
 }
@@ -53,8 +57,8 @@
 
     font-style: normal;
     font-weight: bold;
-    font-size: 76px;
-    line-height: 92px;
+    font-size: 56px;
+    line-height: 64px;
     color: #000;
 }
 
@@ -162,12 +166,13 @@ line-height: 20px;
         margin-bottom: 45px;
     }
 }
+
 @media only screen and (max-width: 400px){
     .header h1{
         font-style: normal;
         font-weight: bold;
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 40px;
+        line-height: 48px;
         margin-bottom: 24px;
     }
 
@@ -183,6 +188,7 @@ line-height: 20px;
 
         color: #757575;
     }
+   
     
 
 }
@@ -228,6 +234,13 @@ input:focus{
 
 .arrow-ml-small{
     margin-left: 9.5px;
+   
+}
+.arrow-top-right{
+    margin-bottom: 4px;
+}
+.d-sm-block{
+    display: block;
 }
 @media only screen and (max-width: 400px){
     div.input-group{

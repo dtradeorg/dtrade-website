@@ -12,7 +12,34 @@ export default function Portfolio() {
                     </div>
 
                 </div> */}
-                <div className="col-12 col-md  portfolio-card dtrade ">
+                <div className="col-12 col-md portfolio-card staking card-md-height">
+
+                    <div className="porject-title">Multi-collateral Staking</div>
+                    <div className="porject-des">Supported Collaterals</div>
+
+                    <div className="row ">
+                        <div className="col-12 d-none d-lg-block">
+                         <img alt="collateral" src="/assets/images/Portfolio/collateral.png" className="img-fluid collateral"/>
+                        </div>
+                        <div className='col-12 d-sm-block d-lg-none'>
+                            <img alt="" src="/assets/images/Portfolio/Frame 361.svg" className='img-fluid'/>
+                        </div>
+                        <div className='col-12 d-sm-block d-lg-none'>
+                           <img alt="" src="/assets/images/Portfolio/Frame 362.svg" className='img-fluid'/>
+                        </div>
+
+                    </div>
+
+{/* <div className="project-date">
+    <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="staking-link" >
+        Launch Test App
+        <img src="/assets/images/arrow-top-right.svg" alt="arrow" className="mb-1 ml-arrow"></img>
+    </a>
+</div> */}
+
+
+                </div>
+                <div className="col-12 col-md  portfolio-card dtrade card-ml">
                     <div className="porject-title">dtrade</div>
                     <div className="porject-des">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
                     <div className="project-date">
@@ -33,27 +60,7 @@ export default function Portfolio() {
                     </div>
 
                 </div>
-                <div className="col-12 col-md portfolio-card staking card-ml">
-
-                    <div className="porject-title">Multi-collateral Staking</div>
-                    <div className="porject-des">Supported Collaterals</div>
-                    
-                    <div className="row">
-                        <div className="col-12">
-                            <img alt="collateral" src="/assets/images/Portfolio/collateral.png" className="img-fluid collateral"/>
-                        </div>
-        
-                    </div>
-
-                    {/* <div className="project-date">
-                        <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="staking-link" >
-                            Launch Test App
-                            <img src="/assets/images/arrow-top-right.svg" alt="arrow" className="mb-1 ml-arrow"></img>
-                        </a>
-                    </div> */}
-
-
-                </div>
+                
             </div>
 
 {/* 
