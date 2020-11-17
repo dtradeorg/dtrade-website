@@ -15,7 +15,6 @@ function Header() {
           rel='noopener noreferrer'
           className='blue-anchor'
         >
-          {' '}
           View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
         </a>
@@ -35,7 +34,7 @@ function Header() {
             target='_blank'
            
           >
-            <InputGroup className='mb-3'>
+            <InputGroup>
               <FormControl
                 placeholder='name@email.com'
                 aria-label="Recipient's username"
@@ -113,7 +112,7 @@ function Header() {
 
         </div>
 
-        <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='map'></img>
+        <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='map'/>
       </div>
     </div>
   );

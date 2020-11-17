@@ -35,8 +35,8 @@
     font-family: "DM sans",sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 12px;
     color: #565656;
     margin-bottom: 12px;
 }
@@ -49,10 +49,10 @@
         width: 20%;
         height: auto;
     }
-    .team-desc h4{
+    /* .team-desc h4{
         font-size: 15px;
         line-height: 14px;
-    }
+    } */
 }
 @media only screen and (max-width:767px){
     .team-desc{

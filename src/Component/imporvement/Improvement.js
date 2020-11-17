@@ -13,7 +13,7 @@ function Improvement() {
             <div className="container pt-3">
 
                 <div className="row text-center justify-content-center">
-                    <img src="/assets/images/Improvement/Timeline.svg" alt="timeline"  className="img-fluid mt-4 mb-4 d-none d-md-block"/>
+                    <img src="/assets/images/Improvement/Timeline.svg" alt="timeline"  className="img-fluid mt-5 mb-5 d-none d-md-block"/>
                     <img src="/assets/images/Improvement/timelineMob.svg" alt="timeline" className="img-fluid mt-4 mb-4 d-md-none"/>
                 </div>
 

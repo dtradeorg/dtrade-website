@@ -79,7 +79,7 @@ color: #757575;
 .sup-1{
     font-family: "DM Sans", sans-serif;
 
-    font-size: 41px;
+    font-size: 30px;
     line-height: 64px;
     color: #000 !important;
 font-weight: bold;
@@ -116,9 +116,9 @@ font-weight: bold;
 }
 
 .map{
-    margin-top: 59px ;
+    margin-top: 48px ;
     height: auto;
-    width: 332px;
+    width: 394px;
     margin-bottom: 45px;
 }
 
@@ -198,6 +198,7 @@ line-height: 20px;
 
 div.input-group{
     width: 400px;
+    margin-top: 22px;
 }
  .input-group-text {
     background-color: #fafafa !important;
@@ -247,6 +248,12 @@ input:focus{
 }
 @media only screen and (max-width: 400px){
     div.input-group{
-        width: 300px;
+        max-width: 327px;
+        margin-top:0px;
+        margin-bottom: 32px;
+    }
+    .map{
+        width:226px;
+        height: auto;
     }
 }

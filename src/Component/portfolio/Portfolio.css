@@ -181,7 +181,13 @@ a:hover{
     display: none !important;
 }
 
+.mobile-view{
+    display: none;
+}
 
+.desktop-view{
+    display: block;
+}
 
 @media only screen and (max-width: 1900px){
     .loans-features{
@@ -249,7 +255,15 @@ a:hover{
         line-height: 24px;
         
     }
+    .mobile-view{
+        display: block;
+    }
+    .desktop-view{
+        display: none;
+    }
 }
+
+
 
 @media only screen and (max-width: 1735px){
     .loans-features img{
@@ -261,6 +275,7 @@ a:hover{
     }
 
 }
+
 @media only screen and (max-width: 1590px){
     .loans-features{
         padding-left: 0.12vw;

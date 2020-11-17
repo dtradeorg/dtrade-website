@@ -18,13 +18,13 @@ export default function Portfolio() {
                     <div className="porject-des">Supported Collaterals</div>
 
                     <div className="row ">
-                        <div className="col-12 d-none d-lg-block">
+                        <div className="col-12 desktop-view">
                          <img alt="collateral" src="/assets/images/Portfolio/collateral.png" className="img-fluid collateral"/>
                         </div>
-                        <div className='col-12 d-sm-block d-lg-none'>
+                        <div className='col-12 mobile-view'>
                             <img alt="" src="/assets/images/Portfolio/Frame 361.svg" className='img-fluid'/>
                         </div>
-                        <div className='col-12 d-sm-block d-lg-none'>
+                        <div className='col-12 mobile-view'>
                            <img alt="" src="/assets/images/Portfolio/Frame 362.svg" className='img-fluid'/>
                         </div>
 
