@@ -6,9 +6,9 @@ function Improvement() {
     return (
         <div id="improvement-div">
             <h1>Community run and self-improving.</h1>
-            <p>DET holders can vote on protocol upgrades, public goods in the dtrade ecosystem,
+            <p>DET holders can vote on protocol upgrades, public goods in the dTrade ecosystem,
                 <br className="mobile-switch"/>
-                and new asset integrations. We are workin with Commonwealth labs to integrate:</p>    
+                and new asset integrations. We are working with Commonwealth labs to integrate:</p>    
 
             <div className="container pt-3">
 

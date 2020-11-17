@@ -9,6 +9,7 @@ function Header() {
     <div className='conatiner-fluid header'>
       <p className='join-banner'>
         Join us in reimagining finance.
+        &nbsp;
         <a
           href='/careers'
           target='_blank'
