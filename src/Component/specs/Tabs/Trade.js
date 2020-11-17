@@ -16,7 +16,7 @@ function Trade() {
                             <div className="col-5 pl-5">
                                 <h1 className="reward-heading">Trade</h1>
                                 <p className="reward-text">
-                                Gain access to all financial markets, short-selling, and margin trading with zero slippage.
+                                Gain access to an array of financial markets, futures and margin trading with zero slippage.
                                 From anywhere in the world.
                                 </p>
 

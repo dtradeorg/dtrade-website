@@ -70,9 +70,9 @@ function Team() {
                         <h4>B.S. in Computer Science @ NUCES</h4>    
                     </Col>
                 </Row>
-                <Row className="text-center justify-content-center down-arrow">
+                {/* <Row className="text-center justify-content-center down-arrow">
                     <img src="../assets/images/Team/chevron-down-small.svg" alt="down"/> 
-                </Row>
+                </Row> */}
             </Container>
         </Container>
     )

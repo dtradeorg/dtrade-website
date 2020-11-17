@@ -8,7 +8,7 @@ function Improvement() {
             <h1>Community run and self-improving.</h1>
             <p>DET holders can vote on protocol upgrades, public goods in the dtrade ecosystem,
                 <br className="mobile-switch"/>
-                and new asset integrations. The community has expressed interest in:</p>    
+                and new asset integrations. We are workin with Commonwealth labs to integrate:</p>    
 
             <div className="container pt-3">
 
@@ -19,7 +19,7 @@ function Improvement() {
 
                 <div className="row text-center mt-4">
                     <div className="col">
-                    <a href="https://discord.gg/hyS8E7BPT6"  target="_blank" rel="noopener noreferrer" className="link-community">
+                    <a href="https://commonwealth.im/dtrade"  target="_blank" rel="noopener noreferrer" className="link-community">
                         Join the conversation
                         <img src="/assets/images/right-blue.svg" alt="arrow" className="mb-1 ml-arrow"></img>
 
