@@ -11,12 +11,10 @@ function TradeMobile() {
                             <h1 className="reward-heading text-center">Trade</h1>
                                 <p className="reward-text text-center">
                                 Gain access to an array of financial markets, futures and margin trading with zero slippage.
-                               <br/>
-                                <br/>
                                 From anywhere in the world.
                                 </p>
 
-                                <img className='img-fluid tablet-trade' src="./assets/images/Specs/trade.png" alt=""></img>
+                                <img className='img-fluid tablet-trade' src="./assets/images/Specs/stake1.png" alt=""></img>
 
 
                             </div>

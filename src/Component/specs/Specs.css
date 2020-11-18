@@ -113,18 +113,18 @@ img{
     }
     .tablet{
         
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 38px;
+        margin-bottom: 30px;
     }
     .tablet-trade{
         
-        margin-top: 32px;
-        margin-bottom: 24px;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
     .tablet-lp{
         
-        margin-top:80px;
-        margin-bottom: 24px;
+        margin-top:58px;
+        margin-bottom: 35px;
     }
     #stake{
         background-image: url('/assets/images/Specs/bg-stake.jpg');
@@ -141,6 +141,8 @@ img{
 
     .mobileview{
         display: block;
+        position: relative;
+
     }
 
     .reward-heading{

@@ -1,5 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 import "./Upcoming.css";
 
 function Upcoming() {
@@ -54,7 +57,7 @@ function Upcoming() {
           </Col>
           <Col sm={12} className="card-col margin-right-card">
             <Card>
-              <Card.Img variant="top" src="../assets/images/Upcoming/2.svg" />
+              <Card.Img variant="top" src="../assets/images/Upcoming/3.svg" />
               <Card.Body>
                 <Card.Title className="CardTitle">
                   Decentralized Futures
@@ -71,14 +74,14 @@ function Upcoming() {
                       className="img-fluid"
                     />
                   </a>
-                  <span>Beta launch 12/2020</span>
+                  <span>Beta Launch 1/2021</span>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col sm={12} className="card-col">
             <Card>
-              <Card.Img variant="top" src="../assets/images/Upcoming/3.svg" />
+              <Card.Img variant="top" src="../assets/images/Upcoming/2.svg" />
               <Card.Body>
                 <Card.Title className="CardTitle">Derisk</Card.Title>
                 <Card.Text className="CardText">
@@ -93,17 +96,23 @@ function Upcoming() {
                       className="img-fluid"
                     />
                   </a>
-                  <span>Beta launch 12/2020</span>
+                  <span>Announcing Soon</span>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
         </Row>
 
-        <Carousel className="Card-Carousel-Mobile">
-          <Carousel.Item>
-          <Row className='text-center justify-content-center p-0'>  
-            <Card>
+        <OwlCarousel className="Card-Carousel-Mobile owl-theme"
+             
+             margin={24}
+             nav
+             item={1}
+             autoWidth={true}
+             center={true}
+        >
+
+            <Card className="item">
               <Card.Img variant="top" src="../assets/images/Upcoming/1.jpg" />
               <Card.Body>
                 <Card.Title className="CardTitle">dtrade.exchange</Card.Title>
@@ -138,13 +147,9 @@ function Upcoming() {
                 </Card.Text>
               </Card.Body>
             </Card>
-            </Row>
-          </Carousel.Item>
-          <Carousel.Item>
 
-          <Row className='text-center justify-content-center'>  
-          <Card>
-              <Card.Img variant="top" src="../assets/images/Upcoming/2.svg" />
+          <Card className="item">
+              <Card.Img variant="top" src="../assets/images/Upcoming/3.svg" />
               <Card.Body>
                 <Card.Title className="CardTitle">
                   Decentralized Futures
@@ -161,17 +166,12 @@ function Upcoming() {
                       className="img-fluid"
                     />
                   </a>
-                  <span>Beta launch 12/2020</span>
+                  <span>Beta Launch 1/2021</span>
                 </Card.Text>
               </Card.Body>
             </Card>
-            </Row>
-          </Carousel.Item>
-
-          <Carousel.Item>
-          <Row className='text-center justify-content-center'>  
-          <Card>
-              <Card.Img variant="top" src="../assets/images/Upcoming/3.svg" />
+          <Card className="item">
+              <Card.Img variant="top" src="../assets/images/Upcoming/2.svg" />
               <Card.Body>
                 <Card.Title className="CardTitle">Derisk</Card.Title>
                 <Card.Text className="CardText">
@@ -186,14 +186,11 @@ function Upcoming() {
                       className="img-fluid"
                     />
                   </a>
-                  <span>Beta launch 12/2020</span>
+                  <span>Announcing Soon</span>
                 </Card.Text>
               </Card.Body>
             </Card>
-            </Row>
-          </Carousel.Item>
-
-        </Carousel>
+        </OwlCarousel>
 
       </Container>
     </Container>

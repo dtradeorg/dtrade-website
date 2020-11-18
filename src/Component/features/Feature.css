@@ -81,19 +81,11 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-/* identical to box height, or 133% */
-margin-left: 17px;
-/* Fill / Scorpion */
-
+    margin-left: 17px;
     color: #fff !important;
 }
 .to-disc-link:hover{
     text-align: center;
-
-/* identical to box height, or 133% */
-
-/* Fill / Scorpion */
-
     color: #fff !important;
 }
 
@@ -118,7 +110,7 @@ margin-left: 17px;
 
     .feature-div{
         padding-top: 48px;
-        padding-bottom: 64px;
+        padding-bottom: 140px;
         padding-left: 0px;
         padding-right: 0px;
         text-align: center;

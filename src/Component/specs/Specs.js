@@ -127,7 +127,7 @@ function Specs() {
         <div className='row align-items-center'>
           <div className='col-12'>{setTabFuncMobile()}</div>
         </div>
-        <div className='row mt-2 mb-2'>
+        <div className='row mt-2 mb-2 mobile-menu-row'>
           <div className='col my-auto text-right'>
             <img
               className='img-fluid arrow-spec text-left'

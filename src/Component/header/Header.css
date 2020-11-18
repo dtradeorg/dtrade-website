@@ -45,8 +45,8 @@
     padding-bottom: 24px;
     height: auto;
     
-    background: linear-gradient(180deg, #F8F8F6 0%, #FFFFFF 100%);
-    border-radius: 2px;
+    background: #FAFAFA;
+        border-radius: 2px;
     
     /* min-height: 90vh; */
     /* overflow: hidden; */
@@ -78,7 +78,6 @@ color: #757575;
 
 .sup-1{
     font-family: "DM Sans", sans-serif;
-
     font-size: 30px;
     line-height: 64px;
     color: #000 !important;
@@ -167,7 +166,7 @@ line-height: 20px;
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 769px){
     .sup-1{
         font-size: 25px; 
     }
@@ -246,7 +245,12 @@ input:focus{
 .d-sm-block{
     display: block;
 }
-@media only screen and (max-width: 400px){
+#launch-btn{
+    font-size: 20px !important;
+line-height: 28px !important;
+}
+
+@media only screen and (max-width: 769px){
     div.input-group{
         max-width: 327px;
         margin-top:0px;

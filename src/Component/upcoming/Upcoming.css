@@ -111,15 +111,69 @@
     display: flex;
 }
 
+.owl-carousel .owl-stage-outer {
+    margin-left: -5.5vw;
+
+}
 .Card-Carousel-Mobile{
-    display: none;
+    display: none !important; 
+}
+.owl-carousel .owl-item img {
+    display: inherit; 
+    width: inherit;
 }
 
-.carousel-indicators, .carousel-control-prev, .carousel-control-next{
-    display: none !important;
+.item{
+    width: 384px;
 }
+@media only screen and (max-width:368px){  
+    .owl-carousel .owl-stage-outer {
+        margin-left: 0px;
+    
+    }
+}
+@media only screen and (max-width:823px){  
+    .cards-container{
+        margin-top:0px;
+    }
+    .upcoming-heading-row h3{
+     
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+    
+    }
+    
+    .upcoming-heading-row h4{
 
-@media only screen and (max-width: 769px){  
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+     
+        
+        color: #737373;
+     
+    }
+    .item{
+        width: 284px;
+    }
+    .CardTitle{
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    
+    .CardText{
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    .card{
+        margin-top: 32px;
+        max-height: auto !important;
+        max-width: auto !important;
+        border: none !important;
+    }
     .upcoming-section{
      padding-left: 0px !important;
      padding-right: 0px !important;
@@ -131,7 +185,7 @@
         display: none !important;
     }
     .Card-Carousel-Mobile{
-        display: block !important;
+        display: flex !important;
     }
     
 }
