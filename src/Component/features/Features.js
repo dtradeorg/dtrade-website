@@ -12,7 +12,7 @@ export default function Features() {
                         Accessible
                     </div>
                     <div className="feature-body">
-                    Gain on-chain exposure to hundreds <br className="mobile-switch"/> of assets from anywhere in the <br className="mobile-switch"/> world.
+                    Gain on-chain exposure to hundreds <br className="mobile-switch"/> of assets from around the world.
                                         </div>
                 </div>
 
@@ -31,7 +31,7 @@ export default function Features() {
                         Unlimited Liquidity
                     </div>
                     <div className="feature-body">
-                        No slippage and infinite liquidity by <br className="mobile-switch"/> trading assets backed by a <br className="mobile-switch"/>  distributed collateral pool
+                    Zero slippage by trading assets backed by a distributed collateral pool
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ export default function Features() {
 
             <div className="row text-left  imp-disc">
             <div className="info mt-5">
-                <a href="#disclosure-div" className="to-disc-link text-gray left">
+                <a href="#disclosure-div" className="to-disc-link left">
 
                     <img src="./assets/images/info1.svg" alt="i" className="info-img mr-2 mb-1"></img>
                         View Important Disclosures

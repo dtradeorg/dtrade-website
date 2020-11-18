@@ -10,6 +10,7 @@ import './main.css'
 import Improvement from '../imporvement/Improvement'
 import Specs from '../specs/Specs'
 import Team from '../team/Team'
+import Upcoming from '../upcoming/Upcoming'
 
 class Main extends Component {
     render() {
@@ -23,6 +24,7 @@ class Main extends Component {
                 {/* <Options/> */}
                 <Portfolio/>
                 <Team/>
+                <Upcoming/>
                 <Disclosure/>
                 <Footer/>
 

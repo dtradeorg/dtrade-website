@@ -1,0 +1,126 @@
+.upcoming-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.upcoming-heading-row h3{
+    font-family: "DM Sans",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.upcoming-heading-row h4{
+    font-family: "DM Sans",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.025em;
+    color: #757575;
+}
+
+/* cards section */
+
+.cards-container{
+    padding: 0 !important;
+    margin-top:48px;
+    max-width: 1216px !important;
+}
+
+.card-col{
+    padding: 0px !important; 
+    max-width: 384px !important;
+}
+
+.card{
+    max-height: 524px !important;
+    max-width: 384px !important;
+    border: none !important;
+}
+
+.card-body{
+    border: 1px solid #eaeaea;
+    border-top: none;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.CardTitle{
+    font-family: "DM Sans",sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    line-height: 48px !important;
+    color: #262626 !important;
+    margin-bottom: 8px !important;
+}
+
+.CardText{
+    font-family: "DM Sans",sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    color: #565656 !important;
+    margin-bottom: 32px !important;
+}
+
+.card-social img{
+    margin-right: 6px;
+}
+
+.card-social span{
+    margin-left: 10px;
+    font-family: "DM Sans",sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #A2B2BE;
+    opacity: 0.5;
+}
+
+.card-social-disabled img{
+    margin-right: 6px;
+    opacity: 0.5;
+}
+
+.card-social-disabled span{
+    margin-left: 10px;
+    font-family: "DM Sans",sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #A2B2BE;
+    opacity: 0.5;
+}
+
+.margin-right-card{
+    margin-right: 32px;
+}
+@media only screen and (max-width: 769px){    
+    .margin-right-card{
+        margin-right: 0px !important;
+    }
+}
+@media only screen and (max-width: 1232px){    
+    .card{
+        margin-top: 32px;
+        max-height: 524px !important;
+        max-width: 384px !important;
+        border: none !important;
+    }
+ 
+}
+
+
+

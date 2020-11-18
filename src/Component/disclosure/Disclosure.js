@@ -45,7 +45,7 @@ export default function Disclosure() {
         <hr className='disclosure-hr' />
 
         <h1 className='disclosure-message'>
-          We're bulding the world's most accessible ecosystem for decentralized finance.
+          We're building the world's most accessible ecosystem for decentralized finance.
         </h1>
 
         <div className='disclosure-additional'>
