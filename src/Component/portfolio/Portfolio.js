@@ -55,7 +55,7 @@ export default function Portfolio() {
                             Read White Paper 
                         </h3>
                         <h3 className="white-paper-2">
-                            Available 25 / 11
+                            Available 29 / 11
                         </h3>
                     </div>
 
