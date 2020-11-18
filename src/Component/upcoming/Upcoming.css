@@ -107,10 +107,33 @@
 .margin-right-card{
     margin-right: 32px;
 }
-@media only screen and (max-width: 769px){    
+.card-desktop{
+    display: block;
+}
+
+.Card-Carousel-Mobile{
+    display: none;
+}
+
+.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+    display: none !important;
+}
+
+@media only screen and (max-width: 769px){  
+    .upcoming-section{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+    }
     .margin-right-card{
         margin-right: 0px !important;
     }
+    .card-desktop{
+        display: none !important;
+    }
+    .Card-Carousel-Mobile{
+        display: block !important;
+    }
+    
 }
 @media only screen and (max-width: 1232px){    
     .card{
