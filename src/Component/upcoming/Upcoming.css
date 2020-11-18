@@ -108,7 +108,7 @@
     margin-right: 32px;
 }
 .card-desktop{
-    display: block;
+    display: flex;
 }
 
 .Card-Carousel-Mobile{
