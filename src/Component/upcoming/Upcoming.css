@@ -1,4 +1,5 @@
 .upcoming-section{
+    max-width: 1216px !important;
     margin-top: 100px;
     margin-bottom: 68px;
 }
@@ -132,7 +133,7 @@
     
     }
 }
-@media only screen and (max-width:823px){  
+@media only screen and (max-width:856px){  
  
 
     .cards-container{

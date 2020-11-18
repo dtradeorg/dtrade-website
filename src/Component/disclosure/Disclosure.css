@@ -73,7 +73,9 @@
 .mb-arrow {
   margin-bottom: 3px;
 }
-
+.disclosure-section{
+  max-width: 1216px !important;
+}
 
 
 @media only screen and (max-width:823px){  

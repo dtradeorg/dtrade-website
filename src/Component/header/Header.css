@@ -253,6 +253,11 @@ line-height: 28px !important;
     display: none;
 }
 @media only screen and (max-width: 769px){
+    
+.header{
+    padding-top: 20px; 
+}
+
     div.input-group{
         max-width: 327px;
         margin-top:0px;
