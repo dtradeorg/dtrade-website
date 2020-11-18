@@ -16,6 +16,7 @@ function Header() {
           rel='noopener noreferrer'
           className='blue-anchor'
         >
+          <br className="mobile-show"/>
           View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
         </a>
