@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import './Portfolio.css';
 export default function Portfolio() {
-    return (
-        <div className="portfolio-div">
-            <div className="container-fluid row mx-auto px-0 ">
-                {/* <div className="col-12 col-md  portfolio-card prediction">
+  return (
+    <div className='portfolio-div'>
+      <div className='container-fluid row mx-auto px-0 '>
+        {/* <div className="col-12 col-md  portfolio-card prediction">
                     <div className="porject-title ">Prediction Platform</div>
                     <div className="porject-des ">Gain trading insights and <br className="mobile-switch"/> make informed predictions</div>
                     <div className="project-date ">
@@ -12,58 +12,50 @@ export default function Portfolio() {
                     </div>
 
                 </div> */}
-                <div className="col-12 col-md portfolio-card staking card-md-height">
+        <div className='col-12 col-md portfolio-card staking card-md-height'>
+          <div className='porject-title'>Multi-collateral Staking</div>
+          <div className='porject-des'>Supported Collaterals</div>
 
-                    <div className="porject-title">Multi-collateral Staking</div>
-                    <div className="porject-des">Supported Collaterals</div>
+          <div className='row '>
+            <div className='col-12 desktop-view'>
+              <img alt='collateral' src='/assets/images/Portfolio/collateral.png' className='img-fluid collateral' />
+            </div>
+            <div className='col-12 mobile-view'>
+              <img alt='' src='/assets/images/Portfolio/Frame 361.svg' className='img-fluid' />
+            </div>
+            <div className='col-12 mobile-view'>
+              <img alt='' src='/assets/images/Portfolio/Frame 362.svg' className='img-fluid' />
+            </div>
+          </div>
 
-                    <div className="row ">
-                        <div className="col-12 desktop-view">
-                         <img alt="collateral" src="/assets/images/Portfolio/collateral.png" className="img-fluid collateral"/>
-                        </div>
-                        <div className='col-12 mobile-view'>
-                            <img alt="" src="/assets/images/Portfolio/Frame 361.svg" className='img-fluid'/>
-                        </div>
-                        <div className='col-12 mobile-view'>
-                           <img alt="" src="/assets/images/Portfolio/Frame 362.svg" className='img-fluid'/>
-                        </div>
-
-                    </div>
-
-{/* <div className="project-date">
+          {/* <div className="project-date">
     <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener noreferrer" className="staking-link" >
         Launch Test App
         <img src="/assets/images/arrow-top-right.svg" alt="arrow" className="mb-1 ml-arrow"></img>
     </a>
 </div> */}
+        </div>
+        <div className='col-12 col-md  portfolio-card dtrade card-ml'>
+          <div className='porject-title'>dtrade</div>
+          <div className='porject-des'>
+            Learn more about the <br className='mobile-switch' /> dTrade Protocol
+          </div>
+          <div className='project-date'>
+            <a href='https://github.com/dtradeorg' target='_blank' rel='noreferrer noopener'>
+              <img src='/assets/images/Portfolio/git.svg' className='img-fluid mr-3 mb-1' alt='git'></img>
+              GitHub
+              <img src='/assets/images/arrow-black.svg' alt='arrow-black' className='mb-1'></img>
+            </a>
+          </div>
 
+          <div className='project-date-dtrade '>
+            <h3 className='white-paper'>Read White Paper</h3>
+            <h3 className='white-paper-2'>Available 15 / 12</h3>
+          </div>
+        </div>
+      </div>
 
-                </div>
-                <div className="col-12 col-md  portfolio-card dtrade card-ml">
-                    <div className="porject-title">dtrade</div>
-                    <div className="porject-des">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
-                    <div className="project-date">
-                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
-                            <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
-                            GitHub
-                            <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>
-                        </a>
-                    </div>
-
-                    <div className="project-date-dtrade ">
-                        <h3 className="white-paper">
-                            Read White Paper 
-                        </h3>
-                        <h3 className="white-paper-2">
-                            Available 29 / 11
-                        </h3>
-                    </div>
-
-                </div>
-                
-            </div>
-
-{/* 
+      {/* 
             <div className="container-fluid row mx-auto px-0 ">
                 <div className="col-12 col-md  portfolio-card dtrade ">
                     <div className="porject-title ">dtrade</div>
@@ -108,6 +100,6 @@ export default function Portfolio() {
                 </div>
             </div>
              */}
-        </div>
-    )
+    </div>
+  );
 }
