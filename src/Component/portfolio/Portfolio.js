@@ -50,7 +50,7 @@ export default function Portfolio() {
 
           <div className='project-date-dtrade '>
             <h3 className='white-paper'>Read White Paper</h3>
-            <h3 className='white-paper-2'>Available 15 / 12</h3>
+            <h3 className='white-paper-2'>Available Soon</h3>
           </div>
         </div>
       </div>
