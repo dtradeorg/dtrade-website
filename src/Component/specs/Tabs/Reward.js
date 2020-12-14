@@ -8,7 +8,7 @@ function Reward() {
       <Animated animationIn='fadeIn' animationOut='fadeIn'>
         <div className='row align-items-center'>
           <div className='col text-center tablet-container p-0'>
-            <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt='' />
+            <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt='stakr-app-stake-screen' />
           </div>
           <div className='col-5 pl-5'>
             <h1 className='reward-heading'>Earn rewards.</h1>
@@ -16,7 +16,7 @@ function Reward() {
               Earn rewards and collect your share of trading fees by staking and providing collateral to the dtrade
               protocol.
             </p>
-{/* 
+            {/* 
             <h3 className='apy-info'>
               {' '}
               <img alt='i' src='./assets/images/Specs/info.svg' className='img-fluid mr-2 mb-md-1' /> Current APY:

@@ -18,13 +18,25 @@ export default function Portfolio() {
 
           <div className='row '>
             <div className='col-12 desktop-view'>
-              <img alt='collateral' src='/assets/images/Portfolio/collateral.png' className='img-fluid collateral' />
+              <img
+                alt='supported-collaterals-staking'
+                src='/assets/images/Portfolio/collateral.png'
+                className='img-fluid collateral'
+              />
             </div>
             <div className='col-12 mobile-view'>
-              <img alt='' src='/assets/images/Portfolio/Frame 361.svg' className='img-fluid' />
+              <img
+                alt='supported-collaterals-staking'
+                src='/assets/images/Portfolio/Frame 361.svg'
+                className='img-fluid'
+              />
             </div>
             <div className='col-12 mobile-view'>
-              <img alt='' src='/assets/images/Portfolio/Frame 362.svg' className='img-fluid' />
+              <img
+                alt='supported-collaterals-staking'
+                src='/assets/images/Portfolio/Frame 362.svg'
+                className='img-fluid'
+              />
             </div>
           </div>
 
@@ -41,7 +53,7 @@ export default function Portfolio() {
             Learn more about the <br className='mobile-switch' /> dTrade Protocol
           </div>
           <div className='project-date'>
-            <a href='https://github.com/dtradeorg' target='_blank' rel='noreferrer noopener'>
+            <a href='https://github.com/dtradeorg' target='_blank' rel='noreferrer nofollow noopener'>
               <img src='/assets/images/Portfolio/git.svg' className='img-fluid mr-3 mb-1' alt='git'></img>
               GitHub
               <img src='/assets/images/arrow-black.svg' alt='arrow-black' className='mb-1'></img>
@@ -61,7 +73,7 @@ export default function Portfolio() {
                     <div className="porject-title ">dtrade</div>
                     <div className="porject-des ">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
                     <div className="project-date ">
-                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
+                        <a rel="nofollow"href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
                             GitHub
                             <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>

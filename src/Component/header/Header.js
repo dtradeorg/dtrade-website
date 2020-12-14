@@ -9,7 +9,7 @@ function Header() {
     <div className='conatiner-fluid header'>
       <p className='join-banner'>
         Join us in reimagining finance. &nbsp;
-        <a href='/careers' target='_blank' rel='noopener noreferrer' className='blue-anchor'>
+        <a href='/careers' target='_blank' rel='noopener nofollow noreferrer' className='blue-anchor'>
           <br className='mobile-show' />
           View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
@@ -20,9 +20,6 @@ function Header() {
         <h1>
           Synthetic Asset Trading <br className='mobile-switch' /> on Polkadot
         </h1>
-        {/* <div className='sub-heading'>
-          Polkadot Derivatives & Margin Trading<sup className='sup-1'>1</sup>
-        </div> */}
 
         <div className='row justify-content-center'>
           <form
@@ -84,28 +81,28 @@ function Header() {
           </InputGroup.Append>
         </div>
         <div className='row justify-content-center d-md-none'>
-          <a href='http://stakr.dtrade.org/' target='_blank' rel='noopener noreferrer' className='ml-4 link'>
+          <a href='http://stakr.dtrade.org/' target='_blank' rel='noopener nofollow noreferrer' className='ml-4 link'>
             Launch App
             <img className='ml-arrow mb-1' src='./assets/images/arrow-top-right.svg' alt='arrow'></img>
           </a>
-          <a href='https://medium.com/dtrade' target='_blank' rel='noopener noreferrer'>
+          <a href='https://medium.com/dtrade' target='_blank' rel='noopener nofollow noreferrer'>
             <img src='./assets/images/Navbar/dUSD.svg' alt='logo' className='img-fluid social-link-margin' />
           </a>
-          <a href='https://twitter.com/dtradeorg' target='_blank' rel='noopener noreferrer'>
+          <a href='https://twitter.com/dtradeorg' target='_blank' rel='noopener nofollow noreferrer'>
             <img src='./assets/images/Navbar/dUSD-1.svg' alt='logo' className='img-fluid social-link-margin' />
           </a>
-          <a href='https://github.com/dtradeorg' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/dtradeorg' target='_blank' rel='noopener nofollow noreferrer'>
             <img src='./assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid social-link-margin' />
           </a>
-          <a href='https://discord.gg/hyS8E7BPT6' target='_blank' rel='noopener noreferrer'>
+          <a href='https://discord.gg/hyS8E7BPT6' target='_blank' rel='noopener nofollow noreferrer'>
             <img src='./assets/images/Navbar/dUSD-3.svg' alt='logo' className='img-fluid social-link-margin' />
           </a>
-          <a href='https://commonwealth.im/dtrade' target='_blank' rel='noopener noreferrer'>
+          <a href='https://commonwealth.im/dtrade' target='_blank' rel='noopener nofollow noreferrer'>
             <img src='./assets/images/Navbar/dUSD-4.svg' alt='logo' className='img-fluid social-link-margin' />
           </a>
         </div>
 
-        <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='map' />
+        <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='Polkadot-world-map' />
       </div>
     </div>
   );

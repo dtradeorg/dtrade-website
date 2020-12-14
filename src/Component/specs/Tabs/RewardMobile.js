@@ -18,7 +18,7 @@ function RewardMobile() {
             <img alt='i' src='./assets/images/Specs/info.svg' className='img-fluid mr-2 mb-1' /> Current APY: 67.87%
           </h3> */}
 
-          <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt=''></img>
+          <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt='stakr-app-stake-screen'></img>
         </div>
       </div>
     </Animated>

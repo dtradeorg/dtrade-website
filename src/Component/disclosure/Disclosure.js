@@ -29,8 +29,8 @@ export default function Disclosure() {
           <div>iv) The collateralization ratio may change over time.</div>
 
           <div className='disclosure-mt'>
-            The supported collaterals for loans may change upon launch in 2021, and initially it may only be a subset
-            of the ones' mentioned above.
+            The supported collaterals for loans may change upon launch in 2021, and initially it may only be a subset of
+            the ones' mentioned above.
           </div>
           <div className='disclosure-mt'>
             dTrade (c) is a decentralized financial platform that aims to provide access to anyone, anywhere wanting to
@@ -49,7 +49,7 @@ export default function Disclosure() {
         </h1>
 
         <div className='disclosure-additional'>
-          <a href='mailto:hi@dtrade.org'>
+          <a rel='nofollow' href='mailto:hi@dtrade.org'>
             Have additional questions?
             <img src='./assets/images/arrow-blue.svg' alt='arrow' className='img-fluid mb-arrow' />
           </a>
