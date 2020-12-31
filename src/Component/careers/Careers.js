@@ -9,6 +9,7 @@ import {
   TabContent,
   TabPane,
 } from "react-bootstrap";
+import Footer from "../footer/Footer";
 import "./careers.css";
 const sample_job_data = {
   Engineering: [
@@ -168,6 +169,7 @@ function Careers() {
           </Container>
         </section>
       </div>
+      <Footer />
     </React.Fragment>
   );
 }
