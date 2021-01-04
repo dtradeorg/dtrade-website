@@ -27,14 +27,14 @@ export default function Portfolio() {
             <div className='col-12 mobile-view'>
               <img
                 alt='supported-collaterals-staking'
-                src='/assets/images/Portfolio/Frame 361.svg'
+                src='/assets/images/Portfolio/frame_361.svg'
                 className='img-fluid'
               />
             </div>
             <div className='col-12 mobile-view'>
               <img
                 alt='supported-collaterals-staking'
-                src='/assets/images/Portfolio/Frame 362.svg'
+                src='/assets/images/Portfolio/frame_362.svg'
                 className='img-fluid'
               />
             </div>
