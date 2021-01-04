@@ -21,11 +21,10 @@ const sample_job_data = {
       learnMore: "",
     },
   ],
-  Test1: [
+  Community: [
     { jobTitle: "Test Job 1", location: "Worldwide", learnMore: "" },
     { jobTitle: "Test Job 2", location: "Worldwide", learnMore: "" },
   ],
-  Test2: [{ jobTitle: "Test Job 1", location: "Worldwide", learnMore: "" }],
 };
 function Careers() {
   const [activeTab, setActiveTab] = useState("Engineering");
