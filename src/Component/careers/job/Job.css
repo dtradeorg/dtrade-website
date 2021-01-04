@@ -1,0 +1,321 @@
+body {
+  background-color: #fafafa;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  clear: both;
+}
+
+.cfile input[type="file"] {
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.cfile input:focus + label {
+  outline: 2px solid;
+}
+
+.cfile .btn-file {
+  background: #f7f8fc;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0 !important;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 11px 32px;
+  width: 100%;
+  max-width: 244px;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+  text-align: left;
+  display: block;
+  border-radius: 29px;
+  outline: none !important;
+}
+
+.cfile .btn-file:hover,
+.cfile .btn-file:focus,
+.cfile .btn-file:hover:focus,
+.cfile .btn-file:active {
+  border: 1px solid #69abe8 !important;
+  color: #69abe8;
+}
+
+.cfile .btn-file img {
+  margin-right: 16px;
+  position: relative;
+  top: -1px;
+}
+
+.cfile .file-name {
+  font-size: 11px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.job-details .form-btn {
+  background-color: #69abe8;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #69abe8 !important;
+  outline: none !important;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  padding: 13px 18px;
+  display: block;
+  width: 100%;
+  max-width: 252px;
+  margin-bottom: 20px;
+}
+
+.job-details .form-btn:hover,
+.job-details .form-btn:focus,
+.job-details .form-btn:hover:focus,
+.job-details .form-btn:active {
+  background-color: #509de4;
+}
+
+.job-details .bt {
+  font-size: 86px;
+  line-height: 112px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.job-details .top-cont {
+  max-width: 980px;
+  margin: auto;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  padding-top: 30px;
+}
+
+.job-details .top-cont .loc {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 64px;
+  display: block;
+}
+
+.job-details .top-cont p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.job-ds {
+  max-width: 813px;
+  margin: auto;
+}
+
+.job-ds .st {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.job-ds ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.job-ds ul li {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "DM Sans", sans-serif;
+  color: #565656;
+  position: relative;
+  padding-left: 22px;
+}
+
+.job-ds ul li:before {
+  content: "";
+  background-color: #737373;
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.job-ds ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.job-ds form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.job-ds form label {
+  color: #565656;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.job-ds form label .rd {
+  color: #eb5a5a;
+  margin-left: 4px;
+}
+
+.job-ds form input {
+  height: 52px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #ffffff;
+}
+
+.job-ds form input::-webkit-input-placeholder {
+  color: #a2b2be;
+}
+
+.job-ds form input::-moz-placeholder {
+  color: #a2b2be;
+}
+
+.job-ds form input:-ms-input-placeholder {
+}
+
+.job-ds form input:-moz-placeholder {
+  color: #a2b2be;
+}
+
+.job-ds form .form-group {
+  margin-bottom: 24px;
+}
+
+.job-ds form label.sp {
+  margin-bottom: 6px;
+}
+
+.job-ds form .ctext {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  resize: none;
+  height: 150px;
+  padding: 15px 24px;
+}
+
+.job-ds form .ctext::-webkit-input-placeholder {
+  color: #a2b2be;
+}
+
+.job-ds form .ctext::-moz-placeholder {
+  color: #a2b2be;
+}
+
+.job-ds form .ctext:-ms-input-placeholder {
+}
+
+.job-ds form .ctext:-moz-placeholder {
+  color: #a2b2be;
+}
+.job-ds form .form-control:focus {
+  border-color: #80bdff;
+  box-shadow: none;
+}
+
+/*Media query*/
+@media (max-width: 1000px) {
+  .job-details .top-cont,
+  .job-details .job-ds {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .job-details .top-cont p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .job-details .bt {
+    font-size: 66px;
+    line-height: 70px;
+    margin-bottom: 15px;
+  }
+
+  .job-details .top-cont .loc {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 37px;
+  }
+}
+
+@media (max-width: 870px) {
+  .job-details .bt {
+    font-size: 45px;
+    line-height: 47px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 580px) {
+  .job-ds ul li {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .job-ds ul li::before {
+    width: 4px;
+    height: 4px;
+  }
+
+  .job-ds .st {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 40px;
+  }
+
+  .cfile .btn-file {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    padding: 8px 17px;
+    padding-top: 8px;
+    width: 100%;
+    max-width: 176px;
+    padding-top: 11px;
+  }
+
+  .job-ds form label.sp {
+    margin-bottom: 15px;
+  }
+
+  .job-ds form label {
+    color: #565656;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .job-ds form input {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
