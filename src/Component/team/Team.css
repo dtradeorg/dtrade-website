@@ -1,69 +1,94 @@
-.team-start{
-    margin-top: 12px;
-    background: #F8F8F6;
-    border-radius: 2px;
-    padding-bottom: 85px;
+.team-start {
+  margin-top: 12px;
+  background: #f8f8f6;
+  border-radius: 2px;
+  padding-bottom: 85px;
 }
 
-.team-start .title{
-    padding-top: 85px;
-    padding-bottom: 57px;
+.team-start .title {
+  padding-top: 85px;
+  padding-bottom: 57px;
 }
 
-.title{
-    font-size: 36px;
-    line-height: 48px;
+.title {
+  font-size: 36px;
+  line-height: 48px;
 }
 
-.down-arrow{
-    padding-bottom: 95px;
-    padding-top: 66px;
+.down-arrow {
+  padding-bottom: 95px;
+  padding-top: 66px;
 }
 
-.team-desc h3{
-    font-family: "DM sans",sans-serif;
-    font-style: normal;
-    font-weight: bold;
+.team-desc h3 {
+  font-family: 'DM sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #565656;
+  padding-top: 24px;
+  padding-bottom: 17px;
+}
+
+.team-desc h4 {
+  font-family: 'DM sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 13px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .team-desc h4 {
+    line-height: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .title {
     font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #565656;
-    padding-top: 24px;
-    padding-bottom: 17px;
-}
-
-.team-desc h4{
-    font-family: "DM sans",sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 13px;
-    color: #565656;
-    margin-bottom: 12px;
-}
-@media only screen and (max-width:991px){
-    .team-desc h4{
-        
-        line-height: 15px;
-     
-    }
-}
-@media only screen and (max-width:500px){
-    .title{
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .dtrade-logo{
-        width: 20%;
-        height: auto;
-    }
-    /* .team-desc h4{
+    line-height: 28px;
+  }
+  .dtrade-logo {
+    width: 20%;
+    height: auto;
+  }
+  /* .team-desc h4{
         font-size: 15px;
         line-height: 14px;
     } */
 }
-@media only screen and (max-width:767px){
-    .team-desc{
-        padding-bottom: 32px;
-    }
+@media only screen and (max-width: 767px) {
+  .team-desc {
+    padding-bottom: 32px;
+  }
+}
+
+.show-hide {
+  padding-bottom: 64px;
+  padding-top: 10px;
+}
+
+.show-hide .cactive img {
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  -o-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.cdactive {
+  display: none;
+}
+
+.cactive {
+  display: block;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }

@@ -33,7 +33,7 @@ function Upcoming() {
                   <a href='https://github.com/dtradeorg' target='_blank' rel='noopener noreferrer'>
                     <img src='./assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid' />
                   </a>
-                  <span>Beta launch 12/2020</span>
+                  <span>Beta launch 1/2021</span>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -50,7 +50,7 @@ function Upcoming() {
                   <a rel='nofollow' href='#!'>
                     <img src='./assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid' />
                   </a>
-                  <span>Beta Launch 1/2021</span>
+                  <span>Beta Launch 2021 Q1</span>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -89,7 +89,7 @@ function Upcoming() {
                 <a href='https://github.com/dtradeorg' target='_blank' rel='noopener noreferrer'>
                   <img src='./assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid' />
                 </a>
-                <span>Beta launch 12/2020</span>
+                <span>Beta launch 1/2021</span>
               </Card.Text>
             </Card.Body>
           </Card>

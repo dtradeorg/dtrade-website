@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Team.css';
 
 function Team() {
+  const [isClicked, setClicked] = useState(false);
   return (
     <Container fluid className='team-start'>
       <Container>
@@ -19,7 +20,7 @@ function Team() {
         <Row className='text-center justify-content-center'>
           <Col md={4} className='team-desc'>
             <img src='../assets/images/Team/Avatar.png' alt='yameen-malik-scientist' />
-            <h3>Yameen Mallik</h3>
+            <h3>Yameen Malik</h3>
             <h4>R&D Engineer @ Symantec</h4>
             <h4>Chief Scientist @ Providus</h4>
             <h4>ML Engineer @ Sofy.ai</h4>
@@ -35,7 +36,7 @@ function Team() {
           </Col>
 
           <Col md={4} className='team-desc'>
-            <img src='../assets/images/Team/Avatar-2.png' alt='rabeel-jawaid-founder' />
+            <img src='../assets/images/Team/rabeel.png' alt='rabeel-jawaid-founder' />
             <h3>Rabeel Jawaid</h3>
             <h4>Research Assistant @ Gorte & Vohs Lab</h4>
             <h4>Masters in Systems Eng. @ UPenn</h4>
@@ -69,9 +70,42 @@ function Team() {
             <h4>B.S. in Computer Science @ NUCES</h4>
           </Col>
         </Row>
-        {/* <Row className="text-center justify-content-center down-arrow">
-                    <img src="../assets/images/Team/chevron-down-small.svg" alt="down"/> 
-                </Row> */}
+        <Row className='text-center justify-content-center mt-md-5'>
+          <Col md={12} className='show-hide'>
+            <span
+              className={isClicked ? 'cactive' : ''}
+              onClick={() => {
+                setClicked(!isClicked);
+              }}
+            >
+              <img src='../assets/images/arrow-up-down.svg' alt='nikodem-grzesiak-strategy' />
+            </span>
+          </Col>
+          <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
+            <img src='../assets/images/Team/hamza.png' alt='nikodem-grzesiak-strategy' />
+            <h3>Humza Khan</h3>
+            <h4>BD @ Seedcode</h4>
+            <h4>Consultant @ Teamup</h4>
+            <h4>Engineering @ Etihad Airways</h4>
+            <h4>B. Eng in Mechatronics @ NUST</h4>
+          </Col>
+          <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
+            <img src='../assets/images/Team/amman.png' alt='dillion-chen-advisor' />
+            <h3>Amman Pasha</h3>
+            <h4>SWE @ Seedcode</h4>
+            <h4>Contractual SWE @ Technolectuals</h4>
+            <h4>SWE @ Urwasoft</h4>
+            <h4>B.S. in Computer Science @ UIT</h4>
+          </Col>
+          <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
+            <img src='../assets/images/Team/zabi_mohebzada.png' alt='syed-mehdi-swe' />
+            <h3>Zabi Mohebzada</h3>
+            <h4>Founder @ Seedcode</h4>
+            <h4>Partner @ Providus</h4>
+            <h4>BD @ Enterprise</h4>
+            <h4>B.S. in Biology @ UWO</h4>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
