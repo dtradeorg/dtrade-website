@@ -66,9 +66,13 @@
   }
 }
 
-.show-hide {
-  padding-bottom: 64px;
+.show-hide.col-md-12 {
+  /* padding-bottom: 64px; */
   padding-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0px;
+  /* padding-top: 91px; */
 }
 
 .show-hide .cactive img {
@@ -91,4 +95,17 @@
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+.last-row {
+  position: relative;
+}
+
+.r-active {
+  padding-bottom: 55px;
+}
+
+.show-hide span {
+  width: 20px;
+  margin: auto;
 }

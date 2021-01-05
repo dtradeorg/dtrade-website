@@ -70,7 +70,13 @@ function Team() {
             <h4>B.S. in Computer Science @ NUCES</h4>
           </Col>
         </Row>
-        <Row className='text-center justify-content-center mt-md-5'>
+        <Row
+          className={
+            isClicked
+              ? 'text-center justify-content-center mt-md-5 last-row r-active'
+              : 'text-center justify-content-center mt-md-5 last-row'
+          }
+        >
           <Col md={12} className='show-hide'>
             <span
               className={isClicked ? 'cactive' : ''}
