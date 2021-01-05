@@ -219,7 +219,7 @@ div.input-group{
     box-shadow: none !important;
     outline: none !important;
 }
-.navbar input{
+input{
     box-sizing: border-box !important;
     border-top-left-radius: 26px !important;
     border-bottom-left-radius: 26px !important;
