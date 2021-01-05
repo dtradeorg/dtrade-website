@@ -1,46 +1,42 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
-import "./Job.css";
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import './Job.css';
 const Job = ({ jobTitle, type, responsibilities, requirements, benefits }) => {
   return (
-    <div className="wrapper">
-      <section className="job-details">
-        <div className="container">
+    <div className='wrapper'>
+      <section className='job-details'>
+        <div className='container'>
           {/* Remove this padding bottom later */}
-          <Row style={{ paddingBottom: "60px" }}>
+          <Row style={{ paddingBottom: '60px' }}>
             <Col sm={12}>
-              <div className="top-cont">
-                <h1 className="bt">{jobTitle}</h1>
-                <span className="loc">{type}</span>
+              <div className='top-cont'>
+                <h1 className='bt'>{jobTitle}</h1>
+                <span className='loc'>{type}</span>
               </div>
-              <div className="job-ds">
-                <h2 className="st">About dTrade</h2>
+              <div className='job-ds'>
+                <h2 className='st'>About dTrade</h2>
                 <ul>
+                  <li>We're building the first decentralized exchange for options and perpetual trading on Polkadot</li>
                   <li>
-                    We're building the first decentralized exchange for options
-                    and perpetual trading on Polkadot
-                  </li>
-                  <li>
-                    dTrade is founded by an ex-Symentec engineer, and four
-                    friends from UPenn with backgrounds in CS, Physics and
-                    Economics
+                    dTrade is founded by an ex-Symentec engineer, and four friends from UPenn with backgrounds in CS,
+                    Physics and Economics
                   </li>
                 </ul>
-                <h2 className="st">Overview of Initial Responsibilities</h2>
+                <h2 className='st'>Overview of Initial Responsibilities</h2>
                 <ul>
                   {responsibilities.map((item) => {
                     return <li>{item}</li>;
                   })}
                 </ul>
-                <h2 className="st">What you will need</h2>
+                <h2 className='st'>What you will need</h2>
                 <ul>
                   {requirements.map((item) => {
                     return <li>{item}</li>;
                   })}
                 </ul>
-                <h2 className="st">Benefits & Perks</h2>
+                <h2 className='st'>Benefits & Perks</h2>
                 <ul>
-                  {requirements.map((item) => {
+                  {benefits.map((item) => {
                     return <li>{item}</li>;
                   })}
                 </ul>
