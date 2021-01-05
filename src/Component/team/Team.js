@@ -64,7 +64,7 @@ function Team() {
           <Col md={4} className='team-desc'>
             <img src='../assets/images/Team/Avatar-5.png' alt='syed-mehdi-swe' />
             <h3>Syed Mehdi</h3>
-            <h4>Lead SWE @ Seedcode</h4>
+            <h4>Lead SWE @ Seed Labs</h4>
             <h4>Engineering Lead @ Sofy.ai</h4>
             <h4>Masters in Computer Science @ NUCES</h4>
             <h4>B.S. in Computer Science @ NUCES</h4>
@@ -90,7 +90,7 @@ function Team() {
           <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
             <img src='../assets/images/Team/hamza.png' alt='nikodem-grzesiak-strategy' />
             <h3>Humza Khan</h3>
-            <h4>BD @ Seedcode</h4>
+            <h4>BD @ Seed Labs</h4>
             <h4>Consultant @ Teamup</h4>
             <h4>Engineering @ Etihad Airways</h4>
             <h4>B. Eng in Mechatronics @ NUST</h4>
@@ -98,7 +98,7 @@ function Team() {
           <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
             <img src='../assets/images/Team/amman.png' alt='dillion-chen-advisor' />
             <h3>Amman Pasha</h3>
-            <h4>SWE @ Seedcode</h4>
+            <h4>SWE @ Seed Labs</h4>
             <h4>Contractual SWE @ Technolectuals</h4>
             <h4>SWE @ Urwasoft</h4>
             <h4>B.S. in Computer Science @ UIT</h4>
@@ -106,7 +106,7 @@ function Team() {
           <Col md={4} className={isClicked ? 'team-desc cactive' : 'team-desc cdactive'}>
             <img src='../assets/images/Team/zabi_mohebzada.png' alt='syed-mehdi-swe' />
             <h3>Zabi Mohebzada</h3>
-            <h4>Founder @ Seedcode</h4>
+            <h4>Founder @ Seed Labs</h4>
             <h4>Partner @ Providus</h4>
             <h4>BD @ Enterprise</h4>
             <h4>B.S. in Biology @ UWO</h4>
