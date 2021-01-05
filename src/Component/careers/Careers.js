@@ -16,27 +16,52 @@ import "./careers.css";
 const sample_job_data = {
   Engineering: [
     {
-      jobTitle: "DevOps Engineer",
+      jobTitle: "Full-Stack Engineer",
       type: "Remote",
       location: "Worldwide",
-      learnMore: "devops",
-    },
-    {
-      jobTitle: "Full Stack Developer",
-      type: "Remote",
-      location: "Worldwide",
-      learnMore: "full-stack",
-    },
-    {
-      jobTitle: "Senior Backend Engineer",
-      type: "Remote",
-      location: "Worldwide",
-      learnMore: "senior-backend",
+      learnMore: "full-stack-engineer",
+      responsibilities: [
+        "Implement dTrade Exchange v2 smart contracts and tests",
+        "Design and implement peripheral mechanisms to the dTrade protocol",
+      ],
+      requirements: [
+        "2+ years of professional experience in software engineering",
+        "Proficiency with JavaScript (preferably Typescript), React and Node.js",
+        "Familiarity with Rust, Solidity, and Web3 stack is a plus",
+      ],
+      benefits: [
+        "Stock options",
+        "Comprehensive health insurance",
+        "Take a vacation when you need it",
+        "Regular team outings",
+      ],
     },
   ],
-  Community: [
-    { jobTitle: "Test Job 1", location: "Worldwide", learnMore: "test1" },
-    { jobTitle: "Test Job 2", location: "Worldwide", learnMore: "test2" },
+  Marketing: [
+    {
+      jobTitle: "Community Lead",
+      location: "Worldwide",
+      type: "Remote",
+      learnMore: "community-lead",
+      responsibilities: [
+        "Spearhead community strategy, development and growth",
+        "Deep technical understanding of dTrade’s mechanisms",
+        "Create content and partnerships",
+        "Develop new ways of engaging with our community",
+        "Attend and often speak at virtual and in-person conferences",
+      ],
+      requirements: [
+        "Experience with business and technical writing",
+        "Ability to thrive in an environment of continuous change and complexity",
+        "Sense of humor",
+      ],
+      benefits: [
+        "Stock options",
+        "Comprehensive health insurance",
+        "Take a vacation when you need it",
+        "Regular team outings",
+      ],
+    },
   ],
 };
 function Careers({ match }) {
@@ -128,16 +153,9 @@ function Careers({ match }) {
                   <div className="content-row">
                     <h1 className="title">Join Us</h1>
                     <p>
-                      We're seeking a Backend Developer having proficiency in
-                      Node.js to join our team. We encourage people who can dive
-                      headlong into situations to get things done, set their own
-                      direction and feel pride about what they create.
-                    </p>
-                    <p>
-                      Your primary focus will be the development of all
-                      server-side logic, definition and maintenance of the
-                      central database, and ensuring high performance and
-                      responsiveness to requests from the frontend.
+                      Join us in building the first decentralized exchange for
+                      synthetic asset, options and perpetuals trading on
+                      Polkadot
                     </p>
                   </div>
                   <div className="job-box-row">

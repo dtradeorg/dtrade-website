@@ -1,82 +1,50 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import "./Job.css";
-const Job = ({ jobTitle, type, location }) => {
+const Job = ({ jobTitle, type, responsibilities, requirements, benefits }) => {
   return (
     <div className="wrapper">
       <section className="job-details">
         <div className="container">
-          <Row>
+          {/* Remove this padding bottom later */}
+          <Row style={{ paddingBottom: "60px" }}>
             <Col sm={12}>
               <div className="top-cont">
                 <h1 className="bt">{jobTitle}</h1>
                 <span className="loc">{type}</span>
-                <p>
-                  We're seeking a Backend Developer having proficiency in
-                  Node.js to join our team. We encourage people who can dive
-                  headlong into situations to get things done, set their own
-                  direction and feel pride about what they create.
-                </p>
-                <p>
-                  Your primary focus will be the development of all server-side
-                  logic, definition and maintenance of the central database, and
-                  ensuring high performance and responsiveness to requests from
-                  the frontend.
-                </p>
               </div>
               <div className="job-ds">
-                <h2 className="st">Desired Skills & Experience</h2>
+                <h2 className="st">About dTrade</h2>
                 <ul>
-                  <li>2+ years of professional backend experience</li>
                   <li>
-                    Proficiency with JavaScript and in-depth knowledge of
-                    Node.js and its Express framework
+                    We're building the first decentralized exchange for options
+                    and perpetual trading on Polkadot
                   </li>
                   <li>
-                    Understanding the nature of asynchronous programming and its
-                    quirks and workarounds
+                    dTrade is founded by an ex-Symentec engineer, and four
+                    friends from UPenn with backgrounds in CS, Physics and
+                    Economics
                   </li>
-                  <li>
-                    Good understanding of server-side templating languages such
-                    as Jade and EJS
-                  </li>
-                  <li>Good understanding of server-side CSS preprocessors</li>
-                  <li>
-                    Basic understanding of front-end technologies, such as
-                    HTML5, and CSS3
-                  </li>
-                  <li>
-                    User authentication and authorization between multiple
-                    systems, servers, and environments
-                  </li>
-                  <li>
-                    Understanding fundamental design principles behind a
-                    scalable application
-                  </li>
-                  <li>
-                    Understanding differences between multiple delivery
-                    platforms, such as mobile vs. desktop, and optimizing output
-                    to match the specific platform
-                  </li>
-                  <li>
-                    Creating database schemas that represent and support
-                    business processes
-                  </li>
-                  <li>
-                    Proficient understanding of code versioning tools, such as
-                    Git
-                  </li>
-                  <li>
-                    Excellent oral and written communication will be a plus
-                  </li>
-                  <li>Must be a team player!</li>
+                </ul>
+                <h2 className="st">Overview of Initial Responsibilities</h2>
+                <ul>
+                  {responsibilities.map((item) => {
+                    return <li>{item}</li>;
+                  })}
+                </ul>
+                <h2 className="st">What you will need</h2>
+                <ul>
+                  {requirements.map((item) => {
+                    return <li>{item}</li>;
+                  })}
                 </ul>
                 <h2 className="st">Benefits & Perks</h2>
                 <ul>
-                  <li>Competitive Base Salary + Stock Options + Equity</li>
-                  <li>Comprehensive healthcare benefits</li>
+                  {requirements.map((item) => {
+                    return <li>{item}</li>;
+                  })}
                 </ul>
-                <h2 className="st">Submit Your Application</h2>
+                {/* <h2 className="st">Submit Your Application</h2>
                 <form>
                   <div className="form-group">
                     <label for="name">
@@ -200,7 +168,7 @@ const Job = ({ jobTitle, type, location }) => {
                   <button type="submit" className="form-btn">
                     Send Application
                   </button>
-                </form>
+                </form> */}
               </div>
             </Col>
           </Row>
