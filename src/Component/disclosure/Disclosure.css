@@ -1,12 +1,8 @@
 .disclosure-div {
-  
-  margin-top: 12px;
-  padding-top: 55px;
+  padding-top: 67px;
   padding-bottom: 24px;
-  
   background: #fff;
   border-radius: 2px;
-  
 }
 
 .disclosure-section {
@@ -73,16 +69,12 @@
 .mb-arrow {
   margin-bottom: 3px;
 }
-.disclosure-section{
+.disclosure-section {
   max-width: 1216px !important;
 }
 
-
-@media only screen and (max-width:823px){  
-
-
+@media only screen and (max-width: 823px) {
   .disclosure-div {
     padding-top: 0px;
   }
-  
 }

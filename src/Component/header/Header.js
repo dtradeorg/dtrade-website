@@ -9,7 +9,7 @@ function Header() {
     <div className='conatiner-fluid header'>
       <p className='join-banner'>
         Join us in reimagining finance. &nbsp;
-        <a href='/careers' target='_blank' rel='noopener nofollow noreferrer' className='blue-anchor'>
+        <a href='/careers' rel='noopener nofollow noreferrer' className='blue-anchor'>
           <br className='mobile-show' />
           View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />

@@ -25,7 +25,7 @@ body {
 
 .title h3 {
   margin-top: 91px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 86px;
@@ -35,7 +35,7 @@ body {
 }
 
 .title h4 {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -50,7 +50,7 @@ body {
 
 .desc h3 {
   margin-top: 64px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -75,7 +75,7 @@ body {
 }
 
 .list h3 {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -96,7 +96,7 @@ body {
 @media only screen and (max-width: 991px) {
   .title h3 {
     margin-top: 30px;
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -114,7 +114,7 @@ body {
 .join-sec .title {
   font-size: 86px;
   line-height: 112px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin-bottom: 64px;
   font-weight: bold;
 }
@@ -131,7 +131,7 @@ body {
   line-height: 24px;
   font-weight: 500;
   color: #565656;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin-bottom: 8px;
 }
 
@@ -140,7 +140,7 @@ body {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .openings-tab a {
@@ -247,7 +247,7 @@ div.openings-tab {
 }
 
 .job-box-row .tab-content ul li .clink:after {
-  content: "\203A";
+  content: '\203A';
   font-size: 24px;
   font-family: monospace;
   position: relative;
