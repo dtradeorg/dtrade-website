@@ -2,7 +2,9 @@
   width: 100%;
   clear: both;
 }
-
+.job-details {
+  background-color: #fafafa;
+}
 .cfile input[type='file'] {
   z-index: -1;
   position: absolute;
