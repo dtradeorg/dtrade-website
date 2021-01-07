@@ -1,10 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
-//import './Job.css';
+import './Job.css';
 const Job = ({ jobTitle, type, responsibilities, requirements, benefits }) => {
   const location = useLocation();
-  if (location.pathname.indexOf('careers/') > 0) require('./Job.css');
   return (
     <div className='wrapper'>
       <section className='job-details'>

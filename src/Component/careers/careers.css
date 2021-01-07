@@ -1,7 +1,3 @@
-body {
-  background-color: #fafafa;
-  height: auto;
-}
 .social-link-margin-1 {
   margin-left: 9.23px;
 }
@@ -11,6 +7,11 @@ body {
 }
 
 .bg {
+  background: #fafafa;
+}
+
+.grbg {
+  background-color: #fafafa;
   background: #fafafa;
 }
 
@@ -349,4 +350,13 @@ div.openings-tab {
     text-align: center;
     display: inline-block;
   }
+}
+
+.caf {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+}
+.c-60-p {
+  padding-bottom: 76px;
 }
