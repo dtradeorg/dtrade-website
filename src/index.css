@@ -7,7 +7,7 @@ body,
 .whbg {
   width: 100%;
   height: 100%;
-  display: table;
+  display: block;
 }
 body {
   font-family: 'DM Sans', sans-serif;

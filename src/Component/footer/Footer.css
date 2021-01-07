@@ -67,6 +67,9 @@
 }
 
 @media only screen and (max-width: 1205px) {
+  c-60-p {
+    padding-bottom: 138px;
+  }
   .footer-switch {
     display: none;
   }

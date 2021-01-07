@@ -128,15 +128,18 @@ function Upcoming() {
             <Card className='item'>
               <Card.Img variant='top' src='../assets/images/Upcoming/2.svg' alt='derisk-hedge-graph' />
               <Card.Body>
-                <Card.Title className='CardTitle'>Derisk</Card.Title>
+                <Card.Title className='CardTitle'>On-Chain Options</Card.Title>
                 <Card.Text className='CardText'>
-                  Hedge risk in decentralized finance using on-chain non-custodial options on Polkadot.
+                  Built using decentralized order books to allow for price discovery. It will have the first DOT options.
                 </Card.Text>
-                <Card.Text className='card-social-disabled my-auto'>
-                  <a rel='nofollow' href='#!'>
+                <Card.Text className='card-social my-auto'>
+                  <a href='https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07' target='_blank' rel='noopener noreferrer'>
+                    <img src='./assets/images/Navbar/dUSD.svg' alt='logo' className='img-fluid' />
+                  </a>
+                  <a href='https://github.com/dtradeorg/options-exchange' target='_blank' rel='noopener noreferrer'>
                     <img src='./assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid' />
                   </a>
-                  <span>Announcing Soon</span>
+                  <span>Beta Launch 2021 Q2-Q3</span>
                 </Card.Text>
               </Card.Body>
             </Card>

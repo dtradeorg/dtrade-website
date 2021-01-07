@@ -73,7 +73,9 @@
     max-width: 285px !important;
     /* padding-right:3.33vw; */
 }
-
+.feature-col.max {
+    max-width: 327px !important;
+}
 .to-disc-link{
     text-align: center;
     font-family: "DM Sans", sans-serif;

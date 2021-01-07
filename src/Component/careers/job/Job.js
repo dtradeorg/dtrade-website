@@ -1,9 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom';
 import './Job.css';
 const Job = ({ jobTitle, type, responsibilities, requirements, benefits }) => {
-  const location = useLocation();
   return (
     <div className='wrapper'>
       <section className='job-details'>

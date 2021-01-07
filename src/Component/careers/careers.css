@@ -191,6 +191,7 @@ div.openings-tab {
   display: flex;
   justify-content: center;
   border: 0px;
+  margin-bottom: 48px;
 }
 
 .job-box-row .stitle {
@@ -206,7 +207,11 @@ div.openings-tab {
 .job-box-row .tab-content ul {
   list-style: none;
   padding-left: 0px;
-  padding-top: 48px;
+  max-height: 742px;
+  overflow: auto;
+}
+.job-box-row .tab-content ul::-webkit-scrollbar{
+  width: 0px;
 }
 
 .job-box-row .tab-content ul li {
@@ -355,8 +360,17 @@ div.openings-tab {
 .caf {
   width: 100%;
   bottom: 0px;
-  position: absolute;
+  position: fixed;
+  background-color: #fafafa;
 }
 .c-60-p {
   padding-bottom: 76px;
+}
+@media (max-height: 767px){
+  .caf {
+    position: relative;
+  }
+  html, body, #root, .grbg, .whbg {
+    height: auto;
+  }
 }

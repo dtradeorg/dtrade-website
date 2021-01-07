@@ -135,6 +135,9 @@
   .cards-container {
     margin-top: 0px;
   }
+  .card-social span {
+    font-size: 13px;
+  }
   .upcoming-heading-row h3 {
     font-style: normal;
     font-weight: bold;
