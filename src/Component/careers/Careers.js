@@ -63,6 +63,7 @@ function Careers({ match }) {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  console.log(location.pathname);
   const [activeTab, setActiveTab] = useState('Engineering');
   return (
     <React.Fragment>
