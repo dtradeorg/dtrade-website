@@ -363,6 +363,9 @@ div.openings-tab {
   position: fixed;
   background-color: #fafafa;
 }
+.caf.pr {
+  position: relative;
+}
 .c-60-p {
   padding-bottom: 76px;
 }

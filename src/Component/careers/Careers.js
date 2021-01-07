@@ -163,7 +163,7 @@ function Careers({ match }) {
             );
           });
         })}
-        <div className='caf'>
+        <div className={`caf ${useLocation().pathname.indexOf('careers/')>0 ? 'pr' : ''}`}>
           <Footer />
         </div>
       </div>
