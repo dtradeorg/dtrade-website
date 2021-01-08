@@ -22,8 +22,10 @@ export default function Features() {
         </div>
 
         <div className='col-12 col feature-col max'>
-          <div className='feature-heading'>Unlimited Liquidity</div>
-          <div className='feature-body'>Zero slippage on the spot market. Less than 0.5% slippage on 100k+ leveraged positions.</div>
+          <div className='feature-heading'>Lowest Slippage</div>
+          <div className='feature-body'>
+            Zero slippage on the spot market. Less than 0.5% slippage on 100k+ leveraged positions.
+          </div>
         </div>
       </div>
 
