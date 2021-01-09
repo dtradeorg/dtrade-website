@@ -18,9 +18,10 @@ function Header() {
 
       <div className='container text-center hero'>
         <h1>
-          Synthetic Asset Trading <br className='mobile-switch' /> on Polkadot
+          Synthetic Options
+          <br className='mobile-switch' /> & Futures on Polkadot
         </h1>
-
+        <p className='sub-heading'>Decentralised derivatives trading powered by Substrate</p>
         <div className='row justify-content-center'>
           <form
             action='https://dtrade.us2.list-manage.com/subscribe/post?u=e55c79f9e31d5d705bf64c8cc&amp;id=829a3e917a'
@@ -82,7 +83,7 @@ function Header() {
         </div>
         <div className='row justify-content-center d-md-none'>
           <a href='http://stakr.dtrade.org/' target='_blank' rel='noopener nofollow noreferrer' className='ml-4 link'>
-            Launch App
+            Launch Test App
             <img className='ml-arrow mb-1' src='./assets/images/arrow-top-right.svg' alt='arrow'></img>
           </a>
           <a href='https://medium.com/dtrade' target='_blank' rel='noopener nofollow noreferrer'>

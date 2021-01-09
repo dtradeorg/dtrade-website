@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './Specs.css';
 import LP from './Tabs/LP';
 import LPMobile from './Tabs/LPMobile';
-import Reward from './Tabs/Reward';
-import RewardMobile from './Tabs/RewardMobile';
-import Trade from './Tabs/Trade';
-import TradeMobile from './Tabs/TradeMobile';
+import Futures from './Tabs/Reward';
+import FuturesMobile from './Tabs/RewardMobile';
+import Options from './Tabs/Trade';
+import OptionsMobile from './Tabs/TradeMobile';
 
 function Specs() {
   const [tab, setTab] = useState(0);
@@ -13,26 +13,26 @@ function Specs() {
   const setTabFunc = () => {
     switch (tab) {
       case 0:
-        return <Trade />;
+        return <Options />;
       case 1:
-        return <Reward />;
+        return <Futures />;
       case 2:
         return <LP />;
       default:
-        return <Reward />;
+        return <Futures />;
     }
   };
 
   const setTabFuncMobile = () => {
     switch (tab) {
       case 0:
-        return <TradeMobile />;
+        return <OptionsMobile />;
       case 1:
-        return <RewardMobile />;
+        return <FuturesMobile />;
       case 2:
         return <LPMobile />;
       default:
-        return <RewardMobile />;
+        return <FuturesMobile />;
     }
   };
 
@@ -79,7 +79,7 @@ function Specs() {
             <div className='row '>
               <div className='col'>
                 <img
-                  src='./assets/images/Specs/trade-active.svg'
+                  src='./assets/images/Specs/options-active.svg'
                   alt=''
                   className={tab === 0 ? 'active' : 'inactive'}
                   onClick={() => TradeClick()}
@@ -89,7 +89,7 @@ function Specs() {
             <div className='row switch-bar-padding-between'>
               <div className='col'>
                 <img
-                  src='./assets/images/Specs/stake-active.svg'
+                  src='./assets/images/Specs/futures-active.svg'
                   alt=''
                   className={tab === 1 ? 'active' : 'inactive'}
                   onClick={() => RewardClick()}
@@ -139,7 +139,7 @@ function Specs() {
 
           <div className='col justify-content-center text-center'>
             <img
-              src='./assets/images/Specs/trade-active.svg'
+              src='./assets/images/Specs/options-active.svg'
               alt=''
               className={tab === 0 ? 'active' : 'inactive'}
               onClick={() => TradeClick()}
@@ -147,7 +147,7 @@ function Specs() {
           </div>
           <div className='col justify-content-center text-center'>
             <img
-              src='./assets/images/Specs/stake-active.svg'
+              src='./assets/images/Specs/futures-active.svg'
               alt=''
               className={tab === 1 ? 'active' : 'inactive'}
               onClick={() => RewardClick()}

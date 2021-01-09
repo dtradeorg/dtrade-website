@@ -24,7 +24,7 @@ export default function Options() {
           </div>
 
           <div className='col-lg flex-column mr-0'>
-            <img src='/assets/images/Options/options.svg' alt='options'></img>
+            <img src='/assets/images/Options/trade.png' alt='options'></img>
             <div>Options</div>
           </div>
         </div>

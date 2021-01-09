@@ -24,7 +24,7 @@ class Main extends Component {
         {/* <Options/> */}
         <Portfolio />
         <Team />
-        <Upcoming />
+        {/* <Upcoming /> */}
         <Disclosure />
         <Footer />
       </div>

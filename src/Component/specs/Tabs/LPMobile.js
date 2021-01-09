@@ -7,9 +7,9 @@ function LPMobile() {
     <Animated animationIn='fadeIn' animationOut='fadeOut'>
       <div className='row align-items-center justify-content-center'>
         <div className='col-12 justify-content-center text-center tab-sec-mobile'>
-          <h1 className='reward-heading text-center'>Provide Liquidity</h1>
+          <h1 className='reward-heading text-center'>Insurance & Liquidity Mining</h1>
           <p className='reward-text text-center'>
-            Earn liquidity pool rewards by providing liquidity to DET and synthetic asset pools.
+            Earn liquidity mining rewards by writing options or by providing liquidity to the insurance fund
           </p>
 
           <img

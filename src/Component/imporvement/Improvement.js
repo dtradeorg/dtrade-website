@@ -19,7 +19,7 @@ function Improvement() {
             className='img-fluid mt-5 mb-5 d-none d-md-block'
           />
           <img
-            src='/assets/images/Improvement/timelineMob.png'
+            src='/assets/images/Improvement/timelineMob.svg'
             alt='roadmap-of-integration'
             className='img-fluid mt-4 mb-4 d-md-none'
           />

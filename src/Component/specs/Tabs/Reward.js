@@ -2,19 +2,19 @@ import React from 'react';
 import '../Specs.css';
 import { Animated } from 'react-animated-css';
 
-function Reward() {
+function Futures() {
   return (
     <div className='col-11'>
       <Animated animationIn='fadeIn' animationOut='fadeIn'>
         <div className='row align-items-center'>
           <div className='col text-center tablet-container p-0'>
-            <img className='img-fluid tablet' src='./assets/images/Specs/stake.png' alt='stakr-app-stake-screen' />
+            <img className='img-fluid tablet' src='./assets/images/Specs/futures.png' alt='stakr-app-stake-screen' />
           </div>
           <div className='col-5 pl-5'>
-            <h1 className='reward-heading'>Earn rewards.</h1>
+            <h1 className='reward-heading'>Perpetuals</h1>
             <p className='reward-text'>
-              Earn rewards and collect your share of trading fees by staking and providing collateral to the dtrade
-              protocol.
+              Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
+              collateral*
             </p>
             {/* 
             <h3 className='apy-info'>
@@ -29,4 +29,4 @@ function Reward() {
   );
 }
 
-export default Reward;
+export default Futures;
