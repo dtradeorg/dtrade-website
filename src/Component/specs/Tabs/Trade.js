@@ -16,6 +16,25 @@ function Options() {
               Built using decentralized order books to allow for price discovery. We will launch with DOT options in
               2021 Q2-Q3.
             </p>
+            <a
+              href='https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07'
+              target='_blank'
+              rel='nofollow noopener noreferrer'
+            >
+              <img
+                src='../assets/images/Navbar/medium-white.svg'
+                alt='logo'
+                className='img-fluid social-link-margin-2'
+              />
+            </a>
+
+            <a href='https://github.com/dtradeorg/options-exchange' target='_blank' rel='nofollow noopener noreferrer'>
+              <img
+                src='../assets/images/Navbar/github-white.svg'
+                alt='logo'
+                className='img-fluid social-link-margin-2'
+              />
+            </a>
           </div>
         </div>
       </Animated>

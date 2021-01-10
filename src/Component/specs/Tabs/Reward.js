@@ -16,12 +16,13 @@ function Futures() {
               Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
               collateral*
             </p>
-            {/* 
-            <h3 className='apy-info'>
-              {' '}
-              <img alt='i' src='./assets/images/Specs/info.svg' className='img-fluid mr-2 mb-md-1' /> Current APY:
-              67.87%
-            </h3> */}
+            <a href='https://github.com/dtradeorg' target='_blank' rel='nofollow noopener noreferrer'>
+              <img
+                src='../assets/images/Navbar/github-white.svg'
+                alt='logo'
+                className='img-fluid social-link-margin-2'
+              />
+            </a>
           </div>
         </div>
       </Animated>
