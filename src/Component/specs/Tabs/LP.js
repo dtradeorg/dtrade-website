@@ -14,7 +14,7 @@ function LP() {
               alt='stakr-app-liquidity-protocol-screen'
             />
           </div>
-          <div className='col-5 pl-5'>
+          <div className='col-5 pl-3'>
             <h1 className='reward-heading' style={{ fontSize: '45px' }}>
               Insurance & Liquidity Mining
             </h1>

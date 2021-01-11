@@ -167,3 +167,14 @@ img {
 .social-link-margin-2 {
   margin-right: 9.23px;
 }
+
+.container.desktopview {
+  max-width: 1410px;
+}
+.container.desktopview .reward-text {
+  max-width: 471px;
+}
+
+.container.desktopview .reward-heading {
+  max-width: 431px;
+}

@@ -10,7 +10,7 @@ function Futures() {
           <div className='col text-center tablet-container p-0'>
             <img className='img-fluid tablet' src='./assets/images/Specs/futures.png' alt='stakr-app-stake-screen' />
           </div>
-          <div className='col-5 pl-5'>
+          <div className='col-5 pl-3'>
             <h1 className='reward-heading'>Perpetuals</h1>
             <p className='reward-text'>
               Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
