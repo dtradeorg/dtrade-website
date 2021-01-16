@@ -13,7 +13,7 @@ export default function Portfolio() {
 
                 </div> */}
         <div className='col-12 col-md portfolio-card staking card-md-height'>
-          <div className='porject-title'>Multi-collateral Staking</div>
+          <div className='porject-title'>Multi-collateral Margin</div>
           <div className='porject-des'>Supported Collaterals</div>
 
           <div className='row '>
@@ -61,7 +61,7 @@ export default function Portfolio() {
           </div>
 
           <div className='project-date-dtrade '>
-            <h3 className='white-paper'>Read White Paper</h3>
+            <h3 className='white-paper'>Read Light Paper</h3>
             <h3 className='white-paper-2'>Available Soon</h3>
           </div>
         </div>

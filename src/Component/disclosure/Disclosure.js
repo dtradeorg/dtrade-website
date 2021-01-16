@@ -26,18 +26,18 @@ export default function Disclosure() {
             iii) We round off holdings of fractional shares to the fourth decimal place. We also do not accept synthetic
             dollar purchases of less than $1 dUSD.
           </div>
-          <div>iv) The collateralization ratio may change over time.</div>
+          {/* <div>iv) The collateralization ratio may change over time.</div> */}
 
           <div className='disclosure-mt'>
-            The supported collaterals for loans may change upon launch in 2021, and initially it may only be a subset of
-            the ones' mentioned above.
+            The supported collaterals may change after the parachain auctions, and initially it may only be EDG & DET.
+            We intend to add DOT, KSM, and aUSD after the auctions.
           </div>
           <div className='disclosure-mt'>
             dTrade (c) is a decentralized financial platform that aims to provide access to anyone, anywhere wanting to
             trade any market.
             <br />
-            Our alpha launch will only have select equities from NYSE, HKEX, TYO, and select crypto assets and
-            commodities.
+            Our alpha launch will only have DOT futures and options. Other asset classes will be added through
+            decentralized governance.
             <br /> By using this website, you are agreeing to our Terms of Use and Privacy Policy.
           </div>
         </div>
