@@ -305,9 +305,8 @@ input:focus {
   line-height: 22px;
   display: inline-block !important;
   margin-bottom: 20px;
-}
-.sblogo .link:hover {
-  color: #8b8f92 !important;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
 }
 
 @media (max-width: 977px) {

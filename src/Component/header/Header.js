@@ -127,9 +127,7 @@ function Header() {
             <img src='./assets/images/Header/polychain-capital.svg' alt='' />
           </li>
         </ul>
-        <a class='link' href='#' title='+ more'>
-          + more
-        </a>
+        <span class='link'>+ more</span>
       </div>
     </div>
   );
