@@ -105,6 +105,32 @@ function Header() {
 
         <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='Polkadot-world-map' />
       </div>
+
+      <div class='sblogo'>
+        <ul>
+          <li>
+            <img src='./assets/images/Header/cms.svg' alt='cms' />
+          </li>
+          <li>
+            <img src='./assets/images/Header/divergence.svg' alt='divergence' />
+          </li>
+          <li>
+            <img src='./assets/images/Header/hypersphere.svg' alt='hypersphere' />
+          </li>
+          <li>
+            <img src='./assets/images/Header/mechanism.svg' alt='mechanism' />
+          </li>
+          <li>
+            <img src='./assets/images/Header/aparafi.svg' alt='aparafi' />
+          </li>
+          <li>
+            <img src='./assets/images/Header/polychain-capital.svg' alt='' />
+          </li>
+        </ul>
+        <a class='link' href='#' title='+ more'>
+          + more
+        </a>
+      </div>
     </div>
   );
 }

@@ -19,6 +19,14 @@ function Team() {
       <Container>
         <Row className='text-center justify-content-center'>
           <Col md={4} className='team-desc'>
+            <img src='../assets/images/Team/Avatar-3.png' alt='nikodem-grzesiak-strategy' />
+            <h3>Nikodem Grzesiak</h3>
+            <h4>Theoretical Physicist @ IonQ</h4>
+            <h4>Research Assistant @ CERN</h4>
+            <h4>Masters in Physics @ UPenn</h4>
+            <h4>B.A. in Physics @ UPenn</h4>
+          </Col>
+          <Col md={4} className='team-desc'>
             <img src='../assets/images/Team/Avatar.png' alt='yameen-malik-scientist' />
             <h3>Yameen Malik</h3>
             <h4>R&D Engineer @ Symantec</h4>
@@ -26,15 +34,6 @@ function Team() {
             <h4>ML Engineer @ Sofy.ai</h4>
             <h4>B.S. in Computer Science @ NUCES</h4>
           </Col>
-          <Col md={4} className='team-desc'>
-            <img src='../assets/images/Team/Avatar-1.png' alt='drew-stone-advisor' />
-            <h3>Drew Stone</h3>
-            <h4>Founder @ Edgeware</h4>
-            <h4>Founder @ Commonwealth Labs</h4>
-            <h4>Masters in Math @ UPenn</h4>
-            <h4>B.S.E in Networks Eng. @ UPenn</h4>
-          </Col>
-
           <Col md={4} className='team-desc'>
             <img src='../assets/images/Team/rabeel.png' alt='rabeel-jawaid-founder' />
             <h3>Rabeel Jawaid</h3>
@@ -45,14 +44,6 @@ function Team() {
           </Col>
         </Row>
         <Row className='text-center justify-content-center mt-md-5'>
-          <Col md={4} className='team-desc'>
-            <img src='../assets/images/Team/Avatar-3.png' alt='nikodem-grzesiak-strategy' />
-            <h3>Nikodem Grzesiak</h3>
-            <h4>Theoretical Physicist @ IonQ</h4>
-            <h4>Research Assistant @ CERN</h4>
-            <h4>Masters in Physics @ UPenn</h4>
-            <h4>B.A. in Physics @ UPenn</h4>
-          </Col>
           <Col md={4} className='team-desc'>
             <img src='../assets/images/Team/Avatar-4.png' alt='dillion-chen-advisor' />
             <h3>Dillon Chen</h3>
@@ -68,6 +59,14 @@ function Team() {
             <h4>Engineering Lead @ Sofy.ai</h4>
             <h4>Masters in Computer Science @ NUCES</h4>
             <h4>B.S. in Computer Science @ NUCES</h4>
+          </Col>
+          <Col md={4} className='team-desc'>
+            <img src='../assets/images/Team/Avatar-1.png' alt='drew-stone-advisor' />
+            <h3>Drew Stone</h3>
+            <h4>Founder @ Edgeware</h4>
+            <h4>Founder @ Commonwealth Labs</h4>
+            <h4>Masters in Math @ UPenn</h4>
+            <h4>B.S.E in Networks Eng. @ UPenn</h4>
           </Col>
         </Row>
         <Row
