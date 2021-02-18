@@ -1,37 +1,211 @@
-
-*{
-    font-family: "DM Sans",sans-serif;
+* {
+  font-family: "DM Sans", sans-serif;
 }
 
-.portfolio-card{
-    margin-top: 12px;
-    padding-top: 80px;
-    height: 580px;
-    text-align: center;
+.portfolio-card {
+  margin-top: 12px;
+  padding-top: 80px;
+  height: 580px;
+  text-align: center;
 }
 
 .portfolio-card .porject-title {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
 }
 
+.portfolio-card .porject-des {
+  margin-top: 14px;
+  max-width: 586px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 0px;
+}
 
-.portfolio-card .porject-des{
+.portfolio-card .porject-des-w {
+  margin-top: 14px;
+  max-width: 586px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.portfolio-card .project-date {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.portfolio-card .project-date-dtrade {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.card-ml {
+  margin-left: 12px;
+}
+@media only screen and (max-width: 767px) {
+  .card-ml {
+    margin-left: 0 !important;
+  }
+}
+
+.prediction {
+  background: url("/assets/images/Portfolio/prediction.svg") center no-repeat;
+
+  background-size: cover;
+  color: #484848;
+}
+
+.date-btn {
+  color: white !important;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  background: rgba(69, 69, 78, 0.75) !important;
+  border-radius: 4px !important;
+}
+
+.staking {
+  color: #484848;
+  background: url("/assets/images/Portfolio/Staking.jpg") center no-repeat;
+  background-size: cover;
+
+  color: #484848;
+}
+
+.staking-link {
+  color: #69abe8 !important;
+}
+
+.staking-link:hover {
+  color: #69abe8 !important;
+}
+.portfolio-card a {
+  color: #484848;
+
+  margin-top: 32px !important;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.arrow-ml {
+  margin-left: 17px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #484848 !important;
+}
+
+.dtrade {
+  color: #484848;
+
+  background: url("/assets/images/Portfolio/dtrade.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loan {
+  color: white;
+  background: url("/assets/images/Portfolio/loan-bg.jpg") center;
+  background-size: cover;
+}
+
+.loans-features {
+  padding-left: 5.208vw;
+  padding-right: 5.208vw;
+  padding-top: 71px;
+}
+
+.feature-bold {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.feature-mute {
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.5;
+}
+
+.loans-features-mobile {
+  display: none !important;
+}
+.mobile-switch {
+  display: block;
+}
+.br-mobile {
+  display: none !important;
+}
+
+.mobile-view {
+  display: none;
+}
+
+.desktop-view {
+  display: block;
+}
+
+@media only screen and (max-width: 1900px) {
+  .loans-features {
+    padding-left: 3.12vw;
+    padding-right: 3.12vw;
+  }
+}
+
+@media only screen and (max-width: 1441px) {
+  .loans-features {
+    display: none !important;
+  }
+
+  .loans-features-mobile {
+    display: block !important;
+    padding-top: 32px !important;
+  }
+
+  .card-ml {
+    margin-left: 12px;
+  }
+
+  .portfolio-card {
+    padding-top: 48px;
+  }
+  .portfolio-card .porject-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .portfolio-card .porject-des {
     margin-top: 14px;
     max-width: 586px;
     margin-left: auto;
     margin-right: auto;
     color: #000;
-  font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
 
-}
-
-.portfolio-card .porject-des-w{
+  .portfolio-card .porject-des-w {
     margin-top: 14px;
     max-width: 586px;
     margin-left: auto;
@@ -39,294 +213,80 @@ line-height: 48px;
     color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
 
-}
-
-.portfolio-card .project-date {
+  .portfolio-card .project-date {
     margin-top: 32px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    
-
-}
-
-.portfolio-card .project-date-dtrade {
-    margin-top: 32px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 16px;
-
-}
-
-
-
-.card-ml{
-    margin-left: 12px;
-}
-@media only screen and (max-width:767px){
-    .card-ml{
-        margin-left: 0 !important;
-    }
-   
-}
-
-
-
-
-.prediction{
-    background: url("/assets/images/Portfolio/prediction.svg") center no-repeat ;
-    
-    background-size: cover ;
-    color: #484848;
-}
-
-.date-btn{
-    color: white !important;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: bold;
-    background: rgba(69, 69, 78, 0.75) !important;
-    border-radius: 4px !important;
-
-}
-
-.staking{
-
-    color: #484848;
-    background: url("/assets/images/Portfolio/Staking.jpg") center no-repeat ;
-    background-size: cover ;
-    
-    color: #484848;
-
-}
-
-
-.staking-link{
-    color: #69ABE8  !important;
-
-}
-
-.staking-link:hover{
-    color: #69ABE8  !important;
-
-}
-.portfolio-card a{
-
-    color: #484848;
-
-    margin-top: 32px !important;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-
-}
-
-.arrow-ml{
-    margin-left: 17px;
-}
-
-a:hover{
-    text-decoration: none !important;
-    color: #484848 !important;
-}
-
-
-.dtrade{
-
-    color: #484848;
-
-    background: url("/assets/images/Portfolio/dtrade.jpg") center;
-    background-size: cover ;
-    background-repeat: no-repeat; 
-    
-
-}
-
-
-.loan{
-    color: white;
-    background: url("/assets/images/Portfolio/loan-bg.jpg") center;
-    background-size: cover ;
-}
-
-.loans-features{
-    padding-left: 5.208vw;
-    padding-right: 5.208vw;
-    padding-top: 71px;
-}
-
-.feature-bold{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.feature-mute{
-    font-size: 14px;
-    line-height: 18px;
-    opacity: 0.5;
-}
-
-.loans-features-mobile{
-    display: none !important;
-}
-.mobile-switch{
+  }
+  .mobile-view {
     display: block;
-}
-.br-mobile{
-    display: none !important;
-}
-
-.mobile-view{
+  }
+  .desktop-view {
     display: none;
+  }
 }
 
-.desktop-view{
-    display: block;
+@media only screen and (max-width: 1735px) {
+  .loans-features img {
+    max-width: 550px;
+  }
+  .loans-features {
+    padding-left: 1.12vw;
+    padding-right: 1.12vw;
+  }
 }
 
-@media only screen and (max-width: 1900px){
-    .loans-features{
-        padding-left: 3.12vw;
-        padding-right: 3.12vw;
-    }
-   
+@media only screen and (max-width: 1590px) {
+  .loans-features {
+    padding-left: 0.12vw;
+    padding-right: 0.12vw;
+  }
+}
+@media only screen and (max-width: 1200) {
+  .mobile-switch {
+    display: none !important;
+  }
+
+  .br-mobile {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .card-ml {
+    margin-left: 0px;
+  }
 }
 
-@media only screen and (max-width: 1441px){
-    .loans-features{
-        display: none !important;
-    }
-
-    .loans-features-mobile{
-        display: block !important;
-        padding-top: 32px !important;
-    }
-
-    .card-ml{
-        margin-left: 12px;
-
-    }
-
-    .portfolio-card{
-        padding-top: 48px;
-    }
-    .portfolio-card .porject-title {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    
-     .portfolio-card .porject-des{
-        margin-top: 14px;
-        max-width: 586px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #000;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 42px;        
-        text-align: center;
-    
-    }
-    
-    .portfolio-card .porject-des-w{
-        margin-top: 14px;
-        max-width: 586px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #fff;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 42px;        
-        text-align: center;
-    
-    }
-    
-    .portfolio-card .project-date {
-        margin-top: 32px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        
-    }
-    .mobile-view{
-        display: block;
-    }
-    .desktop-view{
-        display: none;
-    }
+.white-paper {
+  color: #a1a1a1;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-
-
-@media only screen and (max-width: 1735px){
-    .loans-features img{
-        max-width: 550px;
-    }
-    .loans-features{
-        padding-left: 1.12vw;
-        padding-right: 1.12vw;
-    }
-
+.white-paper-2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #737373;
+  opacity: 0.5;
 }
 
-@media only screen and (max-width: 1590px){
-    .loans-features{
-        padding-left: 0.12vw;
-        padding-right: 0.12vw;
-    }
-
+.collateral {
+  margin-top: 3vw;
 }
-@media only screen and (max-width: 1200){
-    .mobile-switch{
-        display: none !important;
-    }
-
-    .br-mobile{
-        display: block !important;
-    }
-    
-}
-@media only screen and (max-width: 766px){
-    .card-ml{
-        margin-left: 0px;
-
-    }
-  
-}
-
-
-.white-paper{
-    color: #A1A1A1;
-    font-family: "DM Sans",sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-}
-
-.white-paper-2{
-    font-family: "DM Sans",sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #737373;
-    opacity: 0.5;
-}
-
-
-.collateral{
-    margin-top: 3vw;
-}
-@media only screen and (max-width:767px){
-    .card-md-height{
-        height:684px;
-    }
+@media only screen and (max-width: 767px) {
+  .card-md-height {
+    height: 684px;
+  }
 }

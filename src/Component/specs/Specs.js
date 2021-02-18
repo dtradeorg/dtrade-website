@@ -61,117 +61,120 @@ function Specs() {
   };
 
   return (
-    <div id='stake' className='container-fluid'>
-      <div className='container desktopview'>
-        <div className='row align-items-center'>
-          <div className='col text-center switch-bar-col pl-0'>
-            <div className='row switch-bar-padding-bottom'>
-              <div className='col'>
-                <img
-                  className='img-fluid arrow-spec'
-                  src='./assets/images/Specs/arrow-up.svg'
-                  alt=''
-                  onClick={() => UpArrowFunc()}
-                />
+    <section>
+      <div id='stake' className='container-fluid'>
+        <div className='container desktopview'>
+          <div className='row align-items-center'>
+            <div className='col text-center switch-bar-col pl-0'>
+              <div className='row switch-bar-padding-bottom'>
+                <div className='col'>
+                  <img
+                    className='img-fluid arrow-spec'
+                    src='./assets/images/Specs/arrow-up.svg'
+                    alt='up'
+                    onClick={() => UpArrowFunc()}
+                  />
+                </div>
+              </div>
+
+              <div className='row '>
+                <div className='col'>
+                  <img
+                    src='./assets/images/Specs/options-active.svg'
+                    alt='options'
+                    className={tab === 0 ? 'active' : 'inactive'}
+                    onClick={() => TradeClick()}
+                  />
+                </div>
+              </div>
+              <div className='row switch-bar-padding-between'>
+                <div className='col'>
+                  <img
+                    src='./assets/images/Specs/futures-active.svg'
+                    alt='future'
+                    className={tab === 1 ? 'active' : 'inactive'}
+                    onClick={() => RewardClick()}
+                  />
+                </div>
+              </div>
+              <div className='row switch-bar-padding-between'>
+                <div className='col '>
+                  <img
+                    src='./assets/images/Specs/lp-active.svg'
+                    alt='lp'
+                    className={tab === 2 ? 'active' : 'inactive'}
+                    onClick={() => LPClick()}
+                  />
+                </div>
+              </div>
+
+              <div className='row switch-bar-padding-top'>
+                <div className='col'>
+                  <img
+                    className='img-fluid arrow-spec'
+                    src='./assets/images/Specs/arrow-down.svg'
+                    alt='down'
+                    onClick={() => DownArrowFunc()}
+                  />
+                </div>
               </div>
             </div>
 
-            <div className='row '>
-              <div className='col'>
-                <img
-                  src='./assets/images/Specs/options-active.svg'
-                  alt=''
-                  className={tab === 0 ? 'active' : 'inactive'}
-                  onClick={() => TradeClick()}
-                />
-              </div>
-            </div>
-            <div className='row switch-bar-padding-between'>
-              <div className='col'>
-                <img
-                  src='./assets/images/Specs/futures-active.svg'
-                  alt=''
-                  className={tab === 1 ? 'active' : 'inactive'}
-                  onClick={() => RewardClick()}
-                />
-              </div>
-            </div>
-            <div className='row switch-bar-padding-between'>
-              <div className='col '>
-                <img
-                  src='./assets/images/Specs/lp-active.svg'
-                  alt=''
-                  className={tab === 2 ? 'active' : 'inactive'}
-                  onClick={() => LPClick()}
-                />
-              </div>
+            {setTabFunc()}
+          </div>
+        </div>
+
+        <div className='container mobileview'>
+          <div className='row align-items-center'>
+            <div className='col-12'>{setTabFuncMobile()}</div>
+          </div>
+          <div className='row mt-2 mb-2 mobile-menu-row'>
+            <div className='col my-auto text-right'>
+              <img
+                className='img-fluid arrow-spec text-left' 
+                alt='left'
+                src='./assets/images/Specs/arrow-left.svg'
+                onClick={() => UpArrowFunc()}
+                alt='left'
+              ></img>
             </div>
 
-            <div className='row switch-bar-padding-top'>
-              <div className='col'>
-                <img
-                  className='img-fluid arrow-spec'
-                  src='./assets/images/Specs/arrow-down.svg'
-                  alt=''
-                  onClick={() => DownArrowFunc()}
-                />
-              </div>
+            <div className='col justify-content-center text-center'>
+              <img
+                src='./assets/images/Specs/options-active.svg'
+                alt='options'
+                className={tab === 0 ? 'active' : 'inactive'}
+                onClick={() => TradeClick()}
+              />{' '}
+            </div>
+            <div className='col justify-content-center text-center'>
+              <img
+                src='./assets/images/Specs/futures-active.svg'
+                alt='future'
+                className={tab === 1 ? 'active' : 'inactive'}
+                onClick={() => RewardClick()}
+              />{' '}
+            </div>
+            <div className='col my-auto justify-content-center text-center'>
+              <img
+                src='./assets/images/Specs/lp-active.svg'
+                alt='lp'
+                className={tab === 2 ? 'active' : 'inactive'}
+                onClick={() => LPClick()}
+              />{' '}
+            </div>
+            <div className='col my-auto text-left'>
+              <img
+                className='img-fluid arrow-spec text-right'
+                src='./assets/images/Specs/arrow-right.svg'
+                alt='right'
+                onClick={() => DownArrowFunc()}
+              ></img>
             </div>
           </div>
-
-          {setTabFunc()}
         </div>
       </div>
-
-      <div className='container mobileview'>
-        <div className='row align-items-center'>
-          <div className='col-12'>{setTabFuncMobile()}</div>
-        </div>
-        <div className='row mt-2 mb-2 mobile-menu-row'>
-          <div className='col my-auto text-right'>
-            <img
-              className='img-fluid arrow-spec text-left'
-              src='./assets/images/Specs/arrow-left.svg'
-              onClick={() => UpArrowFunc()}
-              alt=''
-            ></img>
-          </div>
-
-          <div className='col justify-content-center text-center'>
-            <img
-              src='./assets/images/Specs/options-active.svg'
-              alt=''
-              className={tab === 0 ? 'active' : 'inactive'}
-              onClick={() => TradeClick()}
-            />{' '}
-          </div>
-          <div className='col justify-content-center text-center'>
-            <img
-              src='./assets/images/Specs/futures-active.svg'
-              alt=''
-              className={tab === 1 ? 'active' : 'inactive'}
-              onClick={() => RewardClick()}
-            />{' '}
-          </div>
-          <div className='col my-auto justify-content-center text-center'>
-            <img
-              src='./assets/images/Specs/lp-active.svg'
-              alt=''
-              className={tab === 2 ? 'active' : 'inactive'}
-              onClick={() => LPClick()}
-            />{' '}
-          </div>
-          <div className='col my-auto text-left'>
-            <img
-              className='img-fluid arrow-spec text-right'
-              src='./assets/images/Specs/arrow-right.svg'
-              alt=''
-              onClick={() => DownArrowFunc()}
-            ></img>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 }
 

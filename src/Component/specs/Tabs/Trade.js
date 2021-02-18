@@ -11,14 +11,14 @@ function Options() {
             <img className='img-fluid tablet' src='./assets/images/Specs/options.png' alt='stakr-app-exchange-screen' />
           </div>
           <div className='col-5 pl-3'>
-            <h1 className='reward-heading'>On-Chain Options</h1>
+            <h3 className='reward-heading'>On-Chain Options</h3>
             <p className='reward-text'>
               Built using decentralized order books to allow for price discovery. We will launch with DOT options in
               2021 Q2-Q3.
             </p>
             <a
               href='https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07'
-              target='_blank'
+              target='_blank' title="medium"
               rel='nofollow noopener noreferrer'
             >
               <img
@@ -28,7 +28,7 @@ function Options() {
               />
             </a>
 
-            <a href='https://github.com/dtradeorg/options-exchange' target='_blank' rel='nofollow noopener noreferrer'>
+            <a href='https://github.com/dtradeorg/options-exchange' target='_blank' title="github" rel='nofollow noopener noreferrer'>
               <img
                 src='../assets/images/Navbar/github-white.svg'
                 alt='logo'

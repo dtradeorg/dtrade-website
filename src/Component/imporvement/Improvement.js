@@ -3,8 +3,9 @@ import './Improvement.css';
 
 function Improvement() {
   return (
+  <section>
     <div id='improvement-div'>
-      <h1>Community run and self-improving.</h1>
+      <h3>Community run and self-improving.</h3>
       <p>
         DET holders can vote on protocol upgrades, contributor grants, and new asset integrations. &nbsp;
         <br className='mobile-switch' />
@@ -30,6 +31,7 @@ function Improvement() {
             <a
               href='https://commonwealth.im/dtrade'
               target='_blank'
+              title='Join the conversation'
               rel='noopener nofollow noreferrer'
               className='link-community'
             >
@@ -40,6 +42,7 @@ function Improvement() {
         </div>
       </div>
     </div>
+  </section>  
   );
 }
 

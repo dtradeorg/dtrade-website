@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import './Navbar.css';
 function NavBar() {
   return (
+    <header>
     <Navbar className=' ' expand='md'>
       <Nav>
         <img src='./assets/images/Navbar/Union.svg' alt='logo' className='img-fluid logo' />
@@ -12,7 +13,7 @@ function NavBar() {
         <h3 className='d-md-block'>Launching Q2 2021</h3>
       </Nav>
       <Nav style={{ display: 'block' }} className='d-none d-md-block'>
-        <a href='http://stakr.dtrade.org/' target='_blank' rel='noopener nofollow noreferrer' className='ml-4 link'>
+        <a href='http://stakr.dtrade.org/' target='_blank' rel='noopener nofollow noreferrer' className='ml-4 link' title="Launch Test App">
           Launch Test App
           <img className='ml-arrow mb-1' src='./assets/images/arrow-top-right.svg' alt='arrow'></img>
         </a>
@@ -33,6 +34,7 @@ function NavBar() {
         </a>
       </Nav>
     </Navbar>
+    </header>
   );
 }
 

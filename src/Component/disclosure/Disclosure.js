@@ -7,49 +7,44 @@ export default function Disclosure() {
   };
 
   return (
+  <section>
     <div className='disclosure-div' id='disclosure-div'>
       <div className='container-md disclosure-section'>
-        <div>
           <h3 className='imp-disc'>Important Disclosures:</h3>
-        </div>
-
-        <div className='disclosure-points disclosure-mt'>
-          <div>
+        <p className='disclosure-points disclosure-mt'>
             i) All assets on our platform involve a degree of risk and may result in the partial or total loss of your
             investment.
-          </div>
-          <div>
+            <br />
             ii) Fees for running on Edgeware cannot be estimated accurately at this time but should be significantly
             less than protocols built on Ethereum. Initially there may be no GAS fees at all.
-          </div>
-          <div>
+            <br />
             iii) We round off holdings of fractional shares to the fourth decimal place. We also do not accept synthetic
             dollar purchases of less than $1 dUSD.
-          </div>
+            <br />
           {/* <div>iv) The collateralization ratio may change over time.</div> */}
-
-          <div className='disclosure-mt'>
+          </p>
+          <p className='disclosure-mt disclosure-points'>
             The supported collaterals may change after the parachain auctions, and initially it may only be EDG & DET.
             We intend to add DOT, KSM, and aUSD after the auctions.
-          </div>
-          <div className='disclosure-mt'>
+          </p>
+          <p className='disclosure-mt disclosure-points'>
             dTrade (c) is a decentralized financial platform that aims to provide access to anyone, anywhere wanting to
             trade any market.
             <br />
             Our alpha launch will only have DOT futures and options. Other asset classes will be added through
             decentralized governance.
             <br /> By using this website, you are agreeing to our Terms of Use and Privacy Policy.
-          </div>
-        </div>
+          </p>
+       
 
         <hr className='disclosure-hr' />
 
-        <h1 className='disclosure-message'>
+        <h3 className='disclosure-message'>
           We're building the world's most accessible ecosystem for decentralized finance.
-        </h1>
+        </h3>
 
         <div className='disclosure-additional'>
-          <a rel='nofollow' href='mailto:hi@dtrade.org'>
+          <a rel='nofollow' href='mailto:hi@dtrade.org' title="Have additional questions?">
             Have additional questions?
             <img src='./assets/images/arrow-blue.svg' alt='arrow' className='img-fluid mb-arrow' />
           </a>
@@ -61,5 +56,7 @@ export default function Disclosure() {
         </button>
       </div>
     </div>
+  </section>
+  
   );
 }

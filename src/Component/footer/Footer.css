@@ -14,7 +14,8 @@
   margin-top: 6px;
 }
 
-.copy-right h6 {
+.copy-right h6,
+.copy-right p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

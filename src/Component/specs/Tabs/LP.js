@@ -15,9 +15,9 @@ function LP() {
             />
           </div>
           <div className='col-5 pl-3'>
-            <h1 className='reward-heading' style={{ fontSize: '45px' }}>
+            <h3 className='reward-heading' style={{ fontSize: '45px' }}>
               Insurance & Liquidity Mining
-            </h1>
+            </h3>
             <p className='reward-text'>
               Earn liquidity mining rewards by writing options or by providing liquidity to the insurance fund
             </p>

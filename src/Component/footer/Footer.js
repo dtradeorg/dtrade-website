@@ -8,17 +8,17 @@ export default function Footer() {
         <div className='container footer-box'>
           <div className='d-flex justify-content-center container px-0 '>
             <div className=' d-inline-flex copy-right pl-0 pr-0 position-absolute ' style={{ left: '9%' }}>
-              <h6 className='mb-0'>20 Bay Street, 11th Floor, Toronto, ON</h6>
+              <p className='mb-0'>20 Bay Street, 11th Floor, Toronto, ON</p>
             </div>
             <div className='mx-auto d-inline-flex copy-right pl-0 pr-0'>
-              <h6 className='mb-0'>
+              <p className='mb-0'>
                 Copyright &copy; 2020 &nbsp;
                 <a rel='nofollow' href='#!'>
                   <img src={logo} alt='sc' className='img-fluid mb-1' />
                 </a>
                 &nbsp;
-              </h6>
-              <h6 className='mb-0'> - All Rights Reserved.</h6>
+              </p>
+              <p className='mb-0'> - All Rights Reserved.</p>
             </div>
           </div>
         </div>

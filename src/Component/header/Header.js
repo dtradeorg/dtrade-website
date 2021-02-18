@@ -6,10 +6,11 @@ function Header() {
   const [focus, setFocus] = useState(false);
 
   return (
+  <section> 
     <div className='conatiner-fluid header'>
       <p className='join-banner'>
         Join us in reimagining finance. &nbsp;
-        <a href='/careers' rel='noopener nofollow noreferrer' className='blue-anchor'>
+        <a href='/careers' rel='noopener nofollow noreferrer' className='blue-anchor'title="View open positions">
           <br className='mobile-show' />
           View open positions
           <img src='./assets/images/Header/chevron right.svg' alt='' className='chevright' />
@@ -21,7 +22,7 @@ function Header() {
           Synthetic Options
           <br className='mobile-switch' /> & Futures on Polkadot
         </h1>
-        <p className='sub-heading'>Decentralised derivatives trading powered by Substrate</p>
+        <h2 className='sub-heading'>Decentralised derivatives trading powered by Substrate</h2>
         <div className='row justify-content-center'>
           <form
             action='https://dtrade.us2.list-manage.com/subscribe/post?u=e55c79f9e31d5d705bf64c8cc&amp;id=829a3e917a'
@@ -105,31 +106,35 @@ function Header() {
 
         <img className='map img-fluid' src='./assets/images/Header/map2.svg' alt='Polkadot-world-map' />
       </div>
+      <section>
+        <div className='sblogo'>
+          <ul>
+            <li>
+              <img src='./assets/images/Header/cms.svg' alt='cms' />
+            </li>
+            <li>
+              <img src='./assets/images/Header/divergence.svg' alt='divergence' />
+            </li>
+            <li>
+              <img src='./assets/images/Header/hypersphere.svg' alt='hypersphere' />
+            </li>
+            <li>
+              <img src='./assets/images/Header/mechanism.svg' alt='mechanism' />
+            </li>
+            <li>
+              <img src='./assets/images/Header/aparafi.svg' alt='aparafi' />
+            </li>
+            <li>
+              <img src='./assets/images/Header/polychain-capital.svg' alt='polychain-capital' />
+            </li>
+          </ul>
+          <span className='link'>+ more</span>
+        </div>
+      </section>
 
-      <div class='sblogo'>
-        <ul>
-          <li>
-            <img src='./assets/images/Header/cms.svg' alt='cms' />
-          </li>
-          <li>
-            <img src='./assets/images/Header/divergence.svg' alt='divergence' />
-          </li>
-          <li>
-            <img src='./assets/images/Header/hypersphere.svg' alt='hypersphere' />
-          </li>
-          <li>
-            <img src='./assets/images/Header/mechanism.svg' alt='mechanism' />
-          </li>
-          <li>
-            <img src='./assets/images/Header/aparafi.svg' alt='aparafi' />
-          </li>
-          <li>
-            <img src='./assets/images/Header/polychain-capital.svg' alt='' />
-          </li>
-        </ul>
-        <span class='link'>+ more</span>
-      </div>
     </div>
+  </section> 
+
   );
 }
 

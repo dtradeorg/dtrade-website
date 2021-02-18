@@ -21,7 +21,7 @@
 }
 
 .team-desc h3 {
-  font-family: 'DM sans', sans-serif;
+  font-family: "DM sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -32,17 +32,20 @@
   padding-bottom: 17px;
 }
 
-.team-desc h4 {
-  font-family: 'DM sans', sans-serif;
+.team-desc h4,
+.team-desc span {
+  font-family: "DM sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 13px;
   color: #565656;
   margin-bottom: 12px;
+  display: block;
 }
 @media only screen and (max-width: 991px) {
-  .team-desc h4 {
+  .team-desc h4,
+  .team-desc span {
     line-height: 15px;
   }
 }

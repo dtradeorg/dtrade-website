@@ -7,7 +7,7 @@ function FuturesMobile() {
     <Animated animationIn='fadeIn' animationOut='fadeOut'>
       <div className='row align-items-center justify-content-center'>
         <div className='col-12 justify-content-center text-center tab-sec-mobile'>
-          <h1 className='text-center reward-heading'>Perpetuals</h1>
+          <h3 className='text-center reward-heading'>Perpetuals</h3>
           <p className='reward-text text-center'>
             Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
             collateral*

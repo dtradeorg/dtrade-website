@@ -11,12 +11,12 @@ function Futures() {
             <img className='img-fluid tablet' src='./assets/images/Specs/futures.png' alt='stakr-app-stake-screen' />
           </div>
           <div className='col-5 pl-3'>
-            <h1 className='reward-heading'>Perpetuals</h1>
+            <h3 className='reward-heading'>Perpetuals</h3>
             <p className='reward-text'>
               Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
               collateral*
             </p>
-            <a href='https://github.com/dtradeorg' target='_blank' rel='nofollow noopener noreferrer'>
+            <a href='https://github.com/dtradeorg' target='_blank'  title="github" rel='nofollow noopener noreferrer'>
               <img
                 src='../assets/images/Navbar/github-white.svg'
                 alt='logo'

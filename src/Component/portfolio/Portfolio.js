@@ -2,6 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 export default function Portfolio() {
   return (
+  <section>  
     <div className='portfolio-div'>
       <div className='container-fluid row mx-auto px-0 '>
         {/* <div className="col-12 col-md  portfolio-card prediction">
@@ -13,8 +14,8 @@ export default function Portfolio() {
 
                 </div> */}
         <div className='col-12 col-md portfolio-card staking card-md-height'>
-          <div className='porject-title'>Multi-collateral Margin</div>
-          <div className='porject-des'>Supported Collaterals</div>
+          <span className='porject-title'>Multi-collateral Margin</span>
+          <h5 className='porject-des'>Supported Collaterals</h5>
 
           <div className='row '>
             <div className='col-12 desktop-view'>
@@ -48,12 +49,12 @@ export default function Portfolio() {
 </div> */}
         </div>
         <div className='col-12 col-md  portfolio-card dtrade card-ml'>
-          <div className='porject-title'>dtrade</div>
-          <div className='porject-des'>
+          <span className='porject-title'>dtrade</span>
+          <h5 className='porject-des'>
             Learn more about the <br className='mobile-switch' /> dTrade Protocol
-          </div>
+          </h5>
           <div className='project-date'>
-            <a href='https://github.com/dtradeorg' target='_blank' rel='noreferrer nofollow noopener'>
+            <a href='https://github.com/dtradeorg' target='_blank'  title="GitHub" rel='noreferrer nofollow noopener'>
               <img src='/assets/images/Portfolio/git.svg' className='img-fluid mr-3 mb-1' alt='git'></img>
               GitHub
               <img src='/assets/images/arrow-black.svg' alt='arrow-black' className='mb-1'></img>
@@ -113,5 +114,6 @@ export default function Portfolio() {
             </div>
              */}
     </div>
+  </section>
   );
 }
