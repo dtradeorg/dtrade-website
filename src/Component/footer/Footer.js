@@ -13,7 +13,7 @@ export default function Footer() {
             <div className='mx-auto d-inline-flex copy-right pl-0 pr-0'>
               <p className='mb-0'>
                 Copyright &copy; 2020 &nbsp;
-                <a rel='nofollow' href='#!'>
+                <a href='#!'>
                   <img src={logo} alt='sc' className='img-fluid mb-1' />
                 </a>
                 &nbsp;
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className='col-12 d-inline-flex copy-right-phone pl-0 pr-0  justify-content-center'>
               <h6 className='mb-0'>
                 Copyright &copy; 2020 &nbsp;
-                <a rel='nofollow' href='#!'>
+                <a href='#!'>
                   <img src={logo} alt='sc' className='img-fluid' />
                 </a>{' '}
                 &nbsp;

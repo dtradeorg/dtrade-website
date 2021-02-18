@@ -9,7 +9,7 @@ export default function Vision() {
         classes
       </div>
       <div className='info mx-auto'>
-        <a rel='nofollow' href='#disclosure-div' className='to-disc-link'>
+        <a href='#disclosure-div' className='to-disc-link'>
           <img src='./assets/images/info.svg' alt='i' className='info-img'></img>
           View Important Disclosures
           <hr />

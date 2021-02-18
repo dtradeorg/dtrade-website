@@ -54,7 +54,7 @@ export default function Portfolio() {
             Learn more about the <br className='mobile-switch' /> dTrade Protocol
           </h5>
           <div className='project-date'>
-            <a href='https://github.com/dtradeorg' target='_blank'  title="GitHub" rel='noreferrer nofollow noopener'>
+            <a href='https://github.com/dtradeorg' target='_blank'  title="GitHub">
               <img src='/assets/images/Portfolio/git.svg' className='img-fluid mr-3 mb-1' alt='git'></img>
               GitHub
               <img src='/assets/images/arrow-black.svg' alt='arrow-black' className='mb-1'></img>
@@ -74,7 +74,7 @@ export default function Portfolio() {
                     <div className="porject-title ">dtrade</div>
                     <div className="porject-des ">Learn more about the <br className="mobile-switch"/> dTrade Protocol</div>
                     <div className="project-date ">
-                        <a rel="nofollow"href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/dtradeorg" target="_blank" rel="noreferrer noopener">
                             <img src="/assets/images/Portfolio/git.svg" className="img-fluid mr-3 mb-1" alt="git"></img>
                             GitHub
                             <img src="/assets/images/arrow-black.svg" alt="arrow-black" className="mb-1"></img>

@@ -32,7 +32,6 @@ function Improvement() {
               href='https://commonwealth.im/dtrade'
               target='_blank'
               title='Join the conversation'
-              rel='noopener nofollow noreferrer'
               className='link-community'
             >
               Join the conversation

@@ -70,24 +70,24 @@ function Careers({ match }) {
         <Container fluid className='bg'>
           <Row className='padding'>
             <Col className='text-left col-2'>
-              <a rel='nofollow' href='/'>
+              <a href='/'>
                 <img src='../assets/images/Navbar/Union.svg' alt='logo' className='img-fluid logo-career' />
               </a>
             </Col>
             <Col className='text-right p-0'>
-              <a href='https://medium.com/dtrade' target='_blank' rel='nofollow noopener noreferrer'>
+              <a href='https://medium.com/dtrade' target='_blank'>
                 <img src='../assets/images/Navbar/dUSD.svg' alt='logo' className='img-fluid social-link-margin-1' />
               </a>
-              <a href='https://twitter.com/dtradeorg' target='_blank' rel='nofollow noopener noreferrer'>
+              <a href='https://twitter.com/dtradeorg' target='_blank'>
                 <img src='../assets/images/Navbar/dUSD-1.svg' alt='logo' className='img-fluid social-link-margin-1' />
               </a>
-              <a href='https://github.com/dtradeorg' target='_blank' rel='nofollow noopener noreferrer'>
+              <a href='https://github.com/dtradeorg' target='_blank'>
                 <img src='../assets/images/Navbar/dUSD-2.svg' alt='logo' className='img-fluid social-link-margin-1' />
               </a>
-              <a href='https://discord.gg/hyS8E7BPT6' target='_blank' rel='nofollow noopener noreferrer'>
+              <a href='https://discord.gg/hyS8E7BPT6' target='_blank'>
                 <img src='../assets/images/Navbar/dUSD-3.svg' alt='logo' className='img-fluid social-link-margin-1' />
               </a>
-              <a href='https://commonwealth.im/dtrade' target='_blank' rel='nofollow noopener noreferrer'>
+              <a href='https://commonwealth.im/dtrade' target='_blank'>
                 <img src='../assets/images/Navbar/dUSD-4.svg' alt='logo' className='img-fluid social-link-margin-1' />
               </a>
             </Col>

@@ -44,7 +44,7 @@ export default function Disclosure() {
         </h3>
 
         <div className='disclosure-additional'>
-          <a rel='nofollow' href='mailto:hi@dtrade.org' title="Have additional questions?">
+          <a href='mailto:hi@dtrade.org' title="Have additional questions?">
             Have additional questions?
             <img src='./assets/images/arrow-blue.svg' alt='arrow' className='img-fluid mb-arrow' />
           </a>

@@ -32,7 +32,7 @@ export default function Features() {
 
       <div className='row text-left  imp-disc'>
         <div className='info mt-5'>
-          <a rel='nofollow' href='#disclosure-div' className='to-disc-link left' title="View Important Disclosures">
+          <a  href='#disclosure-div' className='to-disc-link left' title="View Important Disclosures">
             <img src='./assets/images/info1.svg' alt='i' className='info-img mr-2 mb-1'></img>
             View Important Disclosures
             {/* <hr/> */}

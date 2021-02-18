@@ -31,7 +31,7 @@ export default function Options() {
       </div>
 
       <div className='info mx-auto'>
-        <a rel='nofollow' href='#disclosure-div' className='disc-link'>
+        <a href='#disclosure-div' className='disc-link'>
           <img src='./assets/images/infoimp.svg' alt='i' className='info-img mr-2 i-align'></img>
           View Important Disclosures
           {/* <hr></hr> */}

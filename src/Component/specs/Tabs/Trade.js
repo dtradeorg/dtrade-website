@@ -18,8 +18,8 @@ function Options() {
             </p>
             <a
               href='https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07'
-              target='_blank' title="medium"
-              rel='nofollow noopener noreferrer'
+              target='_blank' 
+              title='medium'
             >
               <img
                 src='../assets/images/Navbar/medium-white.svg'
@@ -28,7 +28,7 @@ function Options() {
               />
             </a>
 
-            <a href='https://github.com/dtradeorg/options-exchange' target='_blank' title="github" rel='nofollow noopener noreferrer'>
+            <a href='https://github.com/dtradeorg/options-exchange' target='_blank' title="github">
               <img
                 src='../assets/images/Navbar/github-white.svg'
                 alt='logo'
