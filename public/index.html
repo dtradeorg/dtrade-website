@@ -1,154 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script type="text/javascript">
+<script type="text/javascript">
     // if (window.location.pathname === '/') window.location = './home';
-  </script>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
-    <meta name="robots" content="index, follow" />
-    <!--- og -->
-    <meta property="og:title" content="dTrade | Synthetic Options & Futures on Polkadot" />
-    <meta property="og:site_name" content="dTrade" />
-    <meta property="og:url" content="https://dtrade.org/" />
-    <meta property="og:image" content="./assets/images/Specs/banner-dtrade.png" />
-    <meta
-      property="og:description"
-      content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem."
-    />
-    <meta property="og:type" content="website" />
-    <!--- og -->
-    <!-- Twitter Card -->
-    <meta name="twitter:title" content="dTrade | Synthetic Options & Futures on Polkadot" />
-    <meta
-      name="twitter:description"
-      content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem."
-    />
-    <meta name="twitter:image" content="./assets/images/Specs/banner-dtrade.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:url" content="https://dtrade.org/" />
-    <!-- Twitter Card -->
-    <!-- for web-->
-    <meta
-      name="description"
-      content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem."
-    />
-    <link rel="canonical" href="https://dtrade.org/" />
-    <!-- for web-->
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link rel="preload" href="./assets/images/Specs/liquid.png" as="image" />
-    <link rel="preload" href="./assets/images/Specs/futures.png" as="image" />
-    <link rel="preload" href="./assets/images/Specs/options.png" as="image" />
-    <link rel="preload" href="./assets/images/Specs/bg-stake.jpg" as="image" />
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-KSBFZT5');
-    </script>
-    <!-- End Google Tag Manager -->
-    <title>dTrade | Synthetic Options & Futures on Polkadot</title>
-  </head>
+</script>
 
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KSBFZT5"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <noscript> You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <div class="margin" style="display: none">
-        <header>
-          <nav class="navbar navbar-expand-md navbar-light">
-            <div class="navbar-nav">
-              <img src="./assets/images/Navbar/Union.svg" alt="logo" class="img-fluid logo" /><img
-                src="./assets/images/Navbar/dtrade.svg"
-                alt="logo"
-                class="ml-2 tag-line"
-              />
-            </div>
-            <div class="ml-md-auto mr-md-auto navbar-nav"><h3 class="d-md-block">Launching Q2 2021</h3></div>
-            <div class="d-none d-md-block navbar-nav" style="display: block">
-              <a
-                href="http://stakr.dtrade.org/"
-                target="_blank"
-                rel="noopener nofollow noreferrer"
-                class="ml-4 link"
-                title="Launch Test App"
-                >Launch Test App<img class="ml-arrow mb-1" src="./assets/images/arrow-top-right.svg" alt="arrow" /></a
-              ><a href="https://medium.com/dtrade" target="_blank" rel="noopener nofollow noreferrer"
-                ><img src="./assets/images/Navbar/dUSD.svg" alt="logo" class="img-fluid social-link-margin" /></a
-              ><a href="https://twitter.com/dtradeorg" target="_blank" rel="noopener nofollow noreferrer"
-                ><img src="./assets/images/Navbar/dUSD-1.svg" alt="logo" class="img-fluid social-link-margin" /></a
-              ><a href="https://github.com/dtradeorg" target="_blank" rel="noopener nofollow noreferrer"
-                ><img src="./assets/images/Navbar/dUSD-2.svg" alt="logo" class="img-fluid social-link-margin" /></a
-              ><a href="https://discord.gg/hyS8E7BPT6" target="_blank" rel="noopener nofollow noreferrer"
-                ><img src="./assets/images/Navbar/dUSD-3.svg" alt="logo" class="img-fluid social-link-margin" /></a
-              ><a href="https://commonwealth.im/dtrade" target="_blank" rel="noopener  nofollow noreferrer"
-                ><img src="./assets/images/Navbar/dUSD-4.svg" alt="logo" class="img-fluid social-link-margin"
-              /></a>
-            </div>
-          </nav>
-        </header>
-        <section>
-          <div class="conatiner-fluid header">
-            <p class="join-banner">
-              Join us in reimagining finance. &nbsp;<a
-                href="/careers"
-                rel="noopener nofollow noreferrer"
-                class="blue-anchor"
-                title="View open positions"
-                ><br class="mobile-show" />View open positions<img
-                  src="./assets/images/Header/chevron right.svg"
-                  alt=""
-                  class="chevright"
-              /></a>
-            </p>
-            <div class="container text-center hero">
-              <h1>
-                Synthetic Options<br class="mobile-switch" />
-                &amp; Futures on Polkadot
-              </h1>
-              <h2 class="sub-heading">Decentralised derivatives trading powered by Substrate</h2>
-              <div class="row justify-content-center">
-                <form
-                  action="https://dtrade.us2.list-manage.com/subscribe/post?u=e55c79f9e31d5d705bf64c8cc&amp;id=829a3e917a"
-                  method="post"
-                  target="_blank"
-                >
-                  <div class="input-group">
-                    <input
-                      placeholder="name@email.com"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                      name="EMAIL"
-                      id="mce-EMAIL"
-                      class="inputemail form-control"
-                      style="
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <meta name="robots" content="index, follow" />
+  <!--- og -->
+  <meta property="og:title" content="dTrade | Synthetic Options & Futures on Polkadot" />
+  <meta property="og:site_name" content="dTrade" />
+  <meta property="og:url" content="https://dtrade.org/" />
+  <meta property="og:image" content="./assets/images/Specs/banner-dtrade.png" />
+  <meta property="og:description"
+    content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem." />
+  <meta property="og:type" content="website" />
+  <!--- og -->
+  <!-- Twitter Card -->
+  <meta name="twitter:title" content="dTrade | Synthetic Options & Futures on Polkadot" />
+  <meta name="twitter:description"
+    content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem." />
+  <meta name="twitter:image" content="./assets/images/Specs/banner-dtrade.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://dtrade.org/" />
+  <!-- Twitter Card -->
+  <!-- for web-->
+  <meta name="description"
+    content="dTrade is a synthetic asset trading platform built on Edgeware, a high performance smart contract chain in the Polkadot ecosystem." />
+  <link rel="canonical" href="https://dtrade.org/" />
+  <!-- for web-->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link rel="preload" href="./assets/images/Specs/liquid.png" as="image" />
+  <link rel="preload" href="./assets/images/Specs/futures.png" as="image" />
+  <link rel="preload" href="./assets/images/Specs/options.png" as="image" />
+  <link rel="preload" href="./assets/images/Specs/bg-stake.jpg" as="image" />
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KSBFZT5');
+  </script>
+  <!-- End Google Tag Manager -->
+  <title>dTrade | Synthetic Options & Futures on Polkadot</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSBFZT5" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <noscript> You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="margin" style="display: none">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="navbar-nav">
+            <img src="./assets/images/Navbar/Union.svg" alt="logo" class="img-fluid logo" /><img
+              src="./assets/images/Navbar/dtrade.svg" alt="logo" class="ml-2 tag-line" />
+          </div>
+          <div class="ml-md-auto mr-md-auto navbar-nav">
+            <h3 class="d-md-block">Launching Q2 2021</h3>
+          </div>
+          <div class="d-none d-md-block navbar-nav" style="display: block">
+            <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener nofollow noreferrer" class="ml-4 link"
+              title="Launch Test App">Launch Test App<img class="ml-arrow mb-1"
+                src="./assets/images/arrow-top-right.svg" alt="arrow" /></a><a href="https://medium.com/dtrade"
+              target="_blank" rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD.svg" alt="logo"
+                class="img-fluid social-link-margin" /></a><a href="https://twitter.com/dtradeorg" target="_blank"
+              rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-1.svg" alt="logo"
+                class="img-fluid social-link-margin" /></a><a href="https://github.com/dtradeorg" target="_blank"
+              rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-2.svg" alt="logo"
+                class="img-fluid social-link-margin" /></a><a href="https://discord.gg/hyS8E7BPT6" target="_blank"
+              rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-3.svg" alt="logo"
+                class="img-fluid social-link-margin" /></a><a href="https://commonwealth.im/dtrade" target="_blank"
+              rel="noopener  nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-4.svg" alt="logo"
+                class="img-fluid social-link-margin" /></a>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="conatiner-fluid header">
+          <p class="join-banner">
+            Join us in reimagining finance. &nbsp;<a href="/careers" rel="noopener nofollow noreferrer"
+              class="blue-anchor" title="View open positions"><br class="mobile-show" />View open positions<img
+                src="./assets/images/Header/chevron right.svg" alt="right" class="chevright" /></a>
+          </p>
+          <div class="container text-center hero">
+            <h1>
+              Synthetic Options<br class="mobile-switch" />
+              &amp; Futures on Polkadot
+            </h1>
+            <h2 class="sub-heading">Decentralised derivatives trading powered by Substrate</h2>
+            <div class="row justify-content-center">
+              <form
+                action="https://dtrade.us2.list-manage.com/subscribe/post?u=e55c79f9e31d5d705bf64c8cc&amp;id=829a3e917a"
+                method="post" target="_blank">
+                <div class="input-group">
+                  <input placeholder="name@email.com" aria-label="Recipient's username" aria-describedby="basic-addon2"
+                    name="EMAIL" id="mce-EMAIL" class="inputemail form-control" style="
                         border-top: 1px solid rgba(120, 120, 120, 0.2);
                         border-right: none;
                         border-bottom: 1px solid rgba(120, 120, 120, 0.2);
@@ -156,498 +124,426 @@
                         border-image: initial;
                         transition: all 0.5s ease 0s;
                         background-color: rgb(250, 250, 250);
-                      "
-                    />
-                    <div class="input-group-append">
-                      <button
-                        id="basic-addon2"
-                        type="submit"
-                        class="input-group-text btn btn-primary"
-                        style="
+                      " />
+                  <div class="input-group-append">
+                    <button id="basic-addon2" type="submit" class="input-group-text btn btn-primary" style="
                           border: 1px solid rgba(120, 120, 120, 0.2);
                           transition: all 0.5s ease 0s;
                           background-color: rgb(250, 250, 250);
-                        "
-                      >
-                        Get Updates<img src="./assets/images/Header/chevron right.svg" alt="" class="arrow-ml-small" />
-                      </button>
-                    </div>
+                        ">
+                      Get Updates<img src="./assets/images/Header/chevron right.svg" alt="right"
+                        class="arrow-ml-small" />
+                    </button>
                   </div>
-                </form>
-              </div>
-              <div class="row justify-content-center d-md-none">
-                <div class="input-group-append">
-                  <button
-                    id="launch-btn"
-                    type="submit"
-                    class="input-group-text btn btn-primary"
-                    style="border: none; transition: all 0.5s ease 0s; background-color: rgb(255, 255, 255)"
-                  >
-                    Launch Test App<img
-                      src="./assets/images/Header/arrow-top-right.svg"
-                      alt=""
-                      class="arrow-top-right"
-                    />
-                  </button>
                 </div>
-              </div>
-              <div class="row justify-content-center d-md-none">
-                <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener nofollow noreferrer" class="ml-4 link"
-                  >Launch Test App<img class="ml-arrow mb-1" src="./assets/images/arrow-top-right.svg" alt="arrow" /></a
-                ><a href="https://medium.com/dtrade" target="_blank" rel="noopener nofollow noreferrer"
-                  ><img src="./assets/images/Navbar/dUSD.svg" alt="logo" class="img-fluid social-link-margin" /></a
-                ><a href="https://twitter.com/dtradeorg" target="_blank" rel="noopener nofollow noreferrer"
-                  ><img src="./assets/images/Navbar/dUSD-1.svg" alt="logo" class="img-fluid social-link-margin" /></a
-                ><a href="https://github.com/dtradeorg" target="_blank" rel="noopener nofollow noreferrer"
-                  ><img src="./assets/images/Navbar/dUSD-2.svg" alt="logo" class="img-fluid social-link-margin" /></a
-                ><a href="https://discord.gg/hyS8E7BPT6" target="_blank" rel="noopener nofollow noreferrer"
-                  ><img src="./assets/images/Navbar/dUSD-3.svg" alt="logo" class="img-fluid social-link-margin" /></a
-                ><a href="https://commonwealth.im/dtrade" target="_blank" rel="noopener nofollow noreferrer"
-                  ><img src="./assets/images/Navbar/dUSD-4.svg" alt="logo" class="img-fluid social-link-margin"
-                /></a>
-              </div>
-              <img class="map img-fluid" src="./assets/images/Header/map2.svg" alt="Polkadot-world-map" />
+              </form>
             </div>
-            <section>
-              <div class="sblogo">
-                <ul>
-                  <li><img src="./assets/images/Header/cms.svg" alt="cms" /></li>
-                  <li><img src="./assets/images/Header/divergence.svg" alt="divergence" /></li>
-                  <li><img src="./assets/images/Header/hypersphere.svg" alt="hypersphere" /></li>
-                  <li><img src="./assets/images/Header/mechanism.svg" alt="mechanism" /></li>
-                  <li><img src="./assets/images/Header/aparafi.svg" alt="aparafi" /></li>
-                  <li><img src="./assets/images/Header/polychain-capital.svg" alt="polychain-capital" /></li>
-                </ul>
-                <span class="link">+ more</span>
+            <div class="row justify-content-center d-md-none">
+              <div class="input-group-append">
+                <button id="launch-btn" type="submit" class="input-group-text btn btn-primary"
+                  style="border: none; transition: all 0.5s ease 0s; background-color: rgb(255, 255, 255)">
+                  Launch Test App<img src="./assets/images/Header/arrow-top-right.svg" alt="right"
+                    class="arrow-top-right" />
+                </button>
               </div>
-            </section>
+            </div>
+            <div class="row justify-content-center d-md-none">
+              <a href="http://stakr.dtrade.org/" target="_blank" rel="noopener nofollow noreferrer"
+                class="ml-4 link">Launch Test App<img class="ml-arrow mb-1" src="./assets/images/arrow-top-right.svg"
+                  alt="arrow" /></a><a href="https://medium.com/dtrade" target="_blank"
+                rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD.svg" alt="logo"
+                  class="img-fluid social-link-margin" /></a><a href="https://twitter.com/dtradeorg" target="_blank"
+                rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-1.svg" alt="logo"
+                  class="img-fluid social-link-margin" /></a><a href="https://github.com/dtradeorg" target="_blank"
+                rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-2.svg" alt="logo"
+                  class="img-fluid social-link-margin" /></a><a href="https://discord.gg/hyS8E7BPT6" target="_blank"
+                rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-3.svg" alt="logo"
+                  class="img-fluid social-link-margin" /></a><a href="https://commonwealth.im/dtrade" target="_blank"
+                rel="noopener nofollow noreferrer"><img src="./assets/images/Navbar/dUSD-4.svg" alt="logo"
+                  class="img-fluid social-link-margin" /></a>
+            </div>
+            <img class="map img-fluid" src="./assets/images/Header/map2.svg" alt="Polkadot-world-map" />
           </div>
-        </section>
-        <section>
-          <div id="stake" class="container-fluid">
-            <div class="container desktopview">
-              <div class="row align-items-center">
-                <div class="col text-center switch-bar-col pl-0">
-                  <div class="row switch-bar-padding-bottom">
-                    <div class="col">
-                      <img class="img-fluid arrow-spec" src="./assets/images/Specs/arrow-up.svg" alt="up" />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <img src="./assets/images/Specs/options-active.svg" alt="options" class="active" />
-                    </div>
-                  </div>
-                  <div class="row switch-bar-padding-between">
-                    <div class="col">
-                      <img src="./assets/images/Specs/futures-active.svg" alt="future" class="inactive" />
-                    </div>
-                  </div>
-                  <div class="row switch-bar-padding-between">
-                    <div class="col"><img src="./assets/images/Specs/lp-active.svg" alt="lp" class="inactive" /></div>
-                  </div>
-                  <div class="row switch-bar-padding-top">
-                    <div class="col">
-                      <img class="img-fluid arrow-spec" src="./assets/images/Specs/arrow-down.svg" alt="down" />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-11">
-                  <div
-                    class="animated fadeIn"
-                    style="animation-delay: 0ms; animation-duration: 1000ms; pointer-events: all"
-                  >
-                    <div class="row align-items-center">
-                      <div class="col text-center tablet-container p-0">
-                        <img
-                          class="img-fluid tablet"
-                          src="./assets/images/Specs/options.png"
-                          alt="stakr-app-exchange-screen"
-                        />
-                      </div>
-                      <div class="col-5 pl-3">
-                        <h3 class="reward-heading">On-Chain Options</h3>
-                        <p class="reward-text">
-                          Built using decentralized order books to allow for price discovery. We will launch with DOT
-                          options in 2021 Q2-Q3.
-                        </p>
-                        <a
-                          href="https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07"
-                          target="_blank"
-                          title="medium"
-                          rel="nofollow noopener noreferrer"
-                          ><img
-                            src="../assets/images/Navbar/medium-white.svg"
-                            alt="logo"
-                            class="img-fluid social-link-margin-2" /></a
-                        ><a
-                          href="https://github.com/dtradeorg/options-exchange"
-                          target="_blank"
-                          title="github"
-                          rel="nofollow noopener noreferrer"
-                          ><img
-                            src="../assets/images/Navbar/github-white.svg"
-                            alt="logo"
-                            class="img-fluid social-link-margin-2"
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <section>
+            <div class="sblogo">
+              <ul>
+                <li><img src="./assets/images/Header/cms.svg" alt="cms" /></li>
+                <li><img src="./assets/images/Header/divergence.svg" alt="divergence" /></li>
+                <li><img src="./assets/images/Header/hypersphere.svg" alt="hypersphere" /></li>
+                <li><img src="./assets/images/Header/mechanism.svg" alt="mechanism" /></li>
+                <li><img src="./assets/images/Header/aparafi.svg" alt="aparafi" /></li>
+                <li><img src="./assets/images/Header/polychain-capital.svg" alt="polychain-capital" /></li>
+              </ul>
+              <span class="link">+ more</span>
             </div>
-            <div class="container mobileview">
-              <div class="row align-items-center">
-                <div class="col-12">
-                  <div
-                    class="animated fadeIn"
-                    style="animation-delay: 0ms; animation-duration: 1000ms; pointer-events: all"
-                  >
-                    <div class="row align-items-center justify-content-center">
-                      <div class="col-12 justify-content-center text-center tab-sec-mobile">
-                        <h3 class="reward-heading text-center">On-Chain Options</h3>
-                        <p class="reward-text text-center">
-                          Built using decentralized order books to allow for price discovery. We will launch with DOT
-                          options in 2021 Q2-Q3.
-                        </p>
-                        <img
-                          class="img-fluid tablet-trade"
-                          src="./assets/images/Specs/options.png"
-                          alt="On-Chain Options"
-                        />
-                      </div>
-                    </div>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div id="stake" class="container-fluid">
+          <div class="container desktopview">
+            <div class="row align-items-center">
+              <div class="col text-center switch-bar-col pl-0">
+                <div class="row switch-bar-padding-bottom">
+                  <div class="col">
+                    <img class="img-fluid arrow-spec" src="./assets/images/Specs/arrow-up.svg" alt="up" />
                   </div>
                 </div>
-              </div>
-              <div class="row mt-2 mb-2 mobile-menu-row">
-                <div class="col my-auto text-right">
-                  <img class="img-fluid arrow-spec text-left" alt="left" src="./assets/images/Specs/arrow-left.svg" />
-                </div>
-                <div class="col justify-content-center text-center">
-                  <img src="./assets/images/Specs/options-active.svg" alt="options" class="active" />
-                </div>
-                <div class="col justify-content-center text-center">
-                  <img src="./assets/images/Specs/futures-active.svg" alt="future" class="inactive" />
-                </div>
-                <div class="col my-auto justify-content-center text-center">
-                  <img src="./assets/images/Specs/lp-active.svg" alt="lp" class="inactive" />
-                </div>
-                <div class="col my-auto text-left">
-                  <img
-                    class="img-fluid arrow-spec text-right"
-                    src="./assets/images/Specs/arrow-right.svg"
-                    alt="right"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div id="improvement-div">
-            <h3>Community run and self-improving.</h3>
-            <p>
-              DET holders can vote on protocol upgrades, contributor grants, and new asset integrations. &nbsp;<br
-                class="mobile-switch"
-              />We are working with Commonwealth Labs to integrate:
-            </p>
-            <div class="container pt-3">
-              <div class="row text-center justify-content-center">
-                <img
-                  src="/assets/images/Improvement/Timeline.svg"
-                  alt="roadmap-of-integration"
-                  class="img-fluid mt-5 mb-5 d-none d-md-block"
-                /><img
-                  src="/assets/images/Improvement/timelineMob.svg"
-                  alt="roadmap-of-integration"
-                  class="img-fluid mt-4 mb-4 d-md-none"
-                />
-              </div>
-              <div class="row text-center mt-4">
-                <div class="col">
-                  <a
-                    href="https://commonwealth.im/dtrade"
-                    target="_blank"
-                    title="Join the conversation"
-                    rel="noopener nofollow noreferrer"
-                    class="link-community"
-                    >Join the conversation<img src="/assets/images/right-blue.svg" alt="arrow" class="mb-1 ml-arrow"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="feature-div">
-            <h4>Trading, reimagined.</h4>
-            <h5>Trade from anywhere. No sign up needed.</h5>
-            <div class="row feature-row">
-              <div class="col-12 col feature-col">
-                <h6 class="feature-heading">Accessible</h6>
-                <p class="feature-body">
-                  Gain on-chain exposure to hundreds <br class="mobile-switch" />
-                  of assets from around the world.
-                </p>
-              </div>
-              <div class="col-12 col feature-col">
-                <h6 class="feature-heading">Low Fees</h6>
-                <p class="feature-body">
-                  Pay less than 20 cents in GAS fees <br class="mobile-switch" />
-                  on every transaction.
-                </p>
-              </div>
-              <div class="col-12 col feature-col max">
-                <h6 class="feature-heading">Lowest Slippage</h6>
-                <p class="feature-body">
-                  Zero slippage on the spot market. Less than 0.5% slippage on 100k+ leveraged positions.
-                </p>
-              </div>
-            </div>
-            <div class="row text-left imp-disc">
-              <div class="info mt-5">
-                <a rel="nofollow" href="#disclosure-div" class="to-disc-link left" title="View Important Disclosures"
-                  ><img src="./assets/images/info1.svg" alt="i" class="info-img mr-2 mb-1" />View Important
-                  Disclosures</a
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="portfolio-div">
-            <div class="container-fluid row mx-auto px-0">
-              <div class="col-12 col-md portfolio-card staking card-md-height">
-                <span class="porject-title">Multi-collateral Margin</span>
-                <h5 class="porject-des">Supported Collaterals</h5>
                 <div class="row">
-                  <div class="col-12 desktop-view">
-                    <img
-                      alt="supported-collaterals-staking"
-                      src="/assets/images/Portfolio/collateral.png"
-                      class="img-fluid collateral"
-                    />
+                  <div class="col">
+                    <img src="./assets/images/Specs/options-active.svg" alt="options" class="active" />
                   </div>
-                  <div class="col-12 mobile-view">
-                    <img
-                      alt="supported-collaterals-staking"
-                      src="/assets/images/Portfolio/frame_361.svg"
-                      class="img-fluid"
-                    />
+                </div>
+                <div class="row switch-bar-padding-between">
+                  <div class="col">
+                    <img src="./assets/images/Specs/futures-active.svg" alt="future" class="inactive" />
                   </div>
-                  <div class="col-12 mobile-view">
-                    <img
-                      alt="supported-collaterals-staking"
-                      src="/assets/images/Portfolio/frame_362.svg"
-                      class="img-fluid"
-                    />
+                </div>
+                <div class="row switch-bar-padding-between">
+                  <div class="col"><img src="./assets/images/Specs/lp-active.svg" alt="lp" class="inactive" /></div>
+                </div>
+                <div class="row switch-bar-padding-top">
+                  <div class="col">
+                    <img class="img-fluid arrow-spec" src="./assets/images/Specs/arrow-down.svg" alt="down" />
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md portfolio-card dtrade card-ml">
-                <span class="porject-title">dtrade</span>
-                <h5 class="porject-des">
-                  Learn more about the <br class="mobile-switch" />
-                  dTrade Protocol
-                </h5>
-                <div class="project-date">
-                  <a
-                    href="https://github.com/dtradeorg"
-                    target="_blank"
-                    title="GitHub"
-                    rel="noreferrer nofollow noopener"
-                    ><img src="/assets/images/Portfolio/git.svg" class="img-fluid mr-3 mb-1" alt="git" />GitHub<img
-                      src="/assets/images/arrow-black.svg"
-                      alt="arrow-black"
-                      class="mb-1"
-                  /></a>
-                </div>
-                <div class="project-date-dtrade">
-                  <h3 class="white-paper">Read Light Paper</h3>
-                  <h3 class="white-paper-2">Available Soon</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="team-start container-fluid">
-            <div class="container">
-              <div class="text-center justify-content-center row">
-                <div class="col">
-                  <h2 class="title">
-                    <img src="../assets/images/Team/dtrade.png" alt="dtrade" class="dtrade-logo" />Founding Friends
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="text-center justify-content-center row">
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/Avatar-3.png" alt="nikodem-grzesiak-strategy" />
-                  <h3>Nikodem Grzesiak</h3>
-                  <p>
-                    <span>Theoretical Physicist @ IonQ</span><span>Research Assistant @ CERN</span
-                    ><span>Masters in Physics @ UPenn</span><span>B.A. in Physics @ UPenn</span>
-                  </p>
-                </div>
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/Avatar.png" alt="yameen-malik-scientist" />
-                  <h3>Yameen Malik</h3>
-                  <p>
-                    <span>R&amp;D Engineer @ Symantec</span><span>Chief Scientist @ Providus</span
-                    ><span>ML Engineer @ Sofy.ai</span><span>B.S. in Computer Science @ NUCES</span>
-                  </p>
-                </div>
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/rabeel.png" alt="rabeel-jawaid-founder" />
-                  <h3>Rabeel Jawaid</h3>
-                  <p>
-                    <span>Research Assistant @ Gorte &amp; Vohs Lab</span><span>Masters in Systems Eng. @ UPenn</span
-                    ><span>B.S.E. in Electrical Eng. @ UPenn</span><span>B.A. in Physics @ UPenn</span>
-                  </p>
-                </div>
-              </div>
-              <div class="text-center justify-content-center mt-md-5 row">
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/Avatar-4.png" alt="dillion-chen-advisor" />
-                  <h3>Dillon Chen</h3>
-                  <p>
-                    <span>Founder @ Commonwealth Labs</span><span>Venture Fellow @ Rough Draft Ventures</span
-                    ><span>Investor @ Turing Capital</span><span>Finance @ Wharton</span>
-                  </p>
-                </div>
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/Avatar-5.png" alt="syed-mehdi-swe" />
-                  <h3>Syed Mehdi</h3>
-                  <p>
-                    <span>Lead SWE @ Seed Labs</span><span>Engineering Lead @ Sofy.ai</span
-                    ><span>Masters in Computer Science @ NUCES</span><span>B.S. in Computer Science @ NUCES</span>
-                  </p>
-                </div>
-                <div class="team-desc col-md-4">
-                  <img src="../assets/images/Team/Avatar-1.png" alt="drew-stone-advisor" />
-                  <h3>Drew Stone</h3>
-                  <p>
-                    <span>Founder @ Edgeware</span><span>Founder @ Commonwealth Labs</span
-                    ><span>Masters in Math @ UPenn</span><span>B.S.E in Networks Eng. @ UPenn</span>
-                  </p>
-                </div>
-              </div>
-              <div class="text-center justify-content-center mt-md-5 last-row row">
-                <div class="show-hide col-md-12">
-                  <span class=""><img src="../assets/images/arrow-up-down.svg" alt="nikodem-grzesiak-strategy" /></span>
-                </div>
-                <div class="team-desc cdactive col-md-4">
-                  <img src="../assets/images/Team/hamza.png" alt="nikodem-grzesiak-strategy" />
-                  <h3>Humza Khan</h3>
-                  <p>
-                    <span>BD @ Seed Labs</span><span>Consultant @ Teamup</span><span>Engineering @ Etihad Airways</span
-                    ><span>B. Eng in Mechatronics @ NUST</span>
-                  </p>
-                </div>
-                <div class="team-desc cdactive col-md-4">
-                  <img src="../assets/images/Team/amman.png" alt="dillion-chen-advisor" />
-                  <h3>Amman Pasha</h3>
-                  <p>
-                    <span>SWE @ Seed Labs</span><span>Contractual SWE @ Technolectuals</span><span>SWE @ Urwasoft</span
-                    ><span>B.S. in Computer Science @ UIT</span>
-                  </p>
-                </div>
-                <div class="team-desc cdactive col-md-4">
-                  <img src="../assets/images/Team/zabi_mohebzada.png" alt="syed-mehdi-swe" />
-                  <h3>Zabi Mohebzada</h3>
-                  <p>
-                    <span>Founder @ Seed Labs</span><span>Partner @ Providus</span><span>BD @ Enterprise</span
-                    ><span>B.S. in Biology @ UWO</span>
-                  </p>
+              <div class="col-11">
+                <div class="animated fadeIn"
+                  style="animation-delay: 0ms; animation-duration: 1000ms; pointer-events: all">
+                  <div class="row align-items-center">
+                    <div class="col text-center tablet-container p-0">
+                      <img class="img-fluid tablet" src="./assets/images/Specs/options.png"
+                        alt="stakr-app-exchange-screen" />
+                    </div>
+                    <div class="col-5 pl-3">
+                      <h3 class="reward-heading">On-Chain Options</h3>
+                      <p class="reward-text">
+                        Built using decentralized order books to allow for price discovery. We will launch with DOT
+                        options in 2021 Q2-Q3.
+                      </p>
+                      <a href="https://medium.com/dtrade/draft-on-chain-options-4b4b2197ec07" target="_blank"
+                        title="medium" rel="nofollow noopener noreferrer"><img
+                          src="../assets/images/Navbar/medium-white.svg" alt="logo"
+                          class="img-fluid social-link-margin-2" /></a><a
+                        href="https://github.com/dtradeorg/options-exchange" target="_blank" title="github"
+                        rel="nofollow noopener noreferrer"><img src="../assets/images/Navbar/github-white.svg"
+                          alt="logo" class="img-fluid social-link-margin-2" /></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section>
-          <div class="disclosure-div" id="disclosure-div">
-            <div class="container-md disclosure-section">
-              <h3 class="imp-disc">Important Disclosures:</h3>
-              <p class="disclosure-points disclosure-mt">
-                i) All assets on our platform involve a degree of risk and may result in the partial or total loss of
-                your investment.<br />ii) Fees for running on Edgeware cannot be estimated accurately at this time but
-                should be significantly less than protocols built on Ethereum. Initially there may be no GAS fees at
-                all.<br />iii) We round off holdings of fractional shares to the fourth decimal place. We also do not
-                accept synthetic dollar purchases of less than $1 dUSD.<br />
+          <div class="container mobileview">
+            <div class="row align-items-center">
+              <div class="col-12">
+                <div class="animated fadeIn"
+                  style="animation-delay: 0ms; animation-duration: 1000ms; pointer-events: all">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12 justify-content-center text-center tab-sec-mobile">
+                      <h3 class="reward-heading text-center">On-Chain Options</h3>
+                      <p class="reward-text text-center">
+                        Built using decentralized order books to allow for price discovery. We will launch with DOT
+                        options in 2021 Q2-Q3.
+                      </p>
+                      <img class="img-fluid tablet-trade" src="./assets/images/Specs/options.png"
+                        alt="On-Chain Options" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2 mb-2 mobile-menu-row">
+              <div class="col my-auto text-right">
+                <img class="img-fluid arrow-spec text-left" alt="left" src="./assets/images/Specs/arrow-left.svg" />
+              </div>
+              <div class="col justify-content-center text-center">
+                <img src="./assets/images/Specs/options-active.svg" alt="options" class="active" />
+              </div>
+              <div class="col justify-content-center text-center">
+                <img src="./assets/images/Specs/futures-active.svg" alt="future" class="inactive" />
+              </div>
+              <div class="col my-auto justify-content-center text-center">
+                <img src="./assets/images/Specs/lp-active.svg" alt="lp" class="inactive" />
+              </div>
+              <div class="col my-auto text-left">
+                <img class="img-fluid arrow-spec text-right" src="./assets/images/Specs/arrow-right.svg" alt="right" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="improvement-div">
+          <h3>Community run and self-improving.</h3>
+          <p>
+            DET holders can vote on protocol upgrades, contributor grants, and new asset integrations. &nbsp;<br
+              class="mobile-switch" />We are working with Commonwealth Labs to integrate:
+          </p>
+          <div class="container pt-3">
+            <div class="row text-center justify-content-center">
+              <img src="/assets/images/Improvement/Timeline.svg" alt="roadmap-of-integration"
+                class="img-fluid mt-5 mb-5 d-none d-md-block" /><img src="/assets/images/Improvement/timelineMob.svg"
+                alt="roadmap-of-integration" class="img-fluid mt-4 mb-4 d-md-none" />
+            </div>
+            <div class="row text-center mt-4">
+              <div class="col">
+                <a href="https://commonwealth.im/dtrade" target="_blank" title="Join the conversation"
+                  rel="noopener nofollow noreferrer" class="link-community">Join the conversation<img
+                    src="/assets/images/right-blue.svg" alt="arrow" class="mb-1 ml-arrow" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="feature-div">
+          <h4>Trading, reimagined.</h4>
+          <h5>Trade from anywhere. No sign up needed.</h5>
+          <div class="row feature-row">
+            <div class="col-12 col feature-col">
+              <h6 class="feature-heading">Accessible</h6>
+              <p class="feature-body">
+                Gain on-chain exposure to hundreds <br class="mobile-switch" />
+                of assets from around the world.
               </p>
-              <p class="disclosure-mt disclosure-points">
-                The supported collaterals may change after the parachain auctions, and initially it may only be EDG
-                &amp; DET. We intend to add DOT, KSM, and aUSD after the auctions.
+            </div>
+            <div class="col-12 col feature-col">
+              <h6 class="feature-heading">Low Fees</h6>
+              <p class="feature-body">
+                Pay less than 20 cents in GAS fees <br class="mobile-switch" />
+                on every transaction.
               </p>
-              <p class="disclosure-mt disclosure-points">
-                dTrade (c) is a decentralized financial platform that aims to provide access to anyone, anywhere wanting
-                to trade any market.<br />Our alpha launch will only have DOT futures and options. Other asset classes
-                will be added through decentralized governance.<br />
-                By using this website, you are agreeing to our Terms of Use and Privacy Policy.
+            </div>
+            <div class="col-12 col feature-col max">
+              <h6 class="feature-heading">Lowest Slippage</h6>
+              <p class="feature-body">
+                Zero slippage on the spot market. Less than 0.5% slippage on 100k+ leveraged positions.
               </p>
-              <hr class="disclosure-hr" />
-              <h3 class="disclosure-message">
-                We're building the world's most accessible ecosystem for decentralized finance.
-              </h3>
-              <div class="disclosure-additional">
-                <a rel="nofollow" href="mailto:hi@dtrade.org" title="Have additional questions?"
-                  >Have additional questions?<img
-                    src="./assets/images/arrow-blue.svg"
-                    alt="arrow"
-                    class="img-fluid mb-arrow"
-                /></a>
-              </div>
-            </div>
-            <div class="col-12 d-flex justify-content-end">
-              <button class="btn" id="disclosure-totop">To the top</button>
             </div>
           </div>
-        </section>
-        <footer>
-          <div class="container-fluid footer-switch mb-12">
-            <div class="container footer-box">
-              <div class="d-flex justify-content-center container px-0">
-                <div class="d-inline-flex copy-right pl-0 pr-0 position-absolute" style="left: 9%">
-                  <p class="mb-0">20 Bay Street, 11th Floor, Toronto, ON</p>
+          <div class="row text-left imp-disc">
+            <div class="info mt-5">
+              <a rel="nofollow" href="#disclosure-div" class="to-disc-link left" title="View Important Disclosures"><img
+                  src="./assets/images/info1.svg" alt="i" class="info-img mr-2 mb-1" />View Important
+                Disclosures</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="portfolio-div">
+          <div class="container-fluid row mx-auto px-0">
+            <div class="col-12 col-md portfolio-card staking card-md-height">
+              <span class="porject-title">Multi-collateral Margin</span>
+              <h5 class="porject-des">Supported Collaterals</h5>
+              <div class="row">
+                <div class="col-12 desktop-view">
+                  <img alt="supported-collaterals-staking" src="/assets/images/Portfolio/collateral.png"
+                    class="img-fluid collateral" />
                 </div>
-                <div class="mx-auto d-inline-flex copy-right pl-0 pr-0">
-                  <p class="mb-0">
-                    Copyright © 2020 &nbsp;<a rel="nofollow" href="#!"
-                      ><img src="/static/media/logo.37d8229d.svg" alt="sc" class="img-fluid mb-1" /></a
-                    >&nbsp;
-                  </p>
-                  <p class="mb-0">- All Rights Reserved.</p>
+                <div class="col-12 mobile-view">
+                  <img alt="supported-collaterals-staking" src="/assets/images/Portfolio/frame_361.svg"
+                    class="img-fluid" />
+                </div>
+                <div class="col-12 mobile-view">
+                  <img alt="supported-collaterals-staking" src="/assets/images/Portfolio/frame_362.svg"
+                    class="img-fluid" />
                 </div>
               </div>
             </div>
-          </div>
-          <div class="container-fluid">
-            <div class="container footer-box-mobile">
-              <div class="row text-center">
-                <div class="col-12 d-inline-flex copy-right-phone pl-0 pr-0 justify-content-center">
-                  <h6 class="mb-0">
-                    Copyright © 2020 &nbsp;<a rel="nofollow" href="#!"
-                      ><img src="/static/media/logo.37d8229d.svg" alt="sc" class="img-fluid"
-                    /></a>
-                    &nbsp;
-                  </h6>
-                </div>
-                <div class="col-12 d-inline-flex rights-reserved-phone pl-0 pr-0 justify-content-center">
-                  All rights reserved.
-                </div>
-                <div class="col-12 d-inline-flex rights-reserved-phone pl-0 pr-0 justify-content-center my-3">
-                  20 Bay Street, 11th Floor, Toronto, ON
-                </div>
+            <div class="col-12 col-md portfolio-card dtrade card-ml">
+              <span class="porject-title">dtrade</span>
+              <h5 class="porject-des">
+                Learn more about the <br class="mobile-switch" />
+                dTrade Protocol
+              </h5>
+              <div class="project-date">
+                <a href="https://github.com/dtradeorg" target="_blank" title="GitHub"
+                  rel="noreferrer nofollow noopener"><img src="/assets/images/Portfolio/git.svg"
+                    class="img-fluid mr-3 mb-1" alt="git" />GitHub<img src="/assets/images/arrow-black.svg"
+                    alt="arrow-black" class="mb-1" /></a>
+              </div>
+              <div class="project-date-dtrade">
+                <h3 class="white-paper">Read Light Paper</h3>
+                <h3 class="white-paper-2">Available Soon</h3>
               </div>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <section>
+        <div class="team-start container-fluid">
+          <div class="container">
+            <div class="text-center justify-content-center row">
+              <div class="col">
+                <h2 class="title">
+                  <img src="../assets/images/Team/dtrade.png" alt="dtrade" class="dtrade-logo" />Founding Friends
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="text-center justify-content-center row">
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/Avatar-3.png" alt="nikodem-grzesiak-strategy" />
+                <h3>Nikodem Grzesiak</h3>
+                <p>
+                  <span>Theoretical Physicist @ IonQ</span><span>Research Assistant @ CERN</span><span>Masters in
+                    Physics @ UPenn</span><span>B.A. in Physics @ UPenn</span>
+                </p>
+              </div>
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/Avatar.png" alt="yameen-malik-scientist" />
+                <h3>Yameen Malik</h3>
+                <p>
+                  <span>R&amp;D Engineer @ Symantec</span><span>Chief Scientist @ Providus</span><span>ML Engineer @
+                    Sofy.ai</span><span>B.S. in Computer Science @ NUCES</span>
+                </p>
+              </div>
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/rabeel.png" alt="rabeel-jawaid-founder" />
+                <h3>Rabeel Jawaid</h3>
+                <p>
+                  <span>Research Assistant @ Gorte &amp; Vohs Lab</span><span>Masters in Systems Eng. @
+                    UPenn</span><span>B.S.E. in Electrical Eng. @ UPenn</span><span>B.A. in Physics @ UPenn</span>
+                </p>
+              </div>
+            </div>
+            <div class="text-center justify-content-center mt-md-5 row">
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/Avatar-4.png" alt="dillion-chen-advisor" />
+                <h3>Dillon Chen</h3>
+                <p>
+                  <span>Founder @ Commonwealth Labs</span><span>Venture Fellow @ Rough Draft
+                    Ventures</span><span>Investor @ Turing Capital</span><span>Finance @ Wharton</span>
+                </p>
+              </div>
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/Avatar-5.png" alt="syed-mehdi-swe" />
+                <h3>Syed Mehdi</h3>
+                <p>
+                  <span>Lead SWE @ Seed Labs</span><span>Engineering Lead @ Sofy.ai</span><span>Masters in Computer
+                    Science @ NUCES</span><span>B.S. in Computer Science @ NUCES</span>
+                </p>
+              </div>
+              <div class="team-desc col-md-4">
+                <img src="../assets/images/Team/Avatar-1.png" alt="drew-stone-advisor" />
+                <h3>Drew Stone</h3>
+                <p>
+                  <span>Founder @ Edgeware</span><span>Founder @ Commonwealth Labs</span><span>Masters in Math @
+                    UPenn</span><span>B.S.E in Networks Eng. @ UPenn</span>
+                </p>
+              </div>
+            </div>
+            <div class="text-center justify-content-center mt-md-5 last-row row">
+              <div class="show-hide col-md-12">
+                <span class=""><img src="../assets/images/arrow-up-down.svg" alt="nikodem-grzesiak-strategy" /></span>
+              </div>
+              <div class="team-desc cdactive col-md-4">
+                <img src="../assets/images/Team/hamza.png" alt="nikodem-grzesiak-strategy" />
+                <h3>Humza Khan</h3>
+                <p>
+                  <span>BD @ Seed Labs</span><span>Consultant @ Teamup</span><span>Engineering @ Etihad
+                    Airways</span><span>B. Eng in Mechatronics @ NUST</span>
+                </p>
+              </div>
+              <div class="team-desc cdactive col-md-4">
+                <img src="../assets/images/Team/amman.png" alt="dillion-chen-advisor" />
+                <h3>Amman Pasha</h3>
+                <p>
+                  <span>SWE @ Seed Labs</span><span>Contractual SWE @ Technolectuals</span><span>SWE @
+                    Urwasoft</span><span>B.S. in Computer Science @ UIT</span>
+                </p>
+              </div>
+              <div class="team-desc cdactive col-md-4">
+                <img src="../assets/images/Team/zabi_mohebzada.png" alt="syed-mehdi-swe" />
+                <h3>Zabi Mohebzada</h3>
+                <p>
+                  <span>Founder @ Seed Labs</span><span>Partner @ Providus</span><span>BD @ Enterprise</span><span>B.S.
+                    in Biology @ UWO</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="disclosure-div" id="disclosure-div">
+          <div class="container-md disclosure-section">
+            <h3 class="imp-disc">Important Disclosures:</h3>
+            <p class="disclosure-points disclosure-mt">
+              i) All assets on our platform involve a degree of risk and may result in the partial or total loss of
+              your investment.<br />ii) Fees for running on Edgeware cannot be estimated accurately at this time but
+              should be significantly less than protocols built on Ethereum. Initially there may be no GAS fees at
+              all.<br />iii) We round off holdings of fractional shares to the fourth decimal place. We also do not
+              accept synthetic dollar purchases of less than $1 dUSD.<br />
+            </p>
+            <p class="disclosure-mt disclosure-points">
+              The supported collaterals may change after the parachain auctions, and initially it may only be EDG
+              &amp; DET. We intend to add DOT, KSM, and aUSD after the auctions.
+            </p>
+            <p class="disclosure-mt disclosure-points">
+              dTrade (c) is a decentralized financial platform that aims to provide access to anyone, anywhere wanting
+              to trade any market.<br />Our alpha launch will only have DOT futures and options. Other asset classes
+              will be added through decentralized governance.<br />
+              By using this website, you are agreeing to our Terms of Use and Privacy Policy.
+            </p>
+            <hr class="disclosure-hr" />
+            <h3 class="disclosure-message">
+              We're building the world's most accessible ecosystem for decentralized finance.
+            </h3>
+            <div class="disclosure-additional">
+              <a rel="nofollow" href="mailto:hi@dtrade.org" title="Have additional questions?">Have additional
+                questions?<img src="./assets/images/arrow-blue.svg" alt="arrow" class="img-fluid mb-arrow" /></a>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-end">
+            <button class="btn" id="disclosure-totop">To the top</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container-fluid footer-switch mb-12">
+          <div class="container footer-box">
+            <div class="d-flex justify-content-center container px-0">
+              <div class="d-inline-flex copy-right pl-0 pr-0 position-absolute" style="left: 9%">
+                <p class="mb-0">20 Bay Street, 11th Floor, Toronto, ON</p>
+              </div>
+              <div class="mx-auto d-inline-flex copy-right pl-0 pr-0">
+                <p class="mb-0">
+                  Copyright © 2020 &nbsp;<a rel="nofollow" href="#!"><img src="/static/media/logo.37d8229d.svg" alt="sc"
+                      class="img-fluid mb-1" /></a>&nbsp;
+                </p>
+                <p class="mb-0">- All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="container footer-box-mobile">
+            <div class="row text-center">
+              <div class="col-12 d-inline-flex copy-right-phone pl-0 pr-0 justify-content-center">
+                <h6 class="mb-0">
+                  Copyright © 2020 &nbsp;<a rel="nofollow" href="#!"><img src="/static/media/logo.37d8229d.svg" alt="sc"
+                      class="img-fluid" /></a>
+                  &nbsp;
+                </h6>
+              </div>
+              <div class="col-12 d-inline-flex rights-reserved-phone pl-0 pr-0 justify-content-center">
+                All rights reserved.
+              </div>
+              <div class="col-12 d-inline-flex rights-reserved-phone pl-0 pr-0 justify-content-center my-3">
+                20 Bay Street, 11th Floor, Toronto, ON
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <!--
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -657,5 +553,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
