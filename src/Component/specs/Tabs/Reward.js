@@ -16,7 +16,7 @@ function Futures() {
               Trade synthetic futures on Polkadot with up to 12x leverage and support for multiple parachains' assets as
               collateral*
             </p>
-            <a href='https://github.com/dtradeorg' target='_blank'  title="github" rel='nofollow noopener noreferrer'>
+            <a href='https://github.com/dtradeorg' target='_blank'  title="github">
               <img
                 src='../assets/images/Navbar/github-white.svg'
                 alt='logo'
